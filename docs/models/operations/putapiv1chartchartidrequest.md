@@ -1,0 +1,10 @@
+# PutAPIV1ChartChartIDRequest
+
+
+## Fields
+
+| Field                                                                                          | Type                                                                                           | Required                                                                                       | Description                                                                                    |
+| ---------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------- |
+| `ChartID`                                                                                      | *string*                                                                                       | :heavy_check_mark:                                                                             | N/A                                                                                            |
+| `Referer`                                                                                      | **string*                                                                                      | :heavy_minus_sign:                                                                             | N/A                                                                                            |
+| `RequestBody`                                                                                  | [*PutAPIV1ChartChartIDRequestBody](../../models/operations/putapiv1chartchartidrequestbody.md) | :heavy_minus_sign:                                                                             | N/A                                                                                            |

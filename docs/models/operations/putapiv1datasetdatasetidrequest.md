@@ -1,0 +1,10 @@
+# PutAPIV1DatasetDatasetIDRequest
+
+
+## Fields
+
+| Field                                                                                                  | Type                                                                                                   | Required                                                                                               | Description                                                                                            |
+| ------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------ |
+| `DatasetID`                                                                                            | *string*                                                                                               | :heavy_check_mark:                                                                                     | N/A                                                                                                    |
+| `Referer`                                                                                              | **string*                                                                                              | :heavy_minus_sign:                                                                                     | N/A                                                                                                    |
+| `RequestBody`                                                                                          | [*PutAPIV1DatasetDatasetIDRequestBody](../../models/operations/putapiv1datasetdatasetidrequestbody.md) | :heavy_minus_sign:                                                                                     | N/A                                                                                                    |
