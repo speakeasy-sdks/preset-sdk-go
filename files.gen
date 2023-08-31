@@ -330,3 +330,4 @@ docs/models/operations/postapiv1sqllabexecuterequestbody.md
 docs/models/operations/postapiv1sqllabexecuterequest.md
 docs/models/operations/postapiv1sqllabexecuteresponse.md
 docs/models/shared/security.md
+.gitattributes
