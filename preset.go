@@ -51,6 +51,7 @@ type sdkConfiguration struct {
 	OpenAPIDocVersion string
 	SDKVersion        string
 	GenVersion        string
+	RetryConfig       *utils.RetryConfig
 }
 
 func (c *sdkConfiguration) GetServerDetails() (string, map[string]string) {
@@ -61,7 +62,7 @@ func (c *sdkConfiguration) GetServerDetails() (string, map[string]string) {
 	return ServerList[c.ServerIndex], nil
 }
 
-// Preset - Preset API: Welcome to the Preset API Collection.
+// Preset API: Welcome to the Preset API Collection.
 //
 // ## Overview
 //
@@ -138,36 +139,36 @@ func (c *sdkConfiguration) GetServerDetails() (string, map[string]string) {
 //
 // Use the **Get a JWT Token** request to generate a `JWT Token.`
 type Preset struct {
-	// Authentication - API to authenticate and get a JWT token to interact with the Preset/Superset APIs.
+	// API to authenticate and get a JWT token to interact with the Preset/Superset APIs.
 	Authentication *authentication
-	// PresetManagerAPIsGreaterThanEmbedded - APIs associated with the Embedded functionality.
+	// APIs associated with the Embedded functionality.
 	PresetManagerAPIsGreaterThanEmbedded *presetManagerAPIsGreaterThanEmbedded
-	// PresetManagerAPIsGreaterThanPermissions - APIs to manage permissions on the Workspace level.
+	// APIs to manage permissions on the Workspace level.
 	//
 	// Note that all Permission APIs require **Team Admin** permission.
 	PresetManagerAPIsGreaterThanPermissions *presetManagerAPIsGreaterThanPermissions
-	// PresetManagerAPIsGreaterThanTeams - APIs to manage your Preset team.
+	// APIs to manage your Preset team.
 	PresetManagerAPIsGreaterThanTeams *presetManagerAPIsGreaterThanTeams
-	// PresetManagerAPIsGreaterThanWorkspaces - APIs to manage your Workspaces.
+	// APIs to manage your Workspaces.
 	PresetManagerAPIsGreaterThanWorkspaces *presetManagerAPIsGreaterThanWorkspaces
-	// SupersetAPIsOpenSourceGreaterThanAlertsAndReports - APIs to manage your Alerts & Reports.
+	// APIs to manage your Alerts & Reports.
 	SupersetAPIsOpenSourceGreaterThanAlertsAndReports *supersetAPIsOpenSourceGreaterThanAlertsAndReports
-	// SupersetAPIsOpenSourceGreaterThanAnnotationLayers - API to manage your Annotation Layers.
+	// API to manage your Annotation Layers.
 	SupersetAPIsOpenSourceGreaterThanAnnotationLayers *supersetAPIsOpenSourceGreaterThanAnnotationLayers
-	// SupersetAPIsOpenSourceGreaterThanAssets - APIs to export/import an `assets` ZIP file from the Workspace, which includes all:
+	// APIs to export/import an `assets` ZIP file from the Workspace, which includes all:
 	//
 	// *   databases.
 	// *   datasets.
 	// *   charts.
 	// *   saved queries.
 	SupersetAPIsOpenSourceGreaterThanAssets *supersetAPIsOpenSourceGreaterThanAssets
-	// SupersetAPIsOpenSourceGreaterThanCharts - APIs to manage Charts on your Workspace.
+	// APIs to manage Charts on your Workspace.
 	SupersetAPIsOpenSourceGreaterThanCharts *supersetAPIsOpenSourceGreaterThanCharts
-	// SupersetAPIsOpenSourceGreaterThanDashboards - APIs to manage your Dashboards.
+	// APIs to manage your Dashboards.
 	SupersetAPIsOpenSourceGreaterThanDashboards *supersetAPIsOpenSourceGreaterThanDashboards
-	// SupersetAPIsOpenSourceGreaterThanDatabases - APIs to manage your database connections.
+	// APIs to manage your database connections.
 	SupersetAPIsOpenSourceGreaterThanDatabases *supersetAPIsOpenSourceGreaterThanDatabases
-	// SupersetAPIsOpenSourceGreaterThanDatasets - APIs to manage your datasets.
+	// APIs to manage your datasets.
 	SupersetAPIsOpenSourceGreaterThanDatasets *supersetAPIsOpenSourceGreaterThanDatasets
 	SupersetAPIsOpenSourceGreaterThanQueries  *supersetAPIsOpenSourceGreaterThanQueries
 	SupersetAPIsOpenSourceGreaterThanSQLLab   *supersetAPIsOpenSourceGreaterThanSQLLab
@@ -220,14 +221,20 @@ func WithSecurity(security shared.Security) SDKOption {
 	}
 }
 
+func WithRetryConfig(retryConfig utils.RetryConfig) SDKOption {
+	return func(sdk *SDK) {
+		sdk.sdkConfiguration.RetryConfig = &retryConfig
+	}
+}
+
 // New creates a new instance of the SDK with the provided options
 func New(opts ...SDKOption) *Preset {
 	sdk := &Preset{
 		sdkConfiguration: sdkConfiguration{
 			Language:          "go",
 			OpenAPIDocVersion: "1.0.0",
-			SDKVersion:        "0.2.0",
-			GenVersion:        "2.89.1",
+			SDKVersion:        "0.3.0",
+			GenVersion:        "2.107.0",
 		},
 	}
 	for _, opt := range opts {
