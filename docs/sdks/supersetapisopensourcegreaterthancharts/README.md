@@ -47,14 +47,14 @@ package main
 import(
 	"context"
 	"log"
-	"github.com/speakeasy-sdks/preset-sdk-go"
+	presetsdkgo "github.com/speakeasy-sdks/preset-sdk-go"
 	"github.com/speakeasy-sdks/preset-sdk-go/pkg/models/shared"
 	"github.com/speakeasy-sdks/preset-sdk-go/pkg/models/operations"
 )
 
 func main() {
-    s := preset.New(
-        preset.WithSecurity(shared.Security{
+    s := presetsdkgo.New(
+        presetsdkgo.WithSecurity(shared.Security{
             BearerAuth: "",
         }),
     )
@@ -62,7 +62,7 @@ func main() {
     ctx := context.Background()
     res, err := s.SupersetAPIsOpenSourceGreaterThanCharts.DeleteAPIV1ChartChartID(ctx, operations.DeleteAPIV1ChartChartIDRequest{
         ChartID: "modi",
-        Referer: preset.String("qui"),
+        Referer: presetsdkgo.String("qui"),
     })
     if err != nil {
         log.Fatal(err)
@@ -126,14 +126,14 @@ package main
 import(
 	"context"
 	"log"
-	"github.com/speakeasy-sdks/preset-sdk-go"
+	presetsdkgo "github.com/speakeasy-sdks/preset-sdk-go"
 	"github.com/speakeasy-sdks/preset-sdk-go/pkg/models/shared"
 	"github.com/speakeasy-sdks/preset-sdk-go/pkg/models/operations"
 )
 
 func main() {
-    s := preset.New(
-        preset.WithSecurity(shared.Security{
+    s := presetsdkgo.New(
+        presetsdkgo.WithSecurity(shared.Security{
             BearerAuth: "",
         }),
     )
@@ -195,22 +195,22 @@ package main
 import(
 	"context"
 	"log"
-	"github.com/speakeasy-sdks/preset-sdk-go"
+	presetsdkgo "github.com/speakeasy-sdks/preset-sdk-go"
 	"github.com/speakeasy-sdks/preset-sdk-go/pkg/models/shared"
 	"github.com/speakeasy-sdks/preset-sdk-go/pkg/models/operations"
 )
 
 func main() {
-    s := preset.New(
-        preset.WithSecurity(shared.Security{
+    s := presetsdkgo.New(
+        presetsdkgo.WithSecurity(shared.Security{
             BearerAuth: "",
         }),
     )
 
     ctx := context.Background()
     res, err := s.SupersetAPIsOpenSourceGreaterThanCharts.GetAPIV1ChartExport(ctx, operations.GetAPIV1ChartExportRequest{
-        Referer: preset.String("impedit"),
-        Q: preset.String("cum"),
+        Referer: presetsdkgo.String("impedit"),
+        Q: presetsdkgo.String("cum"),
     })
     if err != nil {
         log.Fatal(err)
@@ -274,14 +274,14 @@ package main
 import(
 	"context"
 	"log"
-	"github.com/speakeasy-sdks/preset-sdk-go"
+	presetsdkgo "github.com/speakeasy-sdks/preset-sdk-go"
 	"github.com/speakeasy-sdks/preset-sdk-go/pkg/models/shared"
 	"github.com/speakeasy-sdks/preset-sdk-go/pkg/models/operations"
 )
 
 func main() {
-    s := preset.New(
-        preset.WithSecurity(shared.Security{
+    s := presetsdkgo.New(
+        presetsdkgo.WithSecurity(shared.Security{
             BearerAuth: "",
         }),
     )
@@ -341,14 +341,14 @@ package main
 import(
 	"context"
 	"log"
-	"github.com/speakeasy-sdks/preset-sdk-go"
+	presetsdkgo "github.com/speakeasy-sdks/preset-sdk-go"
 	"github.com/speakeasy-sdks/preset-sdk-go/pkg/models/shared"
 	"github.com/speakeasy-sdks/preset-sdk-go/pkg/models/operations"
 )
 
 func main() {
-    s := preset.New(
-        preset.WithSecurity(shared.Security{
+    s := presetsdkgo.New(
+        presetsdkgo.WithSecurity(shared.Security{
             BearerAuth: "",
         }),
     )
@@ -409,14 +409,14 @@ package main
 import(
 	"context"
 	"log"
-	"github.com/speakeasy-sdks/preset-sdk-go"
+	presetsdkgo "github.com/speakeasy-sdks/preset-sdk-go"
 	"github.com/speakeasy-sdks/preset-sdk-go/pkg/models/shared"
 	"github.com/speakeasy-sdks/preset-sdk-go/pkg/models/operations"
 )
 
 func main() {
-    s := preset.New(
-        preset.WithSecurity(shared.Security{
+    s := presetsdkgo.New(
+        presetsdkgo.WithSecurity(shared.Security{
             BearerAuth: "",
         }),
     )
@@ -477,14 +477,14 @@ package main
 import(
 	"context"
 	"log"
-	"github.com/speakeasy-sdks/preset-sdk-go"
+	presetsdkgo "github.com/speakeasy-sdks/preset-sdk-go"
 	"github.com/speakeasy-sdks/preset-sdk-go/pkg/models/shared"
 	"github.com/speakeasy-sdks/preset-sdk-go/pkg/models/operations"
 )
 
 func main() {
-    s := preset.New(
-        preset.WithSecurity(shared.Security{
+    s := presetsdkgo.New(
+        presetsdkgo.WithSecurity(shared.Security{
             BearerAuth: "",
         }),
     )
@@ -558,14 +558,14 @@ package main
 import(
 	"context"
 	"log"
-	"github.com/speakeasy-sdks/preset-sdk-go"
+	presetsdkgo "github.com/speakeasy-sdks/preset-sdk-go"
 	"github.com/speakeasy-sdks/preset-sdk-go/pkg/models/shared"
 	"github.com/speakeasy-sdks/preset-sdk-go/pkg/models/operations"
 )
 
 func main() {
-    s := preset.New(
-        preset.WithSecurity(shared.Security{
+    s := presetsdkgo.New(
+        presetsdkgo.WithSecurity(shared.Security{
             BearerAuth: "",
         }),
     )
@@ -629,14 +629,14 @@ package main
 import(
 	"context"
 	"log"
-	"github.com/speakeasy-sdks/preset-sdk-go"
+	presetsdkgo "github.com/speakeasy-sdks/preset-sdk-go"
 	"github.com/speakeasy-sdks/preset-sdk-go/pkg/models/shared"
 	"github.com/speakeasy-sdks/preset-sdk-go/pkg/models/operations"
 )
 
 func main() {
-    s := preset.New(
-        preset.WithSecurity(shared.Security{
+    s := presetsdkgo.New(
+        presetsdkgo.WithSecurity(shared.Security{
             BearerAuth: "",
         }),
     )
@@ -644,8 +644,8 @@ func main() {
     ctx := context.Background()
     res, err := s.SupersetAPIsOpenSourceGreaterThanCharts.PostAPIV1ChartData(ctx, operations.PostAPIV1ChartDataRequest{
         RequestBody: &operations.PostAPIV1ChartDataRequestBody{},
-        Force: preset.String("aspernatur"),
-        SliceID: preset.String("perferendis"),
+        Force: presetsdkgo.String("aspernatur"),
+        SliceID: presetsdkgo.String("perferendis"),
     })
     if err != nil {
         log.Fatal(err)
@@ -709,28 +709,28 @@ package main
 import(
 	"context"
 	"log"
-	"github.com/speakeasy-sdks/preset-sdk-go"
+	presetsdkgo "github.com/speakeasy-sdks/preset-sdk-go"
 	"github.com/speakeasy-sdks/preset-sdk-go/pkg/models/shared"
 	"github.com/speakeasy-sdks/preset-sdk-go/pkg/models/operations"
 )
 
 func main() {
-    s := preset.New(
-        preset.WithSecurity(shared.Security{
+    s := presetsdkgo.New(
+        presetsdkgo.WithSecurity(shared.Security{
             BearerAuth: "",
         }),
     )
 
     ctx := context.Background()
     res, err := s.SupersetAPIsOpenSourceGreaterThanCharts.PostAPIV1ChartImport(ctx, operations.PostAPIV1ChartImportRequest{
-        Referer: preset.String("ad"),
+        Referer: presetsdkgo.String("ad"),
         RequestBody: &operations.PostAPIV1ChartImportRequestBody{
             FormData: &operations.PostAPIV1ChartImportRequestBodyFormData{
                 Content: []byte("natus"),
                 FormData: "sed",
             },
-            Overwrite: preset.Bool(true),
-            Passwords: preset.String("{"databases/{{DatabaseYAMLFile}}": "{{DatabasePassword}}"}"),
+            Overwrite: presetsdkgo.Bool(true),
+            Passwords: presetsdkgo.String("{"databases/{{DatabaseYAMLFile}}": "{{DatabasePassword}}"}"),
         },
     })
     if err != nil {
@@ -802,14 +802,14 @@ package main
 import(
 	"context"
 	"log"
-	"github.com/speakeasy-sdks/preset-sdk-go"
+	presetsdkgo "github.com/speakeasy-sdks/preset-sdk-go"
 	"github.com/speakeasy-sdks/preset-sdk-go/pkg/models/shared"
 	"github.com/speakeasy-sdks/preset-sdk-go/pkg/models/operations"
 )
 
 func main() {
-    s := preset.New(
-        preset.WithSecurity(shared.Security{
+    s := presetsdkgo.New(
+        presetsdkgo.WithSecurity(shared.Security{
             BearerAuth: "",
         }),
     )
@@ -817,7 +817,7 @@ func main() {
     ctx := context.Background()
     res, err := s.SupersetAPIsOpenSourceGreaterThanCharts.PutAPIV1ChartChartID(ctx, operations.PutAPIV1ChartChartIDRequest{
         ChartID: "iste",
-        Referer: preset.String("dolor"),
+        Referer: presetsdkgo.String("dolor"),
         RequestBody: &operations.PutAPIV1ChartChartIDRequestBody{},
     })
     if err != nil {

@@ -47,14 +47,14 @@ package main
 import(
 	"context"
 	"log"
-	"github.com/speakeasy-sdks/preset-sdk-go"
+	presetsdkgo "github.com/speakeasy-sdks/preset-sdk-go"
 	"github.com/speakeasy-sdks/preset-sdk-go/pkg/models/shared"
 	"github.com/speakeasy-sdks/preset-sdk-go/pkg/models/operations"
 )
 
 func main() {
-    s := preset.New(
-        preset.WithSecurity(shared.Security{
+    s := presetsdkgo.New(
+        presetsdkgo.WithSecurity(shared.Security{
             BearerAuth: "",
         }),
     )
@@ -62,7 +62,7 @@ func main() {
     ctx := context.Background()
     res, err := s.SupersetAPIsOpenSourceGreaterThanDashboards.DeleteAPIV1DashboardDashboardID(ctx, operations.DeleteAPIV1DashboardDashboardIDRequest{
         DashboardID: "natus",
-        Referer: preset.String("laboriosam"),
+        Referer: presetsdkgo.String("laboriosam"),
     })
     if err != nil {
         log.Fatal(err)
@@ -126,14 +126,14 @@ package main
 import(
 	"context"
 	"log"
-	"github.com/speakeasy-sdks/preset-sdk-go"
+	presetsdkgo "github.com/speakeasy-sdks/preset-sdk-go"
 	"github.com/speakeasy-sdks/preset-sdk-go/pkg/models/shared"
 	"github.com/speakeasy-sdks/preset-sdk-go/pkg/models/operations"
 )
 
 func main() {
-    s := preset.New(
-        preset.WithSecurity(shared.Security{
+    s := presetsdkgo.New(
+        presetsdkgo.WithSecurity(shared.Security{
             BearerAuth: "",
         }),
     )
@@ -190,14 +190,14 @@ package main
 import(
 	"context"
 	"log"
-	"github.com/speakeasy-sdks/preset-sdk-go"
+	presetsdkgo "github.com/speakeasy-sdks/preset-sdk-go"
 	"github.com/speakeasy-sdks/preset-sdk-go/pkg/models/shared"
 	"github.com/speakeasy-sdks/preset-sdk-go/pkg/models/operations"
 )
 
 func main() {
-    s := preset.New(
-        preset.WithSecurity(shared.Security{
+    s := presetsdkgo.New(
+        presetsdkgo.WithSecurity(shared.Security{
             BearerAuth: "",
         }),
     )
@@ -259,21 +259,21 @@ package main
 import(
 	"context"
 	"log"
-	"github.com/speakeasy-sdks/preset-sdk-go"
+	presetsdkgo "github.com/speakeasy-sdks/preset-sdk-go"
 	"github.com/speakeasy-sdks/preset-sdk-go/pkg/models/shared"
 	"github.com/speakeasy-sdks/preset-sdk-go/pkg/models/operations"
 )
 
 func main() {
-    s := preset.New(
-        preset.WithSecurity(shared.Security{
+    s := presetsdkgo.New(
+        presetsdkgo.WithSecurity(shared.Security{
             BearerAuth: "",
         }),
     )
 
     ctx := context.Background()
     res, err := s.SupersetAPIsOpenSourceGreaterThanDashboards.GetAPIV1DashboardExport(ctx, operations.GetAPIV1DashboardExportRequest{
-        Q: preset.String("hic"),
+        Q: presetsdkgo.String("hic"),
     })
     if err != nil {
         log.Fatal(err)
@@ -327,14 +327,14 @@ package main
 import(
 	"context"
 	"log"
-	"github.com/speakeasy-sdks/preset-sdk-go"
+	presetsdkgo "github.com/speakeasy-sdks/preset-sdk-go"
 	"github.com/speakeasy-sdks/preset-sdk-go/pkg/models/shared"
 	"github.com/speakeasy-sdks/preset-sdk-go/pkg/models/operations"
 )
 
 func main() {
-    s := preset.New(
-        preset.WithSecurity(shared.Security{
+    s := presetsdkgo.New(
+        presetsdkgo.WithSecurity(shared.Security{
             BearerAuth: "",
         }),
     )
@@ -408,14 +408,14 @@ package main
 import(
 	"context"
 	"log"
-	"github.com/speakeasy-sdks/preset-sdk-go"
+	presetsdkgo "github.com/speakeasy-sdks/preset-sdk-go"
 	"github.com/speakeasy-sdks/preset-sdk-go/pkg/models/shared"
 	"github.com/speakeasy-sdks/preset-sdk-go/pkg/models/operations"
 )
 
 func main() {
-    s := preset.New(
-        preset.WithSecurity(shared.Security{
+    s := presetsdkgo.New(
+        presetsdkgo.WithSecurity(shared.Security{
             BearerAuth: "",
         }),
     )
@@ -489,14 +489,14 @@ package main
 import(
 	"context"
 	"log"
-	"github.com/speakeasy-sdks/preset-sdk-go"
+	presetsdkgo "github.com/speakeasy-sdks/preset-sdk-go"
 	"github.com/speakeasy-sdks/preset-sdk-go/pkg/models/shared"
 	"github.com/speakeasy-sdks/preset-sdk-go/pkg/models/operations"
 )
 
 func main() {
-    s := preset.New(
-        preset.WithSecurity(shared.Security{
+    s := presetsdkgo.New(
+        presetsdkgo.WithSecurity(shared.Security{
             BearerAuth: "",
         }),
     )
@@ -561,21 +561,21 @@ package main
 import(
 	"context"
 	"log"
-	"github.com/speakeasy-sdks/preset-sdk-go"
+	presetsdkgo "github.com/speakeasy-sdks/preset-sdk-go"
 	"github.com/speakeasy-sdks/preset-sdk-go/pkg/models/shared"
 	"github.com/speakeasy-sdks/preset-sdk-go/pkg/models/operations"
 )
 
 func main() {
-    s := preset.New(
-        preset.WithSecurity(shared.Security{
+    s := presetsdkgo.New(
+        presetsdkgo.WithSecurity(shared.Security{
             BearerAuth: "",
         }),
     )
 
     ctx := context.Background()
     res, err := s.SupersetAPIsOpenSourceGreaterThanDashboards.PostAPIV1Dashboard(ctx, operations.PostAPIV1DashboardRequest{
-        Referer: preset.String("corporis"),
+        Referer: presetsdkgo.String("corporis"),
         RequestBody: &operations.PostAPIV1DashboardRequestBody{},
     })
     if err != nil {
@@ -640,28 +640,28 @@ package main
 import(
 	"context"
 	"log"
-	"github.com/speakeasy-sdks/preset-sdk-go"
+	presetsdkgo "github.com/speakeasy-sdks/preset-sdk-go"
 	"github.com/speakeasy-sdks/preset-sdk-go/pkg/models/shared"
 	"github.com/speakeasy-sdks/preset-sdk-go/pkg/models/operations"
 )
 
 func main() {
-    s := preset.New(
-        preset.WithSecurity(shared.Security{
+    s := presetsdkgo.New(
+        presetsdkgo.WithSecurity(shared.Security{
             BearerAuth: "",
         }),
     )
 
     ctx := context.Background()
     res, err := s.SupersetAPIsOpenSourceGreaterThanDashboards.PostAPIV1DashboardImport(ctx, operations.PostAPIV1DashboardImportRequest{
-        Referer: preset.String("iste"),
+        Referer: presetsdkgo.String("iste"),
         RequestBody: &operations.PostAPIV1DashboardImportRequestBody{
             FormData: &operations.PostAPIV1DashboardImportRequestBodyFormData{
                 Content: []byte("iure"),
                 FormData: "saepe",
             },
-            Overwrite: preset.Bool(true),
-            Passwords: preset.String("{"databases/{{DatabaseYAMLFile}}": "{{DatabasePassword}}"}"),
+            Overwrite: presetsdkgo.Bool(true),
+            Passwords: presetsdkgo.String("{"databases/{{DatabaseYAMLFile}}": "{{DatabasePassword}}"}"),
         },
     })
     if err != nil {
@@ -723,14 +723,14 @@ package main
 import(
 	"context"
 	"log"
-	"github.com/speakeasy-sdks/preset-sdk-go"
+	presetsdkgo "github.com/speakeasy-sdks/preset-sdk-go"
 	"github.com/speakeasy-sdks/preset-sdk-go/pkg/models/shared"
 	"github.com/speakeasy-sdks/preset-sdk-go/pkg/models/operations"
 )
 
 func main() {
-    s := preset.New(
-        preset.WithSecurity(shared.Security{
+    s := presetsdkgo.New(
+        presetsdkgo.WithSecurity(shared.Security{
             BearerAuth: "",
         }),
     )
@@ -738,7 +738,7 @@ func main() {
     ctx := context.Background()
     res, err := s.SupersetAPIsOpenSourceGreaterThanDashboards.PostAPIV1DashboardDashboardIDPermalink(ctx, operations.PostAPIV1DashboardDashboardIDPermalinkRequest{
         DashboardID: "quidem",
-        Referer: preset.String("architecto"),
+        Referer: presetsdkgo.String("architecto"),
         RequestBody: &operations.PostAPIV1DashboardDashboardIDPermalinkRequestBody{},
     })
     if err != nil {
@@ -776,14 +776,14 @@ package main
 import(
 	"context"
 	"log"
-	"github.com/speakeasy-sdks/preset-sdk-go"
+	presetsdkgo "github.com/speakeasy-sdks/preset-sdk-go"
 	"github.com/speakeasy-sdks/preset-sdk-go/pkg/models/shared"
 	"github.com/speakeasy-sdks/preset-sdk-go/pkg/models/operations"
 )
 
 func main() {
-    s := preset.New(
-        preset.WithSecurity(shared.Security{
+    s := presetsdkgo.New(
+        presetsdkgo.WithSecurity(shared.Security{
             BearerAuth: "",
         }),
     )
@@ -791,8 +791,8 @@ func main() {
     ctx := context.Background()
     res, err := s.SupersetAPIsOpenSourceGreaterThanDashboards.PutAPIV1DashboardDashboardID(ctx, operations.PutAPIV1DashboardDashboardIDRequest{
         DashboardID: "ipsa",
-        Referer: preset.String("reiciendis"),
-        RequestBody: preset.String(""{ \"position_json\":\"{\\\"CHART-1NOOLm5YPs\\\": {\\\"children\\\": [], \\\"id\\\": \\\"CHART-1NOOLm5YPs\\\", \\\"meta\\\": {\\\"chartId\\\": 20, \\\"height\\\": 25, \\\"sliceName\\\": \\\"Total Items Sold\\\", \\\"sliceNameOverride\\\": \\\"Total Products Sold\\\", \\\"uuid\\\": \\\"c3d643cd-fd6f-4659-a5b7-59402487a8d0\\\", \\\"width\\\": 2}, \\\"parents\\\": [\\\"ROOT_ID\\\", \\\"TABS-e5Ruro0cjP\\\", \\\"TAB-d-E0Zc1cTH\\\", \\\"ROW-Tyv02UA_6W\\\", \\\"COLUMN-8Rp54B6ikC\\\"], \\\"type\\\": \\\"CHART\\\"}, \\\"CHART-AYpv8gFi_q\\\": {\\\"children\\\": [], \\\"id\\\": \\\"CHART-AYpv8gFi_q\\\", \\\"meta\\\": {\\\"chartId\\\": 43, \\\"height\\\": 91, \\\"sliceName\\\": \\\"Number of Deals (for each Combination)\\\", \\\"uuid\\\": \\\"bd20fc69-dd51-46c1-99b5-09e37a434bf1\\\", \\\"width\\\": 3}, \\\"parents\\\": [\\\"ROOT_ID\\\", \\\"TABS-e5Ruro0cjP\\\", \\\"TAB-4fthLQmdX\\\", \\\"ROW-0l1WcDzW3\\\"], \\\"type\\\": \\\"CHART\\\"}, \\\"CHART-KKT9BsnUst\\\": {\\\"children\\\": [], \\\"id\\\": \\\"CHART-KKT9BsnUst\\\", \\\"meta\\\": {\\\"chartId\\\": 33, \\\"height\\\": 59, \\\"sliceName\\\": \\\"Quarterly Sales (By Product Line)\\\", \\\"sliceNameOverride\\\": \\\"Quarterly Revenue (By Product Line)\\\", \\\"uuid\\\": \\\"db9609e4-9b78-4a32-87a7-4d9e19d51cd8\\\", \\\"width\\\": 7}, \\\"parents\\\": [\\\"ROOT_ID\\\", \\\"TABS-e5Ruro0cjP\\\", \\\"TAB-d-E0Zc1cTH\\\", \\\"ROW-oAtmu5grZ\\\"], \\\"type\\\": \\\"CHART\\\"}, \\\"CHART-OJ9aWDmn1q\\\": {\\\"children\\\": [], \\\"id\\\": \\\"CHART-OJ9aWDmn1q\\\", \\\"meta\\\": {\\\"chartId\\\": 36, \\\"height\\\": 91, \\\"sliceName\\\": \\\"Proportion of Revenue by Product Line\\\", \\\"sliceNameOverride\\\": \\\"Proportion of Monthly Revenue by Product Line\\\", \\\"uuid\\\": \\\"08aff161-f60c-4cb3-a225-dc9b1140d2e3\\\", \\\"width\\\": 6}, \\\"parents\\\": [\\\"ROOT_ID\\\", \\\"TABS-e5Ruro0cjP\\\", \\\"TAB-4fthLQmdX\\\", \\\"ROW-0l1WcDzW3\\\"], \\\"type\\\": \\\"CHART\\\"}, \\\"CHART-YFg-9wHE7s\\\": {\\\"children\\\": [], \\\"id\\\": \\\"CHART-YFg-9wHE7s\\\", \\\"meta\\\": {\\\"chartId\\\": 24, \\\"height\\\": 63, \\\"sliceName\\\": \\\"Seasonality of Revenue (per Product Line)\\\", \\\"uuid\\\": \\\"cf0da099-b3ab-4d94-ab62-cf353ac3c611\\\", \\\"width\\\": 6}, \\\"parents\\\": [\\\"ROOT_ID\\\", \\\"TABS-e5Ruro0cjP\\\", \\\"TAB-4fthLQmdX\\\", \\\"ROW-E7MDSGfnm\\\"], \\\"type\\\": \\\"CHART\\\"}, \\\"CHART-_LMKI0D3tj\\\": {\\\"children\\\": [], \\\"id\\\": \\\"CHART-_LMKI0D3tj\\\", \\\"meta\\\": {\\\"chartId\\\": 30, \\\"height\\\": 62, \\\"sliceName\\\": \\\"Revenue by Deal SIze\\\", \\\"sliceNameOverride\\\": \\\"Monthly Revenue by Deal SIze\\\", \\\"uuid\\\": \\\"f065a533-2e13-42b9-bd19-801a21700dff\\\", \\\"width\\\": 6}, \\\"parents\\\": [\\\"ROOT_ID\\\", \\\"TABS-e5Ruro0cjP\\\", \\\"TAB-4fthLQmdX\\\", \\\"ROW-E7MDSGfnm\\\"], \\\"type\\\": \\\"CHART\\\"}, \\\"CHART-id4RGv80N-\\\": {\\\"children\\\": [], \\\"id\\\": \\\"CHART-id4RGv80N-\\\", \\\"meta\\\": {\\\"chartId\\\": 19, \\\"height\\\": 40, \\\"sliceName\\\": \\\"Total Items Sold (By Product Line)\\\", \\\"sliceNameOverride\\\": \\\"Total Products Sold (By Product Line)\\\", \\\"uuid\\\": \\\"b8b7ca30-6291-44b0-bc64-ba42e2892b86\\\", \\\"width\\\": 2}, \\\"parents\\\": [\\\"ROOT_ID\\\", \\\"TABS-e5Ruro0cjP\\\", \\\"TAB-d-E0Zc1cTH\\\", \\\"ROW-oAtmu5grZ\\\", \\\"COLUMN-G6_2DvG8aK\\\"], \\\"type\\\": \\\"CHART\\\"}, \\\"CHART-iyvXMcqHt9\\\": {\\\"children\\\": [], \\\"id\\\": \\\"CHART-iyvXMcqHt9\\\", \\\"meta\\\": {\\\"chartId\\\": 8, \\\"height\\\": 39, \\\"sliceName\\\": \\\"Filter\\\", \\\"uuid\\\": \\\"a5689df7-98fc-7c51-602c-ebd92dc3ec70\\\", \\\"width\\\": 2}, \\\"parents\\\": [\\\"ROOT_ID\\\", \\\"TABS-e5Ruro0cjP\\\", \\\"TAB-4fthLQmdX\\\", \\\"ROW-0l1WcDzW3\\\", \\\"COLUMN-jlNWyWCfTC\\\"], \\\"type\\\": \\\"CHART\\\"}, \\\"CHART-j24u8ve41b\\\": {\\\"children\\\": [], \\\"id\\\": \\\"CHART-j24u8ve41b\\\", \\\"meta\\\": {\\\"chartId\\\": 41, \\\"height\\\": 59, \\\"sliceName\\\": \\\"Overall Sales (By Product Line)\\\", \\\"sliceNameOverride\\\": \\\"Total Revenue (By Product Line)\\\", \\\"uuid\\\": \\\"09c497e0-f442-1121-c9e7-671e37750424\\\", \\\"width\\\": 3}, \\\"parents\\\": [\\\"ROOT_ID\\\", \\\"TABS-e5Ruro0cjP\\\", \\\"TAB-d-E0Zc1cTH\\\", \\\"ROW-oAtmu5grZ\\\"], \\\"type\\\": \\\"CHART\\\"}, \\\"CHART-lFanAaYKBK\\\": {\\\"children\\\": [], \\\"id\\\": \\\"CHART-lFanAaYKBK\\\", \\\"meta\\\": {\\\"chartId\\\": 18, \\\"height\\\": 26, \\\"sliceName\\\": \\\"Total Revenue\\\", \\\"uuid\\\": \\\"7b12a243-88e0-4dc5-ac33-9a840bb0ac5a\\\", \\\"width\\\": 3}, \\\"parents\\\": [\\\"ROOT_ID\\\", \\\"TABS-e5Ruro0cjP\\\", \\\"TAB-d-E0Zc1cTH\\\", \\\"ROW-Tyv02UA_6W\\\", \\\"COLUMN-8Rp54B6ikC\\\"], \\\"type\\\": \\\"CHART\\\"}, \\\"CHART-vomBOiI7U9\\\": {\\\"children\\\": [], \\\"id\\\": \\\"CHART-vomBOiI7U9\\\", \\\"meta\\\": {\\\"chartId\\\": 34, \\\"height\\\": 53, \\\"sliceName\\\": \\\"Quarterly Sales\\\", \\\"sliceNameOverride\\\": \\\"Quarterly Revenue\\\", \\\"uuid\\\": \\\"692aca26-a526-85db-c94c-411c91cc1077\\\", \\\"width\\\": 7}, \\\"parents\\\": [\\\"ROOT_ID\\\", \\\"TABS-e5Ruro0cjP\\\", \\\"TAB-d-E0Zc1cTH\\\", \\\"ROW-Tyv02UA_6W\\\"], \\\"type\\\": \\\"CHART\\\"}, \\\"COLUMN-8Rp54B6ikC\\\": {\\\"children\\\": [\\\"CHART-lFanAaYKBK\\\", \\\"CHART-1NOOLm5YPs\\\"], \\\"id\\\": \\\"COLUMN-8Rp54B6ikC\\\", \\\"meta\\\": {\\\"background\\\": \\\"BACKGROUND_TRANSPARENT\\\", \\\"width\\\": 2}, \\\"parents\\\": [\\\"ROOT_ID\\\", \\\"TABS-e5Ruro0cjP\\\", \\\"TAB-d-E0Zc1cTH\\\", \\\"ROW-Tyv02UA_6W\\\"], \\\"type\\\": \\\"COLUMN\\\"}, \\\"COLUMN-G6_2DvG8aK\\\": {\\\"children\\\": [\\\"CHART-id4RGv80N-\\\"], \\\"id\\\": \\\"COLUMN-G6_2DvG8aK\\\", \\\"meta\\\": {\\\"background\\\": \\\"BACKGROUND_TRANSPARENT\\\", \\\"width\\\": 2}, \\\"parents\\\": [\\\"ROOT_ID\\\", \\\"TABS-e5Ruro0cjP\\\", \\\"TAB-d-E0Zc1cTH\\\", \\\"ROW-oAtmu5grZ\\\"], \\\"type\\\": \\\"COLUMN\\\"}, \\\"COLUMN-jlNWyWCfTC\\\": {\\\"children\\\": [\\\"MARKDOWN-HrzsMmvGQo\\\", \\\"CHART-iyvXMcqHt9\\\"], \\\"id\\\": \\\"COLUMN-jlNWyWCfTC\\\", \\\"meta\\\": {\\\"background\\\": \\\"BACKGROUND_TRANSPARENT\\\", \\\"width\\\": 3}, \\\"parents\\\": [\\\"ROOT_ID\\\", \\\"TABS-e5Ruro0cjP\\\", \\\"TAB-4fthLQmdX\\\", \\\"ROW-0l1WcDzW3\\\"], \\\"type\\\": \\\"COLUMN\\\"}, \\\"DASHBOARD_VERSION_KEY\\\": \\\"v2\\\", \\\"GRID_ID\\\": {\\\"children\\\": [], \\\"id\\\": \\\"GRID_ID\\\", \\\"parents\\\": [\\\"ROOT_ID\\\"], \\\"type\\\": \\\"GRID\\\"}, \\\"HEADER_ID\\\": {\\\"id\\\": \\\"HEADER_ID\\\", \\\"meta\\\": {\\\"text\\\": \\\"Sales Dashboard\\\"}, \\\"type\\\": \\\"HEADER\\\"}, \\\"MARKDOWN--AtDSWnapE\\\": {\\\"children\\\": [], \\\"id\\\": \\\"MARKDOWN--AtDSWnapE\\\", \\\"meta\\\": {\\\"code\\\": \\\"# \\�\\� Vehicle Sales Dashboard \\�\\�\\\\n\\\\nThis example dashboard provides insight into the business operations of vehicle seller. The dataset powering this dashboard can be found [here on Kaggle](https://www.kaggle.com/kyanyoga/sample-sales-data).\\\\n\\\\n### Timeline\\\\n\\\\nThe dataset contains data on all orders from the 2003 and 2004 fiscal years, and some orders from 2005.\\\\n\\\\n### Products Sold\\\\n\\\\nThis shop mainly sells the following products:\\\\n\\\\n- \\�\\� Classic Cars\\\\n- \\�\\�\\️ Vintage Cars\\\\n- \\�\\�\\️ Motorcycles\\\\n- \\�\\� Trucks & Buses \\�\\�\\\\n- \\�\\�\\️ Planes\\\\n- \\�\\� Ships\\\\n- \\�\\� Trains\\\", \\\"height\\\": 53, \\\"width\\\": 3}, \\\"parents\\\": [\\\"ROOT_ID\\\", \\\"TABS-e5Ruro0cjP\\\", \\\"TAB-d-E0Zc1cTH\\\", \\\"ROW-Tyv02UA_6W\\\"], \\\"type\\\": \\\"MARKDOWN\\\"}, \\\"MARKDOWN-HrzsMmvGQo\\\": {\\\"children\\\": [], \\\"id\\\": \\\"MARKDOWN-HrzsMmvGQo\\\", \\\"meta\\\": {\\\"code\\\": \\\"# \\�\\� Filter Box\\\\n\\\\nDashboard filters are a powerful way to enable teams to dive deeper into their business operations data. This filter box helps focus the charts along the following variables:\\\\n\\\\n- Time Range: Focus in on a specific time period (e.g. a holiday or quarter)\\\\n- Product Line: Choose 1 or more product lines to see relevant sales data\\\\n- Deal Size: Zoom in on small, medium, and / or large sales deals\\\\n\\\\nThe filter box below \\�\\� is configured to only apply to the charts in this tab (**Exploratory**). You can customize the charts that this filter box applies to by:\\\\n\\\\n- entering Edit mode in this dashboard\\\\n- selecting the `...` in the top right corner\\\\n- selecting the **Set filter mapping** button\\\", \\\"height\\\": 50, \\\"width\\\": 3}, \\\"parents\\\": [\\\"ROOT_ID\\\", \\\"TABS-e5Ruro0cjP\\\", \\\"TAB-4fthLQmdX\\\", \\\"ROW-0l1WcDzW3\\\", \\\"COLUMN-jlNWyWCfTC\\\"], \\\"type\\\": \\\"MARKDOWN\\\"}, \\\"ROOT_ID\\\": {\\\"children\\\": [\\\"TABS-e5Ruro0cjP\\\"], \\\"id\\\": \\\"ROOT_ID\\\", \\\"type\\\": \\\"ROOT\\\"}, \\\"ROW-0l1WcDzW3\\\": {\\\"children\\\": [\\\"COLUMN-jlNWyWCfTC\\\", \\\"CHART-OJ9aWDmn1q\\\", \\\"CHART-AYpv8gFi_q\\\"], \\\"id\\\": \\\"ROW-0l1WcDzW3\\\", \\\"meta\\\": {\\\"background\\\": \\\"BACKGROUND_TRANSPARENT\\\"}, \\\"parents\\\": [\\\"ROOT_ID\\\", \\\"TABS-e5Ruro0cjP\\\", \\\"TAB-4fthLQmdX\\\"], \\\"type\\\": \\\"ROW\\\"}, \\\"ROW-E7MDSGfnm\\\": {\\\"children\\\": [\\\"CHART-YFg-9wHE7s\\\", \\\"CHART-_LMKI0D3tj\\\"], \\\"id\\\": \\\"ROW-E7MDSGfnm\\\", \\\"meta\\\": {\\\"background\\\": \\\"BACKGROUND_TRANSPARENT\\\"}, \\\"parents\\\": [\\\"ROOT_ID\\\", \\\"TABS-e5Ruro0cjP\\\", \\\"TAB-4fthLQmdX\\\"], \\\"type\\\": \\\"ROW\\\"}, \\\"ROW-Tyv02UA_6W\\\": {\\\"children\\\": [\\\"COLUMN-8Rp54B6ikC\\\", \\\"CHART-vomBOiI7U9\\\", \\\"MARKDOWN--AtDSWnapE\\\"], \\\"id\\\": \\\"ROW-Tyv02UA_6W\\\", \\\"meta\\\": {\\\"background\\\": \\\"BACKGROUND_TRANSPARENT\\\"}, \\\"parents\\\": [\\\"ROOT_ID\\\", \\\"TABS-e5Ruro0cjP\\\", \\\"TAB-d-E0Zc1cTH\\\"], \\\"type\\\": \\\"ROW\\\"}, \\\"ROW-oAtmu5grZ\\\": {\\\"children\\\": [\\\"COLUMN-G6_2DvG8aK\\\", \\\"CHART-KKT9BsnUst\\\", \\\"CHART-j24u8ve41b\\\"], \\\"id\\\": \\\"ROW-oAtmu5grZ\\\", \\\"meta\\\": {\\\"background\\\": \\\"BACKGROUND_TRANSPARENT\\\"}, \\\"parents\\\": [\\\"ROOT_ID\\\", \\\"TABS-e5Ruro0cjP\\\", \\\"TAB-d-E0Zc1cTH\\\"], \\\"type\\\": \\\"ROW\\\"}, \\\"TAB-4fthLQmdX\\\": {\\\"children\\\": [\\\"ROW-0l1WcDzW3\\\", \\\"ROW-E7MDSGfnm\\\"], \\\"id\\\": \\\"TAB-4fthLQmdX\\\", \\\"meta\\\": {\\\"text\\\": \\\"\\�\\� Exploratory\\\"}, \\\"parents\\\": [\\\"ROOT_ID\\\", \\\"TABS-e5Ruro0cjP\\\"], \\\"type\\\": \\\"TAB\\\"}, \\\"TAB-d-E0Zc1cTH\\\": {\\\"children\\\": [\\\"ROW-Tyv02UA_6W\\\", \\\"ROW-oAtmu5grZ\\\"], \\\"id\\\": \\\"TAB-d-E0Zc1cTH\\\", \\\"meta\\\": {\\\"text\\\": \\\"\\�\\� Sales Overview\\\"}, \\\"parents\\\": [\\\"ROOT_ID\\\", \\\"TABS-e5Ruro0cjP\\\"], \\\"type\\\": \\\"TAB\\\"}, \\\"TABS-e5Ruro0cjP\\\": {\\\"children\\\": [\\\"TAB-d-E0Zc1cTH\\\", \\\"TAB-4fthLQmdX\\\"], \\\"id\\\": \\\"TABS-e5Ruro0cjP\\\", \\\"meta\\\": {}, \\\"parents\\\": [\\\"ROOT_ID\\\"], \\\"type\\\": \\\"TABS\\\"}}\"\n\n    }""),
+        Referer: presetsdkgo.String("reiciendis"),
+        RequestBody: presetsdkgo.String(""{ \"position_json\":\"{\\\"CHART-1NOOLm5YPs\\\": {\\\"children\\\": [], \\\"id\\\": \\\"CHART-1NOOLm5YPs\\\", \\\"meta\\\": {\\\"chartId\\\": 20, \\\"height\\\": 25, \\\"sliceName\\\": \\\"Total Items Sold\\\", \\\"sliceNameOverride\\\": \\\"Total Products Sold\\\", \\\"uuid\\\": \\\"c3d643cd-fd6f-4659-a5b7-59402487a8d0\\\", \\\"width\\\": 2}, \\\"parents\\\": [\\\"ROOT_ID\\\", \\\"TABS-e5Ruro0cjP\\\", \\\"TAB-d-E0Zc1cTH\\\", \\\"ROW-Tyv02UA_6W\\\", \\\"COLUMN-8Rp54B6ikC\\\"], \\\"type\\\": \\\"CHART\\\"}, \\\"CHART-AYpv8gFi_q\\\": {\\\"children\\\": [], \\\"id\\\": \\\"CHART-AYpv8gFi_q\\\", \\\"meta\\\": {\\\"chartId\\\": 43, \\\"height\\\": 91, \\\"sliceName\\\": \\\"Number of Deals (for each Combination)\\\", \\\"uuid\\\": \\\"bd20fc69-dd51-46c1-99b5-09e37a434bf1\\\", \\\"width\\\": 3}, \\\"parents\\\": [\\\"ROOT_ID\\\", \\\"TABS-e5Ruro0cjP\\\", \\\"TAB-4fthLQmdX\\\", \\\"ROW-0l1WcDzW3\\\"], \\\"type\\\": \\\"CHART\\\"}, \\\"CHART-KKT9BsnUst\\\": {\\\"children\\\": [], \\\"id\\\": \\\"CHART-KKT9BsnUst\\\", \\\"meta\\\": {\\\"chartId\\\": 33, \\\"height\\\": 59, \\\"sliceName\\\": \\\"Quarterly Sales (By Product Line)\\\", \\\"sliceNameOverride\\\": \\\"Quarterly Revenue (By Product Line)\\\", \\\"uuid\\\": \\\"db9609e4-9b78-4a32-87a7-4d9e19d51cd8\\\", \\\"width\\\": 7}, \\\"parents\\\": [\\\"ROOT_ID\\\", \\\"TABS-e5Ruro0cjP\\\", \\\"TAB-d-E0Zc1cTH\\\", \\\"ROW-oAtmu5grZ\\\"], \\\"type\\\": \\\"CHART\\\"}, \\\"CHART-OJ9aWDmn1q\\\": {\\\"children\\\": [], \\\"id\\\": \\\"CHART-OJ9aWDmn1q\\\", \\\"meta\\\": {\\\"chartId\\\": 36, \\\"height\\\": 91, \\\"sliceName\\\": \\\"Proportion of Revenue by Product Line\\\", \\\"sliceNameOverride\\\": \\\"Proportion of Monthly Revenue by Product Line\\\", \\\"uuid\\\": \\\"08aff161-f60c-4cb3-a225-dc9b1140d2e3\\\", \\\"width\\\": 6}, \\\"parents\\\": [\\\"ROOT_ID\\\", \\\"TABS-e5Ruro0cjP\\\", \\\"TAB-4fthLQmdX\\\", \\\"ROW-0l1WcDzW3\\\"], \\\"type\\\": \\\"CHART\\\"}, \\\"CHART-YFg-9wHE7s\\\": {\\\"children\\\": [], \\\"id\\\": \\\"CHART-YFg-9wHE7s\\\", \\\"meta\\\": {\\\"chartId\\\": 24, \\\"height\\\": 63, \\\"sliceName\\\": \\\"Seasonality of Revenue (per Product Line)\\\", \\\"uuid\\\": \\\"cf0da099-b3ab-4d94-ab62-cf353ac3c611\\\", \\\"width\\\": 6}, \\\"parents\\\": [\\\"ROOT_ID\\\", \\\"TABS-e5Ruro0cjP\\\", \\\"TAB-4fthLQmdX\\\", \\\"ROW-E7MDSGfnm\\\"], \\\"type\\\": \\\"CHART\\\"}, \\\"CHART-_LMKI0D3tj\\\": {\\\"children\\\": [], \\\"id\\\": \\\"CHART-_LMKI0D3tj\\\", \\\"meta\\\": {\\\"chartId\\\": 30, \\\"height\\\": 62, \\\"sliceName\\\": \\\"Revenue by Deal SIze\\\", \\\"sliceNameOverride\\\": \\\"Monthly Revenue by Deal SIze\\\", \\\"uuid\\\": \\\"f065a533-2e13-42b9-bd19-801a21700dff\\\", \\\"width\\\": 6}, \\\"parents\\\": [\\\"ROOT_ID\\\", \\\"TABS-e5Ruro0cjP\\\", \\\"TAB-4fthLQmdX\\\", \\\"ROW-E7MDSGfnm\\\"], \\\"type\\\": \\\"CHART\\\"}, \\\"CHART-id4RGv80N-\\\": {\\\"children\\\": [], \\\"id\\\": \\\"CHART-id4RGv80N-\\\", \\\"meta\\\": {\\\"chartId\\\": 19, \\\"height\\\": 40, \\\"sliceName\\\": \\\"Total Items Sold (By Product Line)\\\", \\\"sliceNameOverride\\\": \\\"Total Products Sold (By Product Line)\\\", \\\"uuid\\\": \\\"b8b7ca30-6291-44b0-bc64-ba42e2892b86\\\", \\\"width\\\": 2}, \\\"parents\\\": [\\\"ROOT_ID\\\", \\\"TABS-e5Ruro0cjP\\\", \\\"TAB-d-E0Zc1cTH\\\", \\\"ROW-oAtmu5grZ\\\", \\\"COLUMN-G6_2DvG8aK\\\"], \\\"type\\\": \\\"CHART\\\"}, \\\"CHART-iyvXMcqHt9\\\": {\\\"children\\\": [], \\\"id\\\": \\\"CHART-iyvXMcqHt9\\\", \\\"meta\\\": {\\\"chartId\\\": 8, \\\"height\\\": 39, \\\"sliceName\\\": \\\"Filter\\\", \\\"uuid\\\": \\\"a5689df7-98fc-7c51-602c-ebd92dc3ec70\\\", \\\"width\\\": 2}, \\\"parents\\\": [\\\"ROOT_ID\\\", \\\"TABS-e5Ruro0cjP\\\", \\\"TAB-4fthLQmdX\\\", \\\"ROW-0l1WcDzW3\\\", \\\"COLUMN-jlNWyWCfTC\\\"], \\\"type\\\": \\\"CHART\\\"}, \\\"CHART-j24u8ve41b\\\": {\\\"children\\\": [], \\\"id\\\": \\\"CHART-j24u8ve41b\\\", \\\"meta\\\": {\\\"chartId\\\": 41, \\\"height\\\": 59, \\\"sliceName\\\": \\\"Overall Sales (By Product Line)\\\", \\\"sliceNameOverride\\\": \\\"Total Revenue (By Product Line)\\\", \\\"uuid\\\": \\\"09c497e0-f442-1121-c9e7-671e37750424\\\", \\\"width\\\": 3}, \\\"parents\\\": [\\\"ROOT_ID\\\", \\\"TABS-e5Ruro0cjP\\\", \\\"TAB-d-E0Zc1cTH\\\", \\\"ROW-oAtmu5grZ\\\"], \\\"type\\\": \\\"CHART\\\"}, \\\"CHART-lFanAaYKBK\\\": {\\\"children\\\": [], \\\"id\\\": \\\"CHART-lFanAaYKBK\\\", \\\"meta\\\": {\\\"chartId\\\": 18, \\\"height\\\": 26, \\\"sliceName\\\": \\\"Total Revenue\\\", \\\"uuid\\\": \\\"7b12a243-88e0-4dc5-ac33-9a840bb0ac5a\\\", \\\"width\\\": 3}, \\\"parents\\\": [\\\"ROOT_ID\\\", \\\"TABS-e5Ruro0cjP\\\", \\\"TAB-d-E0Zc1cTH\\\", \\\"ROW-Tyv02UA_6W\\\", \\\"COLUMN-8Rp54B6ikC\\\"], \\\"type\\\": \\\"CHART\\\"}, \\\"CHART-vomBOiI7U9\\\": {\\\"children\\\": [], \\\"id\\\": \\\"CHART-vomBOiI7U9\\\", \\\"meta\\\": {\\\"chartId\\\": 34, \\\"height\\\": 53, \\\"sliceName\\\": \\\"Quarterly Sales\\\", \\\"sliceNameOverride\\\": \\\"Quarterly Revenue\\\", \\\"uuid\\\": \\\"692aca26-a526-85db-c94c-411c91cc1077\\\", \\\"width\\\": 7}, \\\"parents\\\": [\\\"ROOT_ID\\\", \\\"TABS-e5Ruro0cjP\\\", \\\"TAB-d-E0Zc1cTH\\\", \\\"ROW-Tyv02UA_6W\\\"], \\\"type\\\": \\\"CHART\\\"}, \\\"COLUMN-8Rp54B6ikC\\\": {\\\"children\\\": [\\\"CHART-lFanAaYKBK\\\", \\\"CHART-1NOOLm5YPs\\\"], \\\"id\\\": \\\"COLUMN-8Rp54B6ikC\\\", \\\"meta\\\": {\\\"background\\\": \\\"BACKGROUND_TRANSPARENT\\\", \\\"width\\\": 2}, \\\"parents\\\": [\\\"ROOT_ID\\\", \\\"TABS-e5Ruro0cjP\\\", \\\"TAB-d-E0Zc1cTH\\\", \\\"ROW-Tyv02UA_6W\\\"], \\\"type\\\": \\\"COLUMN\\\"}, \\\"COLUMN-G6_2DvG8aK\\\": {\\\"children\\\": [\\\"CHART-id4RGv80N-\\\"], \\\"id\\\": \\\"COLUMN-G6_2DvG8aK\\\", \\\"meta\\\": {\\\"background\\\": \\\"BACKGROUND_TRANSPARENT\\\", \\\"width\\\": 2}, \\\"parents\\\": [\\\"ROOT_ID\\\", \\\"TABS-e5Ruro0cjP\\\", \\\"TAB-d-E0Zc1cTH\\\", \\\"ROW-oAtmu5grZ\\\"], \\\"type\\\": \\\"COLUMN\\\"}, \\\"COLUMN-jlNWyWCfTC\\\": {\\\"children\\\": [\\\"MARKDOWN-HrzsMmvGQo\\\", \\\"CHART-iyvXMcqHt9\\\"], \\\"id\\\": \\\"COLUMN-jlNWyWCfTC\\\", \\\"meta\\\": {\\\"background\\\": \\\"BACKGROUND_TRANSPARENT\\\", \\\"width\\\": 3}, \\\"parents\\\": [\\\"ROOT_ID\\\", \\\"TABS-e5Ruro0cjP\\\", \\\"TAB-4fthLQmdX\\\", \\\"ROW-0l1WcDzW3\\\"], \\\"type\\\": \\\"COLUMN\\\"}, \\\"DASHBOARD_VERSION_KEY\\\": \\\"v2\\\", \\\"GRID_ID\\\": {\\\"children\\\": [], \\\"id\\\": \\\"GRID_ID\\\", \\\"parents\\\": [\\\"ROOT_ID\\\"], \\\"type\\\": \\\"GRID\\\"}, \\\"HEADER_ID\\\": {\\\"id\\\": \\\"HEADER_ID\\\", \\\"meta\\\": {\\\"text\\\": \\\"Sales Dashboard\\\"}, \\\"type\\\": \\\"HEADER\\\"}, \\\"MARKDOWN--AtDSWnapE\\\": {\\\"children\\\": [], \\\"id\\\": \\\"MARKDOWN--AtDSWnapE\\\", \\\"meta\\\": {\\\"code\\\": \\\"# \\�\\� Vehicle Sales Dashboard \\�\\�\\\\n\\\\nThis example dashboard provides insight into the business operations of vehicle seller. The dataset powering this dashboard can be found [here on Kaggle](https://www.kaggle.com/kyanyoga/sample-sales-data).\\\\n\\\\n### Timeline\\\\n\\\\nThe dataset contains data on all orders from the 2003 and 2004 fiscal years, and some orders from 2005.\\\\n\\\\n### Products Sold\\\\n\\\\nThis shop mainly sells the following products:\\\\n\\\\n- \\�\\� Classic Cars\\\\n- \\�\\�\\️ Vintage Cars\\\\n- \\�\\�\\️ Motorcycles\\\\n- \\�\\� Trucks & Buses \\�\\�\\\\n- \\�\\�\\️ Planes\\\\n- \\�\\� Ships\\\\n- \\�\\� Trains\\\", \\\"height\\\": 53, \\\"width\\\": 3}, \\\"parents\\\": [\\\"ROOT_ID\\\", \\\"TABS-e5Ruro0cjP\\\", \\\"TAB-d-E0Zc1cTH\\\", \\\"ROW-Tyv02UA_6W\\\"], \\\"type\\\": \\\"MARKDOWN\\\"}, \\\"MARKDOWN-HrzsMmvGQo\\\": {\\\"children\\\": [], \\\"id\\\": \\\"MARKDOWN-HrzsMmvGQo\\\", \\\"meta\\\": {\\\"code\\\": \\\"# \\�\\� Filter Box\\\\n\\\\nDashboard filters are a powerful way to enable teams to dive deeper into their business operations data. This filter box helps focus the charts along the following variables:\\\\n\\\\n- Time Range: Focus in on a specific time period (e.g. a holiday or quarter)\\\\n- Product Line: Choose 1 or more product lines to see relevant sales data\\\\n- Deal Size: Zoom in on small, medium, and / or large sales deals\\\\n\\\\nThe filter box below \\�\\� is configured to only apply to the charts in this tab (**Exploratory**). You can customize the charts that this filter box applies to by:\\\\n\\\\n- entering Edit mode in this dashboard\\\\n- selecting the `...` in the top right corner\\\\n- selecting the **Set filter mapping** button\\\", \\\"height\\\": 50, \\\"width\\\": 3}, \\\"parents\\\": [\\\"ROOT_ID\\\", \\\"TABS-e5Ruro0cjP\\\", \\\"TAB-4fthLQmdX\\\", \\\"ROW-0l1WcDzW3\\\", \\\"COLUMN-jlNWyWCfTC\\\"], \\\"type\\\": \\\"MARKDOWN\\\"}, \\\"ROOT_ID\\\": {\\\"children\\\": [\\\"TABS-e5Ruro0cjP\\\"], \\\"id\\\": \\\"ROOT_ID\\\", \\\"type\\\": \\\"ROOT\\\"}, \\\"ROW-0l1WcDzW3\\\": {\\\"children\\\": [\\\"COLUMN-jlNWyWCfTC\\\", \\\"CHART-OJ9aWDmn1q\\\", \\\"CHART-AYpv8gFi_q\\\"], \\\"id\\\": \\\"ROW-0l1WcDzW3\\\", \\\"meta\\\": {\\\"background\\\": \\\"BACKGROUND_TRANSPARENT\\\"}, \\\"parents\\\": [\\\"ROOT_ID\\\", \\\"TABS-e5Ruro0cjP\\\", \\\"TAB-4fthLQmdX\\\"], \\\"type\\\": \\\"ROW\\\"}, \\\"ROW-E7MDSGfnm\\\": {\\\"children\\\": [\\\"CHART-YFg-9wHE7s\\\", \\\"CHART-_LMKI0D3tj\\\"], \\\"id\\\": \\\"ROW-E7MDSGfnm\\\", \\\"meta\\\": {\\\"background\\\": \\\"BACKGROUND_TRANSPARENT\\\"}, \\\"parents\\\": [\\\"ROOT_ID\\\", \\\"TABS-e5Ruro0cjP\\\", \\\"TAB-4fthLQmdX\\\"], \\\"type\\\": \\\"ROW\\\"}, \\\"ROW-Tyv02UA_6W\\\": {\\\"children\\\": [\\\"COLUMN-8Rp54B6ikC\\\", \\\"CHART-vomBOiI7U9\\\", \\\"MARKDOWN--AtDSWnapE\\\"], \\\"id\\\": \\\"ROW-Tyv02UA_6W\\\", \\\"meta\\\": {\\\"background\\\": \\\"BACKGROUND_TRANSPARENT\\\"}, \\\"parents\\\": [\\\"ROOT_ID\\\", \\\"TABS-e5Ruro0cjP\\\", \\\"TAB-d-E0Zc1cTH\\\"], \\\"type\\\": \\\"ROW\\\"}, \\\"ROW-oAtmu5grZ\\\": {\\\"children\\\": [\\\"COLUMN-G6_2DvG8aK\\\", \\\"CHART-KKT9BsnUst\\\", \\\"CHART-j24u8ve41b\\\"], \\\"id\\\": \\\"ROW-oAtmu5grZ\\\", \\\"meta\\\": {\\\"background\\\": \\\"BACKGROUND_TRANSPARENT\\\"}, \\\"parents\\\": [\\\"ROOT_ID\\\", \\\"TABS-e5Ruro0cjP\\\", \\\"TAB-d-E0Zc1cTH\\\"], \\\"type\\\": \\\"ROW\\\"}, \\\"TAB-4fthLQmdX\\\": {\\\"children\\\": [\\\"ROW-0l1WcDzW3\\\", \\\"ROW-E7MDSGfnm\\\"], \\\"id\\\": \\\"TAB-4fthLQmdX\\\", \\\"meta\\\": {\\\"text\\\": \\\"\\�\\� Exploratory\\\"}, \\\"parents\\\": [\\\"ROOT_ID\\\", \\\"TABS-e5Ruro0cjP\\\"], \\\"type\\\": \\\"TAB\\\"}, \\\"TAB-d-E0Zc1cTH\\\": {\\\"children\\\": [\\\"ROW-Tyv02UA_6W\\\", \\\"ROW-oAtmu5grZ\\\"], \\\"id\\\": \\\"TAB-d-E0Zc1cTH\\\", \\\"meta\\\": {\\\"text\\\": \\\"\\�\\� Sales Overview\\\"}, \\\"parents\\\": [\\\"ROOT_ID\\\", \\\"TABS-e5Ruro0cjP\\\"], \\\"type\\\": \\\"TAB\\\"}, \\\"TABS-e5Ruro0cjP\\\": {\\\"children\\\": [\\\"TAB-d-E0Zc1cTH\\\", \\\"TAB-4fthLQmdX\\\"], \\\"id\\\": \\\"TABS-e5Ruro0cjP\\\", \\\"meta\\\": {}, \\\"parents\\\": [\\\"ROOT_ID\\\"], \\\"type\\\": \\\"TABS\\\"}}\"\n\n    }""),
     })
     if err != nil {
         log.Fatal(err)

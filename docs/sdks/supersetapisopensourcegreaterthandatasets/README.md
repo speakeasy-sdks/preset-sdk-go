@@ -45,14 +45,14 @@ package main
 import(
 	"context"
 	"log"
-	"github.com/speakeasy-sdks/preset-sdk-go"
+	presetsdkgo "github.com/speakeasy-sdks/preset-sdk-go"
 	"github.com/speakeasy-sdks/preset-sdk-go/pkg/models/shared"
 	"github.com/speakeasy-sdks/preset-sdk-go/pkg/models/operations"
 )
 
 func main() {
-    s := preset.New(
-        preset.WithSecurity(shared.Security{
+    s := presetsdkgo.New(
+        presetsdkgo.WithSecurity(shared.Security{
             BearerAuth: "",
         }),
     )
@@ -123,14 +123,14 @@ package main
 import(
 	"context"
 	"log"
-	"github.com/speakeasy-sdks/preset-sdk-go"
+	presetsdkgo "github.com/speakeasy-sdks/preset-sdk-go"
 	"github.com/speakeasy-sdks/preset-sdk-go/pkg/models/shared"
 	"github.com/speakeasy-sdks/preset-sdk-go/pkg/models/operations"
 )
 
 func main() {
-    s := preset.New(
-        preset.WithSecurity(shared.Security{
+    s := presetsdkgo.New(
+        presetsdkgo.WithSecurity(shared.Security{
             BearerAuth: "",
         }),
     )
@@ -192,21 +192,21 @@ package main
 import(
 	"context"
 	"log"
-	"github.com/speakeasy-sdks/preset-sdk-go"
+	presetsdkgo "github.com/speakeasy-sdks/preset-sdk-go"
 	"github.com/speakeasy-sdks/preset-sdk-go/pkg/models/shared"
 	"github.com/speakeasy-sdks/preset-sdk-go/pkg/models/operations"
 )
 
 func main() {
-    s := preset.New(
-        preset.WithSecurity(shared.Security{
+    s := presetsdkgo.New(
+        presetsdkgo.WithSecurity(shared.Security{
             BearerAuth: "",
         }),
     )
 
     ctx := context.Background()
     res, err := s.SupersetAPIsOpenSourceGreaterThanDatasets.GetAPIV1DatasetExport(ctx, operations.GetAPIV1DatasetExportRequest{
-        Q: preset.String("nemo"),
+        Q: presetsdkgo.String("nemo"),
     })
     if err != nil {
         log.Fatal(err)
@@ -270,14 +270,14 @@ package main
 import(
 	"context"
 	"log"
-	"github.com/speakeasy-sdks/preset-sdk-go"
+	presetsdkgo "github.com/speakeasy-sdks/preset-sdk-go"
 	"github.com/speakeasy-sdks/preset-sdk-go/pkg/models/shared"
 	"github.com/speakeasy-sdks/preset-sdk-go/pkg/models/operations"
 )
 
 func main() {
-    s := preset.New(
-        preset.WithSecurity(shared.Security{
+    s := presetsdkgo.New(
+        presetsdkgo.WithSecurity(shared.Security{
             BearerAuth: "",
         }),
     )
@@ -336,14 +336,14 @@ package main
 import(
 	"context"
 	"log"
-	"github.com/speakeasy-sdks/preset-sdk-go"
+	presetsdkgo "github.com/speakeasy-sdks/preset-sdk-go"
 	"github.com/speakeasy-sdks/preset-sdk-go/pkg/models/shared"
 	"github.com/speakeasy-sdks/preset-sdk-go/pkg/models/operations"
 )
 
 func main() {
-    s := preset.New(
-        preset.WithSecurity(shared.Security{
+    s := presetsdkgo.New(
+        presetsdkgo.WithSecurity(shared.Security{
             BearerAuth: "",
         }),
     )
@@ -410,14 +410,14 @@ package main
 import(
 	"context"
 	"log"
-	"github.com/speakeasy-sdks/preset-sdk-go"
+	presetsdkgo "github.com/speakeasy-sdks/preset-sdk-go"
 	"github.com/speakeasy-sdks/preset-sdk-go/pkg/models/shared"
 	"github.com/speakeasy-sdks/preset-sdk-go/pkg/models/operations"
 )
 
 func main() {
-    s := preset.New(
-        preset.WithSecurity(shared.Security{
+    s := presetsdkgo.New(
+        presetsdkgo.WithSecurity(shared.Security{
             BearerAuth: "",
         }),
     )
@@ -485,28 +485,28 @@ package main
 import(
 	"context"
 	"log"
-	"github.com/speakeasy-sdks/preset-sdk-go"
+	presetsdkgo "github.com/speakeasy-sdks/preset-sdk-go"
 	"github.com/speakeasy-sdks/preset-sdk-go/pkg/models/shared"
 	"github.com/speakeasy-sdks/preset-sdk-go/pkg/models/operations"
 )
 
 func main() {
-    s := preset.New(
-        preset.WithSecurity(shared.Security{
+    s := presetsdkgo.New(
+        presetsdkgo.WithSecurity(shared.Security{
             BearerAuth: "",
         }),
     )
 
     ctx := context.Background()
     res, err := s.SupersetAPIsOpenSourceGreaterThanDatasets.PostAPIV1DatasetImport(ctx, operations.PostAPIV1DatasetImportRequest{
-        Referer: preset.String("excepturi"),
+        Referer: presetsdkgo.String("excepturi"),
         RequestBody: &operations.PostAPIV1DatasetImportRequestBody{
             FormData: &operations.PostAPIV1DatasetImportRequestBodyFormData{
                 Content: []byte("accusantium"),
                 FormData: "iure",
             },
-            Overwrite: preset.Bool(true),
-            Passwords: preset.String("{"databases/{{DatabaseYAMLFile}}": "{{DatabasePassword}}"}"),
+            Overwrite: presetsdkgo.Bool(true),
+            Passwords: presetsdkgo.String("{"databases/{{DatabaseYAMLFile}}": "{{DatabasePassword}}"}"),
         },
     })
     if err != nil {
@@ -570,14 +570,14 @@ package main
 import(
 	"context"
 	"log"
-	"github.com/speakeasy-sdks/preset-sdk-go"
+	presetsdkgo "github.com/speakeasy-sdks/preset-sdk-go"
 	"github.com/speakeasy-sdks/preset-sdk-go/pkg/models/shared"
 	"github.com/speakeasy-sdks/preset-sdk-go/pkg/models/operations"
 )
 
 func main() {
-    s := preset.New(
-        preset.WithSecurity(shared.Security{
+    s := presetsdkgo.New(
+        presetsdkgo.WithSecurity(shared.Security{
             BearerAuth: "",
         }),
     )
@@ -585,7 +585,7 @@ func main() {
     ctx := context.Background()
     res, err := s.SupersetAPIsOpenSourceGreaterThanDatasets.PutAPIV1DatasetDatasetID(ctx, operations.PutAPIV1DatasetDatasetIDRequest{
         DatasetID: "culpa",
-        Referer: preset.String("doloribus"),
+        Referer: presetsdkgo.String("doloribus"),
         RequestBody: &operations.PutAPIV1DatasetDatasetIDRequestBody{},
     })
     if err != nil {
@@ -640,14 +640,14 @@ package main
 import(
 	"context"
 	"log"
-	"github.com/speakeasy-sdks/preset-sdk-go"
+	presetsdkgo "github.com/speakeasy-sdks/preset-sdk-go"
 	"github.com/speakeasy-sdks/preset-sdk-go/pkg/models/shared"
 	"github.com/speakeasy-sdks/preset-sdk-go/pkg/models/operations"
 )
 
 func main() {
-    s := preset.New(
-        preset.WithSecurity(shared.Security{
+    s := presetsdkgo.New(
+        presetsdkgo.WithSecurity(shared.Security{
             BearerAuth: "",
         }),
     )
@@ -655,7 +655,7 @@ func main() {
     ctx := context.Background()
     res, err := s.SupersetAPIsOpenSourceGreaterThanDatasets.PutAPIV1DatasetDatasetIDRefresh(ctx, operations.PutAPIV1DatasetDatasetIDRefreshRequest{
         DatasetID: "sapiente",
-        Referer: preset.String("architecto"),
+        Referer: presetsdkgo.String("architecto"),
         RequestBody: &operations.PutAPIV1DatasetDatasetIDRefreshRequestBody{},
     })
     if err != nil {

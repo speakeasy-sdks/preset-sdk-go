@@ -10,22 +10,20 @@ go get github.com/speakeasy-sdks/preset-sdk-go
 
 ## SDK Example Usage
 <!-- Start SDK Example Usage -->
-
-
 ```go
 package main
 
 import(
 	"context"
 	"log"
-	"github.com/speakeasy-sdks/preset-sdk-go"
+	presetsdkgo "github.com/speakeasy-sdks/preset-sdk-go"
 	"github.com/speakeasy-sdks/preset-sdk-go/pkg/models/shared"
 	"github.com/speakeasy-sdks/preset-sdk-go/pkg/models/operations"
 )
 
 func main() {
-    s := preset.New(
-        preset.WithSecurity(shared.Security{
+    s := presetsdkgo.New(
+        presetsdkgo.WithSecurity(shared.Security{
             BearerAuth: "",
         }),
     )
@@ -174,6 +172,38 @@ func main() {
 
 * [PostAPIV1SqllabExecute](docs/sdks/supersetapisopensourcegreaterthansqllab/README.md#postapiv1sqllabexecute) - Execute a SQL Query
 <!-- End SDK Available Operations -->
+
+
+
+<!-- Start Dev Containers -->
+
+
+
+<!-- End Dev Containers -->
+
+
+
+<!-- Start Pagination -->
+# Pagination
+
+Some of the endpoints in this SDK support pagination. To use pagination, you make your SDK calls as usual, but the
+returned response object will have a `Next` method that can be called to pull down the next group of results. If the
+return value of `Next` is `nil`, then there are no more pages to be fetched.
+
+Here's an example of one such pagination call:
+
+
+<!-- End Pagination -->
+
+
+
+<!-- Start Go Types -->
+
+<!-- End Go Types -->
+
+<!-- Placeholder for Future Speakeasy SDK Sections -->
+
+
 
 ### Maturity
 

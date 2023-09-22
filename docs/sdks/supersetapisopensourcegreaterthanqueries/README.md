@@ -16,13 +16,13 @@ package main
 import(
 	"context"
 	"log"
-	"github.com/speakeasy-sdks/preset-sdk-go"
+	presetsdkgo "github.com/speakeasy-sdks/preset-sdk-go"
 	"github.com/speakeasy-sdks/preset-sdk-go/pkg/models/shared"
 )
 
 func main() {
-    s := preset.New(
-        preset.WithSecurity(shared.Security{
+    s := presetsdkgo.New(
+        presetsdkgo.WithSecurity(shared.Security{
             BearerAuth: "",
         }),
     )

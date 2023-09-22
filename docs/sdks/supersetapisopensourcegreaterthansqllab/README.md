@@ -45,21 +45,21 @@ package main
 import(
 	"context"
 	"log"
-	"github.com/speakeasy-sdks/preset-sdk-go"
+	presetsdkgo "github.com/speakeasy-sdks/preset-sdk-go"
 	"github.com/speakeasy-sdks/preset-sdk-go/pkg/models/shared"
 	"github.com/speakeasy-sdks/preset-sdk-go/pkg/models/operations"
 )
 
 func main() {
-    s := preset.New(
-        preset.WithSecurity(shared.Security{
+    s := presetsdkgo.New(
+        presetsdkgo.WithSecurity(shared.Security{
             BearerAuth: "",
         }),
     )
 
     ctx := context.Background()
     res, err := s.SupersetAPIsOpenSourceGreaterThanSQLLab.PostAPIV1SqllabExecute(ctx, operations.PostAPIV1SqllabExecuteRequest{
-        Referer: preset.String("mollitia"),
+        Referer: presetsdkgo.String("mollitia"),
         RequestBody: &operations.PostAPIV1SqllabExecuteRequestBody{},
     })
     if err != nil {

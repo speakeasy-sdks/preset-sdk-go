@@ -49,22 +49,22 @@ package main
 import(
 	"context"
 	"log"
-	"github.com/speakeasy-sdks/preset-sdk-go"
+	presetsdkgo "github.com/speakeasy-sdks/preset-sdk-go"
 	"github.com/speakeasy-sdks/preset-sdk-go/pkg/models/shared"
 	"github.com/speakeasy-sdks/preset-sdk-go/pkg/models/operations"
 )
 
 func main() {
-    s := preset.New(
-        preset.WithSecurity(shared.Security{
+    s := presetsdkgo.New(
+        presetsdkgo.WithSecurity(shared.Security{
             BearerAuth: "",
         }),
     )
 
     ctx := context.Background()
     res, err := s.SupersetAPIsOpenSourceGreaterThanAnnotationLayers.DeleteAPIV1AnnotationLayer(ctx, operations.DeleteAPIV1AnnotationLayerRequest{
-        Referer: preset.String("sapiente"),
-        Q: preset.String("quo"),
+        Referer: presetsdkgo.String("sapiente"),
+        Q: presetsdkgo.String("quo"),
     })
     if err != nil {
         log.Fatal(err)
@@ -120,14 +120,14 @@ package main
 import(
 	"context"
 	"log"
-	"github.com/speakeasy-sdks/preset-sdk-go"
+	presetsdkgo "github.com/speakeasy-sdks/preset-sdk-go"
 	"github.com/speakeasy-sdks/preset-sdk-go/pkg/models/shared"
 	"github.com/speakeasy-sdks/preset-sdk-go/pkg/models/operations"
 )
 
 func main() {
-    s := preset.New(
-        preset.WithSecurity(shared.Security{
+    s := presetsdkgo.New(
+        presetsdkgo.WithSecurity(shared.Security{
             BearerAuth: "",
         }),
     )
@@ -135,7 +135,7 @@ func main() {
     ctx := context.Background()
     res, err := s.SupersetAPIsOpenSourceGreaterThanAnnotationLayers.DeleteAPIV1AnnotationLayerAnnotationLayerID(ctx, operations.DeleteAPIV1AnnotationLayerAnnotationLayerIDRequest{
         AnnotationLayerID: "odit",
-        Referer: preset.String("at"),
+        Referer: presetsdkgo.String("at"),
     })
     if err != nil {
         log.Fatal(err)
@@ -190,14 +190,14 @@ package main
 import(
 	"context"
 	"log"
-	"github.com/speakeasy-sdks/preset-sdk-go"
+	presetsdkgo "github.com/speakeasy-sdks/preset-sdk-go"
 	"github.com/speakeasy-sdks/preset-sdk-go/pkg/models/shared"
 	"github.com/speakeasy-sdks/preset-sdk-go/pkg/models/operations"
 )
 
 func main() {
-    s := preset.New(
-        preset.WithSecurity(shared.Security{
+    s := presetsdkgo.New(
+        presetsdkgo.WithSecurity(shared.Security{
             BearerAuth: "",
         }),
     )
@@ -205,8 +205,8 @@ func main() {
     ctx := context.Background()
     res, err := s.SupersetAPIsOpenSourceGreaterThanAnnotationLayers.DeleteAPIV1AnnotationLayerAnnotationLayerIDAnnotation(ctx, operations.DeleteAPIV1AnnotationLayerAnnotationLayerIDAnnotationRequest{
         AnnotationLayerID: "at",
-        Referer: preset.String("maiores"),
-        Q: preset.String("molestiae"),
+        Referer: presetsdkgo.String("maiores"),
+        Q: presetsdkgo.String("molestiae"),
     })
     if err != nil {
         log.Fatal(err)
@@ -261,14 +261,14 @@ package main
 import(
 	"context"
 	"log"
-	"github.com/speakeasy-sdks/preset-sdk-go"
+	presetsdkgo "github.com/speakeasy-sdks/preset-sdk-go"
 	"github.com/speakeasy-sdks/preset-sdk-go/pkg/models/shared"
 	"github.com/speakeasy-sdks/preset-sdk-go/pkg/models/operations"
 )
 
 func main() {
-    s := preset.New(
-        preset.WithSecurity(shared.Security{
+    s := presetsdkgo.New(
+        presetsdkgo.WithSecurity(shared.Security{
             BearerAuth: "",
         }),
     )
@@ -277,7 +277,7 @@ func main() {
     res, err := s.SupersetAPIsOpenSourceGreaterThanAnnotationLayers.DeleteAPIV1AnnotationLayerAnnotationLayerIDAnnotationAnnotationID(ctx, operations.DeleteAPIV1AnnotationLayerAnnotationLayerIDAnnotationAnnotationIDRequest{
         AnnotationID: "quod",
         AnnotationLayerID: "quod",
-        Referer: preset.String("esse"),
+        Referer: presetsdkgo.String("esse"),
     })
     if err != nil {
         log.Fatal(err)
@@ -341,13 +341,13 @@ package main
 import(
 	"context"
 	"log"
-	"github.com/speakeasy-sdks/preset-sdk-go"
+	presetsdkgo "github.com/speakeasy-sdks/preset-sdk-go"
 	"github.com/speakeasy-sdks/preset-sdk-go/pkg/models/shared"
 )
 
 func main() {
-    s := preset.New(
-        preset.WithSecurity(shared.Security{
+    s := presetsdkgo.New(
+        presetsdkgo.WithSecurity(shared.Security{
             BearerAuth: "",
         }),
     )
@@ -405,14 +405,14 @@ package main
 import(
 	"context"
 	"log"
-	"github.com/speakeasy-sdks/preset-sdk-go"
+	presetsdkgo "github.com/speakeasy-sdks/preset-sdk-go"
 	"github.com/speakeasy-sdks/preset-sdk-go/pkg/models/shared"
 	"github.com/speakeasy-sdks/preset-sdk-go/pkg/models/operations"
 )
 
 func main() {
-    s := preset.New(
-        preset.WithSecurity(shared.Security{
+    s := presetsdkgo.New(
+        presetsdkgo.WithSecurity(shared.Security{
             BearerAuth: "",
         }),
     )
@@ -486,14 +486,14 @@ package main
 import(
 	"context"
 	"log"
-	"github.com/speakeasy-sdks/preset-sdk-go"
+	presetsdkgo "github.com/speakeasy-sdks/preset-sdk-go"
 	"github.com/speakeasy-sdks/preset-sdk-go/pkg/models/shared"
 	"github.com/speakeasy-sdks/preset-sdk-go/pkg/models/operations"
 )
 
 func main() {
-    s := preset.New(
-        preset.WithSecurity(shared.Security{
+    s := presetsdkgo.New(
+        presetsdkgo.WithSecurity(shared.Security{
             BearerAuth: "",
         }),
     )
@@ -557,14 +557,14 @@ package main
 import(
 	"context"
 	"log"
-	"github.com/speakeasy-sdks/preset-sdk-go"
+	presetsdkgo "github.com/speakeasy-sdks/preset-sdk-go"
 	"github.com/speakeasy-sdks/preset-sdk-go/pkg/models/shared"
 	"github.com/speakeasy-sdks/preset-sdk-go/pkg/models/operations"
 )
 
 func main() {
-    s := preset.New(
-        preset.WithSecurity(shared.Security{
+    s := presetsdkgo.New(
+        presetsdkgo.WithSecurity(shared.Security{
             BearerAuth: "",
         }),
     )
@@ -573,7 +573,7 @@ func main() {
     res, err := s.SupersetAPIsOpenSourceGreaterThanAnnotationLayers.GetAPIV1AnnotationLayerAnnotationLayerIDAnnotationAnnotationID(ctx, operations.GetAPIV1AnnotationLayerAnnotationLayerIDAnnotationAnnotationIDRequest{
         AnnotationID: "dolorum",
         AnnotationLayerID: "dicta",
-        Referer: preset.String("nam"),
+        Referer: presetsdkgo.String("nam"),
     })
     if err != nil {
         log.Fatal(err)
@@ -630,21 +630,21 @@ package main
 import(
 	"context"
 	"log"
-	"github.com/speakeasy-sdks/preset-sdk-go"
+	presetsdkgo "github.com/speakeasy-sdks/preset-sdk-go"
 	"github.com/speakeasy-sdks/preset-sdk-go/pkg/models/shared"
 	"github.com/speakeasy-sdks/preset-sdk-go/pkg/models/operations"
 )
 
 func main() {
-    s := preset.New(
-        preset.WithSecurity(shared.Security{
+    s := presetsdkgo.New(
+        presetsdkgo.WithSecurity(shared.Security{
             BearerAuth: "",
         }),
     )
 
     ctx := context.Background()
     res, err := s.SupersetAPIsOpenSourceGreaterThanAnnotationLayers.PostAPIV1AnnotationLayer(ctx, operations.PostAPIV1AnnotationLayerRequest{
-        Referer: preset.String("officia"),
+        Referer: presetsdkgo.String("officia"),
         RequestBody: &operations.PostAPIV1AnnotationLayerRequestBody{},
     })
     if err != nil {
@@ -707,14 +707,14 @@ package main
 import(
 	"context"
 	"log"
-	"github.com/speakeasy-sdks/preset-sdk-go"
+	presetsdkgo "github.com/speakeasy-sdks/preset-sdk-go"
 	"github.com/speakeasy-sdks/preset-sdk-go/pkg/models/shared"
 	"github.com/speakeasy-sdks/preset-sdk-go/pkg/models/operations"
 )
 
 func main() {
-    s := preset.New(
-        preset.WithSecurity(shared.Security{
+    s := presetsdkgo.New(
+        presetsdkgo.WithSecurity(shared.Security{
             BearerAuth: "",
         }),
     )
@@ -722,7 +722,7 @@ func main() {
     ctx := context.Background()
     res, err := s.SupersetAPIsOpenSourceGreaterThanAnnotationLayers.PostAPIV1AnnotationLayerAnnotationLayerIDAnnotation(ctx, operations.PostAPIV1AnnotationLayerAnnotationLayerIDAnnotationRequest{
         AnnotationLayerID: "occaecati",
-        Referer: preset.String("fugit"),
+        Referer: presetsdkgo.String("fugit"),
         RequestBody: &operations.PostAPIV1AnnotationLayerAnnotationLayerIDAnnotationRequestBody{},
     })
     if err != nil {
@@ -783,14 +783,14 @@ package main
 import(
 	"context"
 	"log"
-	"github.com/speakeasy-sdks/preset-sdk-go"
+	presetsdkgo "github.com/speakeasy-sdks/preset-sdk-go"
 	"github.com/speakeasy-sdks/preset-sdk-go/pkg/models/shared"
 	"github.com/speakeasy-sdks/preset-sdk-go/pkg/models/operations"
 )
 
 func main() {
-    s := preset.New(
-        preset.WithSecurity(shared.Security{
+    s := presetsdkgo.New(
+        presetsdkgo.WithSecurity(shared.Security{
             BearerAuth: "",
         }),
     )
@@ -798,7 +798,7 @@ func main() {
     ctx := context.Background()
     res, err := s.SupersetAPIsOpenSourceGreaterThanAnnotationLayers.PutAPIV1AnnotationLayerAnnotationLayerID(ctx, operations.PutAPIV1AnnotationLayerAnnotationLayerIDRequest{
         AnnotationLayerID: "deleniti",
-        Referer: preset.String("hic"),
+        Referer: presetsdkgo.String("hic"),
         RequestBody: &operations.PutAPIV1AnnotationLayerAnnotationLayerIDRequestBody{},
     })
     if err != nil {
@@ -862,14 +862,14 @@ package main
 import(
 	"context"
 	"log"
-	"github.com/speakeasy-sdks/preset-sdk-go"
+	presetsdkgo "github.com/speakeasy-sdks/preset-sdk-go"
 	"github.com/speakeasy-sdks/preset-sdk-go/pkg/models/shared"
 	"github.com/speakeasy-sdks/preset-sdk-go/pkg/models/operations"
 )
 
 func main() {
-    s := preset.New(
-        preset.WithSecurity(shared.Security{
+    s := presetsdkgo.New(
+        presetsdkgo.WithSecurity(shared.Security{
             BearerAuth: "",
         }),
     )
@@ -878,7 +878,7 @@ func main() {
     res, err := s.SupersetAPIsOpenSourceGreaterThanAnnotationLayers.PutAPIV1AnnotationLayerAnnotationLayerIDAnnotationAnnotationID(ctx, operations.PutAPIV1AnnotationLayerAnnotationLayerIDAnnotationAnnotationIDRequest{
         AnnotationID: "optio",
         AnnotationLayerID: "totam",
-        Referer: preset.String("beatae"),
+        Referer: presetsdkgo.String("beatae"),
         RequestBody: &operations.PutAPIV1AnnotationLayerAnnotationLayerIDAnnotationAnnotationIDRequestBody{},
     })
     if err != nil {

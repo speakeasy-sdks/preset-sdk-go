@@ -60,22 +60,22 @@ package main
 import(
 	"context"
 	"log"
-	"github.com/speakeasy-sdks/preset-sdk-go"
+	presetsdkgo "github.com/speakeasy-sdks/preset-sdk-go"
 	"github.com/speakeasy-sdks/preset-sdk-go/pkg/models/shared"
 	"github.com/speakeasy-sdks/preset-sdk-go/pkg/models/operations"
 )
 
 func main() {
-    s := preset.New(
-        preset.WithSecurity(shared.Security{
+    s := presetsdkgo.New(
+        presetsdkgo.WithSecurity(shared.Security{
             BearerAuth: "",
         }),
     )
 
     ctx := context.Background()
     res, err := s.SupersetAPIsOpenSourceGreaterThanDatabases.CreateDatabaseUsingSSH(ctx, operations.CreateDatabaseUsingSSHRequest{
-        Referer: preset.String("est"),
-        RequestBody: preset.String(""{\n    \"database_name\": \"{{DBConnectionName}}\",\n    \"configuration_method\": \"sqlalchemy_form\",\n    \"sqlalchemy_uri\": \"{{SQLAlchemyURI}}\",\n    \"ssh_tunnel\": {\n        \"username\": \"{{SSHUsername}}\",\n        \"password\": \"{{SSHServerPassword}}\",\n        \"private_key\": \"{{PrivateKey}}\",\n        \"private_key_password\": \"{{PrivateKeyPassword}}\",\n        \"server_port\": 22,\n        \"server_address\": \"{{SSHServerAddress}}\"\n    },\n    \"allow_csv_upload\": \"boolean\",\n    \"allow_ctas\": \"boolean\",\n    \"allow_cvas\": \"boolean\",\n    \"allow_dml\": \"boolean\",\n    \"allow_multi_schema_metadata_fetch\": \"boolean\",\n    \"allow_run_async\": \"boolean\",\n    \"cache_timeout\": 0,\n    \"expose_in_sqllab\": \"boolean\",\n    \"impersonate_user\": \"boolean\",\n    \"extra\": \"{{ExtraConfiguration}}\"\n}""),
+        Referer: presetsdkgo.String("est"),
+        RequestBody: presetsdkgo.String(""{\n    \"database_name\": \"{{DBConnectionName}}\",\n    \"configuration_method\": \"sqlalchemy_form\",\n    \"sqlalchemy_uri\": \"{{SQLAlchemyURI}}\",\n    \"ssh_tunnel\": {\n        \"username\": \"{{SSHUsername}}\",\n        \"password\": \"{{SSHServerPassword}}\",\n        \"private_key\": \"{{PrivateKey}}\",\n        \"private_key_password\": \"{{PrivateKeyPassword}}\",\n        \"server_port\": 22,\n        \"server_address\": \"{{SSHServerAddress}}\"\n    },\n    \"allow_csv_upload\": \"boolean\",\n    \"allow_ctas\": \"boolean\",\n    \"allow_cvas\": \"boolean\",\n    \"allow_dml\": \"boolean\",\n    \"allow_multi_schema_metadata_fetch\": \"boolean\",\n    \"allow_run_async\": \"boolean\",\n    \"cache_timeout\": 0,\n    \"expose_in_sqllab\": \"boolean\",\n    \"impersonate_user\": \"boolean\",\n    \"extra\": \"{{ExtraConfiguration}}\"\n}""),
     })
     if err != nil {
         log.Fatal(err)
@@ -139,14 +139,14 @@ package main
 import(
 	"context"
 	"log"
-	"github.com/speakeasy-sdks/preset-sdk-go"
+	presetsdkgo "github.com/speakeasy-sdks/preset-sdk-go"
 	"github.com/speakeasy-sdks/preset-sdk-go/pkg/models/shared"
 	"github.com/speakeasy-sdks/preset-sdk-go/pkg/models/operations"
 )
 
 func main() {
-    s := preset.New(
-        preset.WithSecurity(shared.Security{
+    s := presetsdkgo.New(
+        presetsdkgo.WithSecurity(shared.Security{
             BearerAuth: "",
         }),
     )
@@ -208,21 +208,21 @@ package main
 import(
 	"context"
 	"log"
-	"github.com/speakeasy-sdks/preset-sdk-go"
+	presetsdkgo "github.com/speakeasy-sdks/preset-sdk-go"
 	"github.com/speakeasy-sdks/preset-sdk-go/pkg/models/shared"
 	"github.com/speakeasy-sdks/preset-sdk-go/pkg/models/operations"
 )
 
 func main() {
-    s := preset.New(
-        preset.WithSecurity(shared.Security{
+    s := presetsdkgo.New(
+        presetsdkgo.WithSecurity(shared.Security{
             BearerAuth: "",
         }),
     )
 
     ctx := context.Background()
     res, err := s.SupersetAPIsOpenSourceGreaterThanDatabases.GetAPIV1DatabaseExport(ctx, operations.GetAPIV1DatabaseExportRequest{
-        Q: preset.String("mollitia"),
+        Q: presetsdkgo.String("mollitia"),
     })
     if err != nil {
         log.Fatal(err)
@@ -276,14 +276,14 @@ package main
 import(
 	"context"
 	"log"
-	"github.com/speakeasy-sdks/preset-sdk-go"
+	presetsdkgo "github.com/speakeasy-sdks/preset-sdk-go"
 	"github.com/speakeasy-sdks/preset-sdk-go/pkg/models/shared"
 	"github.com/speakeasy-sdks/preset-sdk-go/pkg/models/operations"
 )
 
 func main() {
-    s := preset.New(
-        preset.WithSecurity(shared.Security{
+    s := presetsdkgo.New(
+        presetsdkgo.WithSecurity(shared.Security{
             BearerAuth: "",
         }),
     )
@@ -346,14 +346,14 @@ package main
 import(
 	"context"
 	"log"
-	"github.com/speakeasy-sdks/preset-sdk-go"
+	presetsdkgo "github.com/speakeasy-sdks/preset-sdk-go"
 	"github.com/speakeasy-sdks/preset-sdk-go/pkg/models/shared"
 	"github.com/speakeasy-sdks/preset-sdk-go/pkg/models/operations"
 )
 
 func main() {
-    s := preset.New(
-        preset.WithSecurity(shared.Security{
+    s := presetsdkgo.New(
+        presetsdkgo.WithSecurity(shared.Security{
             BearerAuth: "",
         }),
     )
@@ -427,21 +427,21 @@ package main
 import(
 	"context"
 	"log"
-	"github.com/speakeasy-sdks/preset-sdk-go"
+	presetsdkgo "github.com/speakeasy-sdks/preset-sdk-go"
 	"github.com/speakeasy-sdks/preset-sdk-go/pkg/models/shared"
 	"github.com/speakeasy-sdks/preset-sdk-go/pkg/models/operations"
 )
 
 func main() {
-    s := preset.New(
-        preset.WithSecurity(shared.Security{
+    s := presetsdkgo.New(
+        presetsdkgo.WithSecurity(shared.Security{
             BearerAuth: "",
         }),
     )
 
     ctx := context.Background()
     res, err := s.SupersetAPIsOpenSourceGreaterThanDatabases.PostAPIV1Database(ctx, operations.PostAPIV1DatabaseRequest{
-        Referer: preset.String("dolorem"),
+        Referer: presetsdkgo.String("dolorem"),
         RequestBody: &operations.PostAPIV1DatabaseRequestBody{},
     })
     if err != nil {
@@ -503,28 +503,28 @@ package main
 import(
 	"context"
 	"log"
-	"github.com/speakeasy-sdks/preset-sdk-go"
+	presetsdkgo "github.com/speakeasy-sdks/preset-sdk-go"
 	"github.com/speakeasy-sdks/preset-sdk-go/pkg/models/shared"
 	"github.com/speakeasy-sdks/preset-sdk-go/pkg/models/operations"
 )
 
 func main() {
-    s := preset.New(
-        preset.WithSecurity(shared.Security{
+    s := presetsdkgo.New(
+        presetsdkgo.WithSecurity(shared.Security{
             BearerAuth: "",
         }),
     )
 
     ctx := context.Background()
     res, err := s.SupersetAPIsOpenSourceGreaterThanDatabases.PostAPIV1DatabaseImport(ctx, operations.PostAPIV1DatabaseImportRequest{
-        Referer: preset.String("corporis"),
+        Referer: presetsdkgo.String("corporis"),
         RequestBody: &operations.PostAPIV1DatabaseImportRequestBody{
             FormData: &operations.PostAPIV1DatabaseImportRequestBodyFormData{
                 Content: []byte("explicabo"),
                 FormData: "nobis",
             },
-            Overwrite: preset.Bool(true),
-            Passwords: preset.String("{"databases/{{DatabaseYAMLFile}}": "{{DatabasePassword}}"}"),
+            Overwrite: presetsdkgo.Bool(true),
+            Passwords: presetsdkgo.String("{"databases/{{DatabaseYAMLFile}}": "{{DatabasePassword}}"}"),
         },
     })
     if err != nil {
@@ -585,14 +585,14 @@ package main
 import(
 	"context"
 	"log"
-	"github.com/speakeasy-sdks/preset-sdk-go"
+	presetsdkgo "github.com/speakeasy-sdks/preset-sdk-go"
 	"github.com/speakeasy-sdks/preset-sdk-go/pkg/models/shared"
 	"github.com/speakeasy-sdks/preset-sdk-go/pkg/models/operations"
 )
 
 func main() {
-    s := preset.New(
-        preset.WithSecurity(shared.Security{
+    s := presetsdkgo.New(
+        presetsdkgo.WithSecurity(shared.Security{
             BearerAuth: "",
         }),
     )
@@ -600,7 +600,7 @@ func main() {
     ctx := context.Background()
     res, err := s.SupersetAPIsOpenSourceGreaterThanDatabases.PutAPIV1DatabaseDatabaseID(ctx, operations.PutAPIV1DatabaseDatabaseIDRequest{
         DatabaseID: "enim",
-        RequestBody: preset.String(""{\n    //include the keys you would like to modify\n    \"database_name\": \"{{DBConnectionName}}\"\n}""),
+        RequestBody: presetsdkgo.String(""{\n    //include the keys you would like to modify\n    \"database_name\": \"{{DBConnectionName}}\"\n}""),
     })
     if err != nil {
         log.Fatal(err)
