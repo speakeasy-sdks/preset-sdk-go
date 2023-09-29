@@ -1,4 +1,5 @@
 # SupersetAPIsOpenSourceGreaterThanAssets
+(*SupersetAPIsOpenSourceGreaterThanAssets*)
 
 ## Overview
 
@@ -136,10 +137,10 @@ func main() {
     res, err := s.SupersetAPIsOpenSourceGreaterThanAssets.PostAPIV1AssetsImport(ctx, operations.PostAPIV1AssetsImportRequest{
         RequestBody: &operations.PostAPIV1AssetsImportRequestBody{
             Bundle: &operations.PostAPIV1AssetsImportRequestBodyBundle{
-                Bundle: "commodi",
-                Content: []byte("molestiae"),
+                Bundle: "digital",
+                Content: []byte("?g5R_xuHp)"),
             },
-            Passwords: presetsdkgo.String("{"databases/{{DatabaseYAMLFile}}": "{{DatabasePassword}}"}"),
+            Passwords: presetsdkgo.String("{\"databases/{{DatabaseYAMLFile}}\": \"{{DatabasePassword}}\"}"),
         },
     })
     if err != nil {

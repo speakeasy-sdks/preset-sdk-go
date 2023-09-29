@@ -1,4 +1,5 @@
 # PresetManagerAPIsGreaterThanEmbedded
+(*PresetManagerAPIsGreaterThanEmbedded*)
 
 ## Overview
 
@@ -43,8 +44,8 @@ func main() {
     ctx := context.Background()
     res, err := s.PresetManagerAPIsGreaterThanEmbedded.PostAPIV1TeamsTeamSlugWorkspacesWorkspaceSlugGuestToken(ctx, operations.PostAPIV1TeamsTeamSlugWorkspacesWorkspaceSlugGuestTokenRequest{
         RequestBody: &operations.PostAPIV1TeamsTeamSlugWorkspacesWorkspaceSlugGuestTokenRequestBody{},
-        TeamSlug: "corrupti",
-        WorkspaceSlug: "provident",
+        TeamSlug: "finally Argon green",
+        WorkspaceSlug: "override Rap Newport",
     })
     if err != nil {
         log.Fatal(err)

@@ -1,4 +1,5 @@
 # PresetManagerAPIsGreaterThanTeams
+(*PresetManagerAPIsGreaterThanTeams*)
 
 ## Overview
 
@@ -52,8 +53,8 @@ func main() {
 
     ctx := context.Background()
     res, err := s.PresetManagerAPIsGreaterThanTeams.DeleteV1TeamsTeamSlugInvitesInviteID(ctx, operations.DeleteV1TeamsTeamSlugInvitesInviteIDRequest{
-        InviteID: "debitis",
-        TeamSlug: "ipsa",
+        InviteID: "up cyan olive",
+        TeamSlug: "Cheese Card angrily",
     })
     if err != nil {
         log.Fatal(err)
@@ -111,8 +112,8 @@ func main() {
 
     ctx := context.Background()
     res, err := s.PresetManagerAPIsGreaterThanTeams.DeleteV1TeamsTeamSlugMembershipsUserID(ctx, operations.DeleteV1TeamsTeamSlugMembershipsUserIDRequest{
-        TeamSlug: "delectus",
-        UserID: "tempora",
+        TeamSlug: "consequently Kiribati Clothing",
+        UserID: "Electric",
     })
     if err != nil {
         log.Fatal(err)
@@ -218,7 +219,7 @@ func main() {
 
     ctx := context.Background()
     res, err := s.PresetManagerAPIsGreaterThanTeams.GetV1TeamsTeamSlugInvites(ctx, operations.GetV1TeamsTeamSlugInvitesRequest{
-        TeamSlug: "suscipit",
+        TeamSlug: "Clothing West culpa",
     })
     if err != nil {
         log.Fatal(err)
@@ -275,7 +276,7 @@ func main() {
 
     ctx := context.Background()
     res, err := s.PresetManagerAPIsGreaterThanTeams.GetV1TeamsTeamSlugMemberships(ctx, operations.GetV1TeamsTeamSlugMembershipsRequest{
-        TeamSlug: "molestiae",
+        TeamSlug: "bypassing Intelligent",
     })
     if err != nil {
         log.Fatal(err)
@@ -341,8 +342,8 @@ func main() {
     ctx := context.Background()
     res, err := s.PresetManagerAPIsGreaterThanTeams.PatchV1TeamsTeamSlugMembershipsUserID(ctx, operations.PatchV1TeamsTeamSlugMembershipsUserIDRequest{
         RequestBody: &operations.PatchV1TeamsTeamSlugMembershipsUserIDRequestBody{},
-        TeamSlug: "minus",
-        UserID: "placeat",
+        TeamSlug: "access Folding",
+        UserID: "North",
     })
     if err != nil {
         log.Fatal(err)
@@ -408,7 +409,7 @@ func main() {
     ctx := context.Background()
     res, err := s.PresetManagerAPIsGreaterThanTeams.PostV1TeamsTeamSlugInvites(ctx, operations.PostV1TeamsTeamSlugInvitesRequest{
         RequestBody: &operations.PostV1TeamsTeamSlugInvitesRequestBody{},
-        TeamSlug: "voluptatum",
+        TeamSlug: "Carbon",
     })
     if err != nil {
         log.Fatal(err)
@@ -474,7 +475,7 @@ func main() {
     ctx := context.Background()
     res, err := s.PresetManagerAPIsGreaterThanTeams.PostV1TeamsTeamSlugInvitesMany(ctx, operations.PostV1TeamsTeamSlugInvitesManyRequest{
         RequestBody: &operations.PostV1TeamsTeamSlugInvitesManyRequestBody{},
-        TeamSlug: "iusto",
+        TeamSlug: "Blues while",
     })
     if err != nil {
         log.Fatal(err)
@@ -532,8 +533,8 @@ func main() {
 
     ctx := context.Background()
     res, err := s.PresetManagerAPIsGreaterThanTeams.PostV1TeamsTeamSlugInvitesResendInviteID(ctx, operations.PostV1TeamsTeamSlugInvitesResendInviteIDRequest{
-        InviteID: "excepturi",
-        TeamSlug: "nisi",
+        InviteID: "Blues Avon Hat",
+        TeamSlug: "Checking",
     })
     if err != nil {
         log.Fatal(err)
@@ -596,7 +597,7 @@ func main() {
     ctx := context.Background()
     res, err := s.PresetManagerAPIsGreaterThanTeams.PutV1TeamsTeamSlug(ctx, operations.PutV1TeamsTeamSlugRequest{
         RequestBody: &operations.PutV1TeamsTeamSlugRequestBody{},
-        TeamSlug: "recusandae",
+        TeamSlug: "rudely",
     })
     if err != nil {
         log.Fatal(err)

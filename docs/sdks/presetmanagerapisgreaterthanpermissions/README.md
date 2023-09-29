@@ -1,4 +1,5 @@
 # PresetManagerAPIsGreaterThanPermissions
+(*PresetManagerAPIsGreaterThanPermissions*)
 
 ## Overview
 
@@ -49,8 +50,8 @@ func main() {
 
     ctx := context.Background()
     res, err := s.PresetManagerAPIsGreaterThanPermissions.DeleteV1TeamsTeamSlugPermissionsPermissionName(ctx, operations.DeleteV1TeamsTeamSlugPermissionsPermissionNameRequest{
-        PermissionName: "distinctio",
-        TeamSlug: "quibusdam",
+        PermissionName: "Automotive disintermediate Juan",
+        TeamSlug: "white Home Tesla",
     })
     if err != nil {
         log.Fatal(err)
@@ -118,9 +119,9 @@ func main() {
 
     ctx := context.Background()
     res, err := s.PresetManagerAPIsGreaterThanPermissions.DeleteV1TeamsTeamSlugPermissionsPermissionNameGrantees(ctx, operations.DeleteV1TeamsTeamSlugPermissionsPermissionNameGranteesRequest{
-        PermissionName: "unde",
-        TeamSlug: "nulla",
-        Referer: presetsdkgo.String("corrupti"),
+        PermissionName: "deposit Games utter",
+        TeamSlug: "Diesel",
+        Referer: presetsdkgo.String("Tanzanian"),
     })
     if err != nil {
         log.Fatal(err)
@@ -184,7 +185,7 @@ func main() {
 
     ctx := context.Background()
     res, err := s.PresetManagerAPIsGreaterThanPermissions.GetV1TeamsTeamSlugPermissions(ctx, operations.GetV1TeamsTeamSlugPermissionsRequest{
-        TeamSlug: "illum",
+        TeamSlug: "cohesive Automated Chrysler",
     })
     if err != nil {
         log.Fatal(err)
@@ -253,7 +254,7 @@ func main() {
 
     ctx := context.Background()
     res, err := s.PresetManagerAPIsGreaterThanPermissions.GetV1TeamsTeamSlugPermissionsResources(ctx, operations.GetV1TeamsTeamSlugPermissionsResourcesRequest{
-        TeamSlug: "vel",
+        TeamSlug: "beyond District Van",
     })
     if err != nil {
         log.Fatal(err)
@@ -329,9 +330,9 @@ func main() {
 
     ctx := context.Background()
     res, err := s.PresetManagerAPIsGreaterThanPermissions.PatchV1TeamsTeamSlugPermissionsPermissionName(ctx, operations.PatchV1TeamsTeamSlugPermissionsPermissionNameRequest{
-        PermissionName: "error",
+        PermissionName: "redundant since monetize",
         RequestBody: &operations.PatchV1TeamsTeamSlugPermissionsPermissionNameRequestBody{},
-        TeamSlug: "deserunt",
+        TeamSlug: "Metrics reproachfully global",
     })
     if err != nil {
         log.Fatal(err)
@@ -405,7 +406,7 @@ func main() {
     ctx := context.Background()
     res, err := s.PresetManagerAPIsGreaterThanPermissions.PostV1TeamsTeamSlugPermissions(ctx, operations.PostV1TeamsTeamSlugPermissionsRequest{
         RequestBody: &operations.PostV1TeamsTeamSlugPermissionsRequestBody{},
-        TeamSlug: "suscipit",
+        TeamSlug: "Tricycle Midland",
     })
     if err != nil {
         log.Fatal(err)
@@ -479,9 +480,9 @@ func main() {
 
     ctx := context.Background()
     res, err := s.PresetManagerAPIsGreaterThanPermissions.PostV1TeamsTeamSlugPermissionsPermissionNameGrantees(ctx, operations.PostV1TeamsTeamSlugPermissionsPermissionNameGranteesRequest{
-        PermissionName: "iure",
+        PermissionName: "Loan",
         RequestBody: &operations.PostV1TeamsTeamSlugPermissionsPermissionNameGranteesRequestBody{},
-        TeamSlug: "magnam",
+        TeamSlug: "core generate Yen",
     })
     if err != nil {
         log.Fatal(err)

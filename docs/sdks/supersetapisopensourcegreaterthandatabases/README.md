@@ -1,4 +1,5 @@
 # SupersetAPIsOpenSourceGreaterThanDatabases
+(*SupersetAPIsOpenSourceGreaterThanDatabases*)
 
 ## Overview
 
@@ -74,8 +75,8 @@ func main() {
 
     ctx := context.Background()
     res, err := s.SupersetAPIsOpenSourceGreaterThanDatabases.CreateDatabaseUsingSSH(ctx, operations.CreateDatabaseUsingSSHRequest{
-        Referer: presetsdkgo.String("est"),
-        RequestBody: presetsdkgo.String(""{\n    \"database_name\": \"{{DBConnectionName}}\",\n    \"configuration_method\": \"sqlalchemy_form\",\n    \"sqlalchemy_uri\": \"{{SQLAlchemyURI}}\",\n    \"ssh_tunnel\": {\n        \"username\": \"{{SSHUsername}}\",\n        \"password\": \"{{SSHServerPassword}}\",\n        \"private_key\": \"{{PrivateKey}}\",\n        \"private_key_password\": \"{{PrivateKeyPassword}}\",\n        \"server_port\": 22,\n        \"server_address\": \"{{SSHServerAddress}}\"\n    },\n    \"allow_csv_upload\": \"boolean\",\n    \"allow_ctas\": \"boolean\",\n    \"allow_cvas\": \"boolean\",\n    \"allow_dml\": \"boolean\",\n    \"allow_multi_schema_metadata_fetch\": \"boolean\",\n    \"allow_run_async\": \"boolean\",\n    \"cache_timeout\": 0,\n    \"expose_in_sqllab\": \"boolean\",\n    \"impersonate_user\": \"boolean\",\n    \"extra\": \"{{ExtraConfiguration}}\"\n}""),
+        Referer: presetsdkgo.String("methodical hemorrhage"),
+        RequestBody: presetsdkgo.String("\"{\n    \\"database_name\\": \\"{{DBConnectionName}}\\",\n    \\"configuration_method\\": \\"sqlalchemy_form\\",\n    \\"sqlalchemy_uri\\": \\"{{SQLAlchemyURI}}\\",\n    \\"ssh_tunnel\\": {\n        \\"username\\": \\"{{SSHUsername}}\\",\n        \\"password\\": \\"{{SSHServerPassword}}\\",\n        \\"private_key\\": \\"{{PrivateKey}}\\",\n        \\"private_key_password\\": \\"{{PrivateKeyPassword}}\\",\n        \\"server_port\\": 22,\n        \\"server_address\\": \\"{{SSHServerAddress}}\\"\n    },\n    \\"allow_csv_upload\\": \\"boolean\\",\n    \\"allow_ctas\\": \\"boolean\\",\n    \\"allow_cvas\\": \\"boolean\\",\n    \\"allow_dml\\": \\"boolean\\",\n    \\"allow_multi_schema_metadata_fetch\\": \\"boolean\\",\n    \\"allow_run_async\\": \\"boolean\\",\n    \\"cache_timeout\\": 0,\n    \\"expose_in_sqllab\\": \\"boolean\\",\n    \\"impersonate_user\\": \\"boolean\\",\n    \\"extra\\": \\"{{ExtraConfiguration}}\\"\n}\""),
     })
     if err != nil {
         log.Fatal(err)
@@ -222,7 +223,7 @@ func main() {
 
     ctx := context.Background()
     res, err := s.SupersetAPIsOpenSourceGreaterThanDatabases.GetAPIV1DatabaseExport(ctx, operations.GetAPIV1DatabaseExportRequest{
-        Q: presetsdkgo.String("mollitia"),
+        Q: presetsdkgo.String("Mercury Mercury"),
     })
     if err != nil {
         log.Fatal(err)
@@ -290,7 +291,7 @@ func main() {
 
     ctx := context.Background()
     res, err := s.SupersetAPIsOpenSourceGreaterThanDatabases.GetAPIV1DatabaseDatabaseID(ctx, operations.GetAPIV1DatabaseDatabaseIDRequest{
-        DatabaseID: "laborum",
+        DatabaseID: "quirkily neural Outdoors",
     })
     if err != nil {
         log.Fatal(err)
@@ -360,7 +361,7 @@ func main() {
 
     ctx := context.Background()
     res, err := s.SupersetAPIsOpenSourceGreaterThanDatabases.GetAPIV1DatabaseDatabaseIDConnection(ctx, operations.GetAPIV1DatabaseDatabaseIDConnectionRequest{
-        DatabaseID: "dolores",
+        DatabaseID: "Regional safely",
     })
     if err != nil {
         log.Fatal(err)
@@ -441,7 +442,7 @@ func main() {
 
     ctx := context.Background()
     res, err := s.SupersetAPIsOpenSourceGreaterThanDatabases.PostAPIV1Database(ctx, operations.PostAPIV1DatabaseRequest{
-        Referer: presetsdkgo.String("dolorem"),
+        Referer: presetsdkgo.String("Convertible"),
         RequestBody: &operations.PostAPIV1DatabaseRequestBody{},
     })
     if err != nil {
@@ -517,14 +518,14 @@ func main() {
 
     ctx := context.Background()
     res, err := s.SupersetAPIsOpenSourceGreaterThanDatabases.PostAPIV1DatabaseImport(ctx, operations.PostAPIV1DatabaseImportRequest{
-        Referer: presetsdkgo.String("corporis"),
+        Referer: presetsdkgo.String("Account"),
         RequestBody: &operations.PostAPIV1DatabaseImportRequestBody{
             FormData: &operations.PostAPIV1DatabaseImportRequestBodyFormData{
-                Content: []byte("explicabo"),
-                FormData: "nobis",
+                Content: []byte("mf(22;Sr]|"),
+                FormData: "teal Facilitator",
             },
             Overwrite: presetsdkgo.Bool(true),
-            Passwords: presetsdkgo.String("{"databases/{{DatabaseYAMLFile}}": "{{DatabasePassword}}"}"),
+            Passwords: presetsdkgo.String("{\"databases/{{DatabaseYAMLFile}}\": \"{{DatabasePassword}}\"}"),
         },
     })
     if err != nil {
@@ -599,8 +600,8 @@ func main() {
 
     ctx := context.Background()
     res, err := s.SupersetAPIsOpenSourceGreaterThanDatabases.PutAPIV1DatabaseDatabaseID(ctx, operations.PutAPIV1DatabaseDatabaseIDRequest{
-        DatabaseID: "enim",
-        RequestBody: presetsdkgo.String(""{\n    //include the keys you would like to modify\n    \"database_name\": \"{{DBConnectionName}}\"\n}""),
+        DatabaseID: "male",
+        RequestBody: presetsdkgo.String("\"{\n    //include the keys you would like to modify\n    \\"database_name\\": \\"{{DBConnectionName}}\\"\n}\""),
     })
     if err != nil {
         log.Fatal(err)

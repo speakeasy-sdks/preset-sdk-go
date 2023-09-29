@@ -1,4 +1,5 @@
 # SupersetAPIsOpenSourceGreaterThanAlertsAndReports
+(*SupersetAPIsOpenSourceGreaterThanAlertsAndReports*)
 
 ## Overview
 
@@ -60,7 +61,7 @@ func main() {
 
     ctx := context.Background()
     res, err := s.SupersetAPIsOpenSourceGreaterThanAlertsAndReports.GetAPIV1Report(ctx, operations.GetAPIV1ReportRequest{
-        Q: presetsdkgo.String("ipsam"),
+        Q: presetsdkgo.String("sensor upper Naira"),
     })
     if err != nil {
         log.Fatal(err)
@@ -304,7 +305,7 @@ func main() {
 
     ctx := context.Background()
     res, err := s.SupersetAPIsOpenSourceGreaterThanAlertsAndReports.PostAPIV1Report(ctx, operations.PostAPIV1ReportRequest{
-        Referer: presetsdkgo.String("repellendus"),
+        Referer: presetsdkgo.String("Pickup"),
         RequestBody: &operations.PostAPIV1ReportRequestBody{},
     })
     if err != nil {

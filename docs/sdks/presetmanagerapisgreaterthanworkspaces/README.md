@@ -1,4 +1,5 @@
 # PresetManagerAPIsGreaterThanWorkspaces
+(*PresetManagerAPIsGreaterThanWorkspaces*)
 
 ## Overview
 
@@ -41,7 +42,7 @@ func main() {
 
     ctx := context.Background()
     res, err := s.PresetManagerAPIsGreaterThanWorkspaces.GetV1TeamsTeamSlugWorkspaces(ctx, operations.GetV1TeamsTeamSlugWorkspacesRequest{
-        TeamSlug: "temporibus",
+        TeamSlug: "regroup Shoes",
     })
     if err != nil {
         log.Fatal(err)
@@ -99,8 +100,8 @@ func main() {
 
     ctx := context.Background()
     res, err := s.PresetManagerAPIsGreaterThanWorkspaces.GetV1TeamsTeamSlugWorkspacesWorkspaceIDMemberships(ctx, operations.GetV1TeamsTeamSlugWorkspacesWorkspaceIDMembershipsRequest{
-        TeamSlug: "ab",
-        WorkspaceID: "quis",
+        TeamSlug: "cyan",
+        WorkspaceID: "although",
     })
     if err != nil {
         log.Fatal(err)
@@ -172,7 +173,7 @@ func main() {
     ctx := context.Background()
     res, err := s.PresetManagerAPIsGreaterThanWorkspaces.PostV1TeamsTeamSlugWorkspaces(ctx, operations.PostV1TeamsTeamSlugWorkspacesRequest{
         RequestBody: &operations.PostV1TeamsTeamSlugWorkspacesRequestBody{},
-        TeamSlug: "veritatis",
+        TeamSlug: "Chad inasmuch Bacon",
     })
     if err != nil {
         log.Fatal(err)
@@ -252,8 +253,8 @@ func main() {
     ctx := context.Background()
     res, err := s.PresetManagerAPIsGreaterThanWorkspaces.PutV1TeamsTeamSlugWorkspacesWorkspaceIDMembership(ctx, operations.PutV1TeamsTeamSlugWorkspacesWorkspaceIDMembershipRequest{
         RequestBody: &operations.PutV1TeamsTeamSlugWorkspacesWorkspaceIDMembershipRequestBody{},
-        TeamSlug: "deserunt",
-        WorkspaceID: "perferendis",
+        TeamSlug: "quantifying",
+        WorkspaceID: "Northeast",
     })
     if err != nil {
         log.Fatal(err)

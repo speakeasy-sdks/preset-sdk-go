@@ -1,4 +1,5 @@
 # SupersetAPIsOpenSourceGreaterThanDatasets
+(*SupersetAPIsOpenSourceGreaterThanDatasets*)
 
 ## Overview
 
@@ -59,7 +60,7 @@ func main() {
 
     ctx := context.Background()
     res, err := s.SupersetAPIsOpenSourceGreaterThanDatasets.DeleteAPIV1DatasetDatasetID(ctx, operations.DeleteAPIV1DatasetDatasetIDRequest{
-        DatasetID: "omnis",
+        DatasetID: "port Triathlon/Time Music",
     })
     if err != nil {
         log.Fatal(err)
@@ -206,7 +207,7 @@ func main() {
 
     ctx := context.Background()
     res, err := s.SupersetAPIsOpenSourceGreaterThanDatasets.GetAPIV1DatasetExport(ctx, operations.GetAPIV1DatasetExportRequest{
-        Q: presetsdkgo.String("nemo"),
+        Q: presetsdkgo.String("Electric maroon"),
     })
     if err != nil {
         log.Fatal(err)
@@ -350,7 +351,7 @@ func main() {
 
     ctx := context.Background()
     res, err := s.SupersetAPIsOpenSourceGreaterThanDatasets.GetAPIV1DatasetDatasetID(ctx, operations.GetAPIV1DatasetDatasetIDRequest{
-        DatasetID: "minima",
+        DatasetID: "where Berkshire",
     })
     if err != nil {
         log.Fatal(err)
@@ -499,14 +500,14 @@ func main() {
 
     ctx := context.Background()
     res, err := s.SupersetAPIsOpenSourceGreaterThanDatasets.PostAPIV1DatasetImport(ctx, operations.PostAPIV1DatasetImportRequest{
-        Referer: presetsdkgo.String("excepturi"),
+        Referer: presetsdkgo.String("Handmade And"),
         RequestBody: &operations.PostAPIV1DatasetImportRequestBody{
             FormData: &operations.PostAPIV1DatasetImportRequestBodyFormData{
-                Content: []byte("accusantium"),
-                FormData: "iure",
+                Content: []byte("J58q{fG=3E"),
+                FormData: "redundant mint",
             },
             Overwrite: presetsdkgo.Bool(true),
-            Passwords: presetsdkgo.String("{"databases/{{DatabaseYAMLFile}}": "{{DatabasePassword}}"}"),
+            Passwords: presetsdkgo.String("{\"databases/{{DatabaseYAMLFile}}\": \"{{DatabasePassword}}\"}"),
         },
     })
     if err != nil {
@@ -584,8 +585,8 @@ func main() {
 
     ctx := context.Background()
     res, err := s.SupersetAPIsOpenSourceGreaterThanDatasets.PutAPIV1DatasetDatasetID(ctx, operations.PutAPIV1DatasetDatasetIDRequest{
-        DatasetID: "culpa",
-        Referer: presetsdkgo.String("doloribus"),
+        DatasetID: "Technetium Lead",
+        Referer: presetsdkgo.String("array maxime"),
         RequestBody: &operations.PutAPIV1DatasetDatasetIDRequestBody{},
     })
     if err != nil {
@@ -654,8 +655,8 @@ func main() {
 
     ctx := context.Background()
     res, err := s.SupersetAPIsOpenSourceGreaterThanDatasets.PutAPIV1DatasetDatasetIDRefresh(ctx, operations.PutAPIV1DatasetDatasetIDRefreshRequest{
-        DatasetID: "sapiente",
-        Referer: presetsdkgo.String("architecto"),
+        DatasetID: "Borders program why",
+        Referer: presetsdkgo.String("Producer"),
         RequestBody: &operations.PutAPIV1DatasetDatasetIDRefreshRequestBody{},
     })
     if err != nil {

@@ -1,4 +1,5 @@
 # SupersetAPIsOpenSourceGreaterThanCharts
+(*SupersetAPIsOpenSourceGreaterThanCharts*)
 
 ## Overview
 
@@ -61,8 +62,8 @@ func main() {
 
     ctx := context.Background()
     res, err := s.SupersetAPIsOpenSourceGreaterThanCharts.DeleteAPIV1ChartChartID(ctx, operations.DeleteAPIV1ChartChartIDRequest{
-        ChartID: "modi",
-        Referer: presetsdkgo.String("qui"),
+        ChartID: "strong Internal B2C",
+        Referer: presetsdkgo.String("up farad"),
     })
     if err != nil {
         log.Fatal(err)
@@ -209,8 +210,8 @@ func main() {
 
     ctx := context.Background()
     res, err := s.SupersetAPIsOpenSourceGreaterThanCharts.GetAPIV1ChartExport(ctx, operations.GetAPIV1ChartExportRequest{
-        Referer: presetsdkgo.String("impedit"),
-        Q: presetsdkgo.String("cum"),
+        Referer: presetsdkgo.String("steradian Analyst"),
+        Q: presetsdkgo.String("Car Loan redundant"),
     })
     if err != nil {
         log.Fatal(err)
@@ -355,7 +356,7 @@ func main() {
 
     ctx := context.Background()
     res, err := s.SupersetAPIsOpenSourceGreaterThanCharts.GetAPIV1ChartChartID(ctx, operations.GetAPIV1ChartChartIDRequest{
-        ChartID: "esse",
+        ChartID: "grey Non Man",
     })
     if err != nil {
         log.Fatal(err)
@@ -423,7 +424,7 @@ func main() {
 
     ctx := context.Background()
     res, err := s.SupersetAPIsOpenSourceGreaterThanCharts.GetAPIV1ChartChartIDCacheScreenshot(ctx, operations.GetAPIV1ChartChartIDCacheScreenshotRequest{
-        ChartID: "ipsum",
+        ChartID: "Architect stormy",
     })
     if err != nil {
         log.Fatal(err)
@@ -491,7 +492,7 @@ func main() {
 
     ctx := context.Background()
     res, err := s.SupersetAPIsOpenSourceGreaterThanCharts.GetAPIV1ChartChartIDData(ctx, operations.GetAPIV1ChartChartIDDataRequest{
-        ChartID: "excepturi",
+        ChartID: "Generic Bicycle Southeast",
     })
     if err != nil {
         log.Fatal(err)
@@ -644,8 +645,8 @@ func main() {
     ctx := context.Background()
     res, err := s.SupersetAPIsOpenSourceGreaterThanCharts.PostAPIV1ChartData(ctx, operations.PostAPIV1ChartDataRequest{
         RequestBody: &operations.PostAPIV1ChartDataRequestBody{},
-        Force: presetsdkgo.String("aspernatur"),
-        SliceID: presetsdkgo.String("perferendis"),
+        Force: presetsdkgo.String("Cambridgeshire"),
+        SliceID: presetsdkgo.String("silver HTTP female"),
     })
     if err != nil {
         log.Fatal(err)
@@ -723,14 +724,14 @@ func main() {
 
     ctx := context.Background()
     res, err := s.SupersetAPIsOpenSourceGreaterThanCharts.PostAPIV1ChartImport(ctx, operations.PostAPIV1ChartImportRequest{
-        Referer: presetsdkgo.String("ad"),
+        Referer: presetsdkgo.String("Nikolaus gold including"),
         RequestBody: &operations.PostAPIV1ChartImportRequestBody{
             FormData: &operations.PostAPIV1ChartImportRequestBodyFormData{
-                Content: []byte("natus"),
-                FormData: "sed",
+                Content: []byte("-D/g+ebd&\"),
+                FormData: "Heights viral",
             },
             Overwrite: presetsdkgo.Bool(true),
-            Passwords: presetsdkgo.String("{"databases/{{DatabaseYAMLFile}}": "{{DatabasePassword}}"}"),
+            Passwords: presetsdkgo.String("{\"databases/{{DatabaseYAMLFile}}\": \"{{DatabasePassword}}\"}"),
         },
     })
     if err != nil {
@@ -816,8 +817,8 @@ func main() {
 
     ctx := context.Background()
     res, err := s.SupersetAPIsOpenSourceGreaterThanCharts.PutAPIV1ChartChartID(ctx, operations.PutAPIV1ChartChartIDRequest{
-        ChartID: "iste",
-        Referer: presetsdkgo.String("dolor"),
+        ChartID: "on",
+        Referer: presetsdkgo.String("local Iridium Maryland"),
         RequestBody: &operations.PutAPIV1ChartChartIDRequestBody{},
     })
     if err != nil {
