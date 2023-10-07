@@ -60,7 +60,6 @@ func main() {
 
     ctx := context.Background()
     res, err := s.SupersetAPIsOpenSourceGreaterThanSQLLab.PostAPIV1SqllabExecute(ctx, operations.PostAPIV1SqllabExecuteRequest{
-        Referer: presetsdkgo.String("Developer"),
         RequestBody: &operations.PostAPIV1SqllabExecuteRequestBody{},
     })
     if err != nil {

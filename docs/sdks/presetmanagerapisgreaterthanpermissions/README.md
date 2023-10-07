@@ -121,7 +121,6 @@ func main() {
     res, err := s.PresetManagerAPIsGreaterThanPermissions.DeleteV1TeamsTeamSlugPermissionsPermissionNameGrantees(ctx, operations.DeleteV1TeamsTeamSlugPermissionsPermissionNameGranteesRequest{
         PermissionName: "deposit Games utter",
         TeamSlug: "Diesel",
-        Referer: presetsdkgo.String("Tanzanian"),
     })
     if err != nil {
         log.Fatal(err)

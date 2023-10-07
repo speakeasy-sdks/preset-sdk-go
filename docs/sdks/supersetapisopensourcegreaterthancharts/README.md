@@ -63,7 +63,6 @@ func main() {
     ctx := context.Background()
     res, err := s.SupersetAPIsOpenSourceGreaterThanCharts.DeleteAPIV1ChartChartID(ctx, operations.DeleteAPIV1ChartChartIDRequest{
         ChartID: "strong Internal B2C",
-        Referer: presetsdkgo.String("up farad"),
     })
     if err != nil {
         log.Fatal(err)
@@ -209,10 +208,7 @@ func main() {
     )
 
     ctx := context.Background()
-    res, err := s.SupersetAPIsOpenSourceGreaterThanCharts.GetAPIV1ChartExport(ctx, operations.GetAPIV1ChartExportRequest{
-        Referer: presetsdkgo.String("steradian Analyst"),
-        Q: presetsdkgo.String("Car Loan redundant"),
-    })
+    res, err := s.SupersetAPIsOpenSourceGreaterThanCharts.GetAPIV1ChartExport(ctx, operations.GetAPIV1ChartExportRequest{})
     if err != nil {
         log.Fatal(err)
     }
@@ -645,8 +641,6 @@ func main() {
     ctx := context.Background()
     res, err := s.SupersetAPIsOpenSourceGreaterThanCharts.PostAPIV1ChartData(ctx, operations.PostAPIV1ChartDataRequest{
         RequestBody: &operations.PostAPIV1ChartDataRequestBody{},
-        Force: presetsdkgo.String("Cambridgeshire"),
-        SliceID: presetsdkgo.String("silver HTTP female"),
     })
     if err != nil {
         log.Fatal(err)
@@ -724,11 +718,10 @@ func main() {
 
     ctx := context.Background()
     res, err := s.SupersetAPIsOpenSourceGreaterThanCharts.PostAPIV1ChartImport(ctx, operations.PostAPIV1ChartImportRequest{
-        Referer: presetsdkgo.String("Nikolaus gold including"),
         RequestBody: &operations.PostAPIV1ChartImportRequestBody{
             FormData: &operations.PostAPIV1ChartImportRequestBodyFormData{
-                Content: []byte("-D/g+ebd&\"),
-                FormData: "Heights viral",
+                Content: []byte("r/Q\IG0l{P"),
+                FormData: "capacity",
             },
             Overwrite: presetsdkgo.Bool(true),
             Passwords: presetsdkgo.String("{\"databases/{{DatabaseYAMLFile}}\": \"{{DatabasePassword}}\"}"),
@@ -818,7 +811,6 @@ func main() {
     ctx := context.Background()
     res, err := s.SupersetAPIsOpenSourceGreaterThanCharts.PutAPIV1ChartChartID(ctx, operations.PutAPIV1ChartChartIDRequest{
         ChartID: "on",
-        Referer: presetsdkgo.String("local Iridium Maryland"),
         RequestBody: &operations.PutAPIV1ChartChartIDRequestBody{},
     })
     if err != nil {
