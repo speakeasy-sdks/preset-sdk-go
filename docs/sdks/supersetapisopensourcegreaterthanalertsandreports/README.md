@@ -54,9 +54,7 @@ import(
 
 func main() {
     s := presetsdkgo.New(
-        presetsdkgo.WithSecurity(shared.Security{
-            BearerAuth: "",
-        }),
+        presetsdkgo.WithSecurity(""),
     )
 
     ctx := context.Background()
@@ -118,9 +116,7 @@ import(
 
 func main() {
     s := presetsdkgo.New(
-        presetsdkgo.WithSecurity(shared.Security{
-            BearerAuth: "",
-        }),
+        presetsdkgo.WithSecurity(""),
     )
 
     ctx := context.Background()
@@ -187,9 +183,7 @@ import(
 
 func main() {
     s := presetsdkgo.New(
-        presetsdkgo.WithSecurity(shared.Security{
-            BearerAuth: "",
-        }),
+        presetsdkgo.WithSecurity(""),
     )
 
     ctx := context.Background()
@@ -296,9 +290,7 @@ import(
 
 func main() {
     s := presetsdkgo.New(
-        presetsdkgo.WithSecurity(shared.Security{
-            BearerAuth: "",
-        }),
+        presetsdkgo.WithSecurity(""),
     )
 
     ctx := context.Background()
@@ -367,9 +359,7 @@ import(
 
 func main() {
     s := presetsdkgo.New(
-        presetsdkgo.WithSecurity(shared.Security{
-            BearerAuth: "",
-        }),
+        presetsdkgo.WithSecurity(""),
     )
 
     ctx := context.Background()
