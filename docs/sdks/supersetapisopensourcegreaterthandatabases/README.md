@@ -280,7 +280,7 @@ func main() {
 
     ctx := context.Background()
     res, err := s.SupersetAPIsOpenSourceGreaterThanDatabases.GetAPIV1DatabaseDatabaseID(ctx, operations.GetAPIV1DatabaseDatabaseIDRequest{
-        DatabaseID: "quirkily neural Outdoors",
+        DatabaseID: "string",
     })
     if err != nil {
         log.Fatal(err)
@@ -348,7 +348,7 @@ func main() {
 
     ctx := context.Background()
     res, err := s.SupersetAPIsOpenSourceGreaterThanDatabases.GetAPIV1DatabaseDatabaseIDConnection(ctx, operations.GetAPIV1DatabaseDatabaseIDConnectionRequest{
-        DatabaseID: "Regional safely",
+        DatabaseID: "string",
     })
     if err != nil {
         log.Fatal(err)
@@ -503,7 +503,7 @@ func main() {
         RequestBody: &operations.PostAPIV1DatabaseImportRequestBody{
             FormData: &operations.PostAPIV1DatabaseImportRequestBodyFormData{
                 Content: []byte("9FPjmf(22;"),
-                FormData: "reassuringly grok",
+                FormData: "string",
             },
             Overwrite: presetsdkgo.Bool(true),
             Passwords: presetsdkgo.String("{\"databases/{{DatabaseYAMLFile}}\": \"{{DatabasePassword}}\"}"),
@@ -579,7 +579,7 @@ func main() {
 
     ctx := context.Background()
     res, err := s.SupersetAPIsOpenSourceGreaterThanDatabases.PutAPIV1DatabaseDatabaseID(ctx, operations.PutAPIV1DatabaseDatabaseIDRequest{
-        DatabaseID: "male",
+        DatabaseID: "string",
         RequestBody: presetsdkgo.String("\"{\n    //include the keys you would like to modify\n    \\"database_name\\": \\"{{DBConnectionName}}\\"\n}\""),
     })
     if err != nil {

@@ -133,8 +133,8 @@ func main() {
     res, err := s.SupersetAPIsOpenSourceGreaterThanAssets.PostAPIV1AssetsImport(ctx, operations.PostAPIV1AssetsImportRequest{
         RequestBody: &operations.PostAPIV1AssetsImportRequestBody{
             Bundle: &operations.PostAPIV1AssetsImportRequestBodyBundle{
-                Bundle: "digital",
-                Content: []byte("?g5R_xuHp)"),
+                Bundle: "string",
+                Content: []byte("=N4?g5R_xu"),
             },
             Passwords: presetsdkgo.String("{\"databases/{{DatabaseYAMLFile}}\": \"{{DatabasePassword}}\"}"),
         },

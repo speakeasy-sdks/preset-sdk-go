@@ -40,7 +40,7 @@ func main() {
 
     ctx := context.Background()
     res, err := s.PresetManagerAPIsGreaterThanWorkspaces.GetV1TeamsTeamSlugWorkspaces(ctx, operations.GetV1TeamsTeamSlugWorkspacesRequest{
-        TeamSlug: "regroup Shoes",
+        TeamSlug: "string",
     })
     if err != nil {
         log.Fatal(err)
@@ -96,8 +96,8 @@ func main() {
 
     ctx := context.Background()
     res, err := s.PresetManagerAPIsGreaterThanWorkspaces.GetV1TeamsTeamSlugWorkspacesWorkspaceIDMemberships(ctx, operations.GetV1TeamsTeamSlugWorkspacesWorkspaceIDMembershipsRequest{
-        TeamSlug: "cyan",
-        WorkspaceID: "although",
+        TeamSlug: "string",
+        WorkspaceID: "string",
     })
     if err != nil {
         log.Fatal(err)
@@ -167,7 +167,7 @@ func main() {
     ctx := context.Background()
     res, err := s.PresetManagerAPIsGreaterThanWorkspaces.PostV1TeamsTeamSlugWorkspaces(ctx, operations.PostV1TeamsTeamSlugWorkspacesRequest{
         RequestBody: &operations.PostV1TeamsTeamSlugWorkspacesRequestBody{},
-        TeamSlug: "Chad inasmuch Bacon",
+        TeamSlug: "string",
     })
     if err != nil {
         log.Fatal(err)
@@ -245,8 +245,8 @@ func main() {
     ctx := context.Background()
     res, err := s.PresetManagerAPIsGreaterThanWorkspaces.PutV1TeamsTeamSlugWorkspacesWorkspaceIDMembership(ctx, operations.PutV1TeamsTeamSlugWorkspacesWorkspaceIDMembershipRequest{
         RequestBody: &operations.PutV1TeamsTeamSlugWorkspacesWorkspaceIDMembershipRequestBody{},
-        TeamSlug: "quantifying",
-        WorkspaceID: "Northeast",
+        TeamSlug: "string",
+        WorkspaceID: "string",
     })
     if err != nil {
         log.Fatal(err)

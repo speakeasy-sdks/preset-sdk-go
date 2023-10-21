@@ -42,8 +42,8 @@ func main() {
     ctx := context.Background()
     res, err := s.PresetManagerAPIsGreaterThanEmbedded.PostAPIV1TeamsTeamSlugWorkspacesWorkspaceSlugGuestToken(ctx, operations.PostAPIV1TeamsTeamSlugWorkspacesWorkspaceSlugGuestTokenRequest{
         RequestBody: &operations.PostAPIV1TeamsTeamSlugWorkspacesWorkspaceSlugGuestTokenRequestBody{},
-        TeamSlug: "finally Argon green",
-        WorkspaceSlug: "override Rap Newport",
+        TeamSlug: "string",
+        WorkspaceSlug: "string",
     })
     if err != nil {
         log.Fatal(err)

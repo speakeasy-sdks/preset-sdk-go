@@ -58,7 +58,7 @@ func main() {
 
     ctx := context.Background()
     res, err := s.SupersetAPIsOpenSourceGreaterThanDatasets.DeleteAPIV1DatasetDatasetID(ctx, operations.DeleteAPIV1DatasetDatasetIDRequest{
-        DatasetID: "port Triathlon/Time Music",
+        DatasetID: "string",
     })
     if err != nil {
         log.Fatal(err)
@@ -339,7 +339,7 @@ func main() {
 
     ctx := context.Background()
     res, err := s.SupersetAPIsOpenSourceGreaterThanDatasets.GetAPIV1DatasetDatasetID(ctx, operations.GetAPIV1DatasetDatasetIDRequest{
-        DatasetID: "where Berkshire",
+        DatasetID: "string",
     })
     if err != nil {
         log.Fatal(err)
@@ -487,7 +487,7 @@ func main() {
         RequestBody: &operations.PostAPIV1DatasetImportRequestBody{
             FormData: &operations.PostAPIV1DatasetImportRequestBodyFormData{
                 Content: []byte("B6fWmXJ58q"),
-                FormData: "watt aggregate leverage",
+                FormData: "string",
             },
             Overwrite: presetsdkgo.Bool(true),
             Passwords: presetsdkgo.String("{\"databases/{{DatabaseYAMLFile}}\": \"{{DatabasePassword}}\"}"),
@@ -566,7 +566,7 @@ func main() {
 
     ctx := context.Background()
     res, err := s.SupersetAPIsOpenSourceGreaterThanDatasets.PutAPIV1DatasetDatasetID(ctx, operations.PutAPIV1DatasetDatasetIDRequest{
-        DatasetID: "Technetium Lead",
+        DatasetID: "string",
         RequestBody: &operations.PutAPIV1DatasetDatasetIDRequestBody{},
     })
     if err != nil {
@@ -633,7 +633,7 @@ func main() {
 
     ctx := context.Background()
     res, err := s.SupersetAPIsOpenSourceGreaterThanDatasets.PutAPIV1DatasetDatasetIDRefresh(ctx, operations.PutAPIV1DatasetDatasetIDRefreshRequest{
-        DatasetID: "Borders program why",
+        DatasetID: "string",
         RequestBody: &operations.PutAPIV1DatasetDatasetIDRefreshRequestBody{},
     })
     if err != nil {

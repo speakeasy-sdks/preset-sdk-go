@@ -60,7 +60,7 @@ func main() {
 
     ctx := context.Background()
     res, err := s.SupersetAPIsOpenSourceGreaterThanCharts.DeleteAPIV1ChartChartID(ctx, operations.DeleteAPIV1ChartChartIDRequest{
-        ChartID: "strong Internal B2C",
+        ChartID: "string",
     })
     if err != nil {
         log.Fatal(err)
@@ -342,7 +342,7 @@ func main() {
 
     ctx := context.Background()
     res, err := s.SupersetAPIsOpenSourceGreaterThanCharts.GetAPIV1ChartChartID(ctx, operations.GetAPIV1ChartChartIDRequest{
-        ChartID: "grey Non Man",
+        ChartID: "string",
     })
     if err != nil {
         log.Fatal(err)
@@ -408,7 +408,7 @@ func main() {
 
     ctx := context.Background()
     res, err := s.SupersetAPIsOpenSourceGreaterThanCharts.GetAPIV1ChartChartIDCacheScreenshot(ctx, operations.GetAPIV1ChartChartIDCacheScreenshotRequest{
-        ChartID: "Architect stormy",
+        ChartID: "string",
     })
     if err != nil {
         log.Fatal(err)
@@ -474,7 +474,7 @@ func main() {
 
     ctx := context.Background()
     res, err := s.SupersetAPIsOpenSourceGreaterThanCharts.GetAPIV1ChartChartIDData(ctx, operations.GetAPIV1ChartChartIDDataRequest{
-        ChartID: "Generic Bicycle Southeast",
+        ChartID: "string",
     })
     if err != nil {
         log.Fatal(err)
@@ -701,7 +701,7 @@ func main() {
         RequestBody: &operations.PostAPIV1ChartImportRequestBody{
             FormData: &operations.PostAPIV1ChartImportRequestBodyFormData{
                 Content: []byte("r/Q\IG0l{P"),
-                FormData: "capacity",
+                FormData: "string",
             },
             Overwrite: presetsdkgo.Bool(true),
             Passwords: presetsdkgo.String("{\"databases/{{DatabaseYAMLFile}}\": \"{{DatabasePassword}}\"}"),
@@ -788,7 +788,7 @@ func main() {
 
     ctx := context.Background()
     res, err := s.SupersetAPIsOpenSourceGreaterThanCharts.PutAPIV1ChartChartID(ctx, operations.PutAPIV1ChartChartIDRequest{
-        ChartID: "on",
+        ChartID: "string",
         RequestBody: &operations.PutAPIV1ChartChartIDRequestBody{},
     })
     if err != nil {
