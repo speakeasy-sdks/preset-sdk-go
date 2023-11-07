@@ -1,5 +1,5 @@
 # SupersetAPIsOpenSourceGreaterThanAssets
-(*SupersetAPIsOpenSourceGreaterThanAssets*)
+(*.SupersetAPIsOpenSourceGreaterThanAssets*)
 
 ## Overview
 
@@ -132,9 +132,9 @@ func main() {
     ctx := context.Background()
     res, err := s.SupersetAPIsOpenSourceGreaterThanAssets.PostAPIV1AssetsImport(ctx, operations.PostAPIV1AssetsImportRequest{
         RequestBody: &operations.PostAPIV1AssetsImportRequestBody{
-            Bundle: &operations.PostAPIV1AssetsImportRequestBodyBundle{
-                Bundle: "string",
-                Content: []byte("=N4?g5R_xu"),
+            Bundle: &operations.Bundle{
+                Content: []byte("0x6a47A4beED"),
+                FileName: "convertible_female.mpe",
             },
             Passwords: presetsdkgo.String("{\"databases/{{DatabaseYAMLFile}}\": \"{{DatabasePassword}}\"}"),
         },

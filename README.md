@@ -27,9 +27,7 @@ func main() {
 	)
 
 	ctx := context.Background()
-	res, err := s.Authentication.PostV1Auth(ctx, operations.PostV1AuthRequest{
-		RequestBody: &operations.PostV1AuthRequestBody{},
-	})
+	res, err := s.SupersetAPIsOpenSourceGreaterThanAnnotationLayers.DeleteAPIV1AnnotationLayer(ctx, operations.DeleteAPIV1AnnotationLayerRequest{})
 	if err != nil {
 		log.Fatal(err)
 	}
@@ -46,53 +44,7 @@ func main() {
 ## Available Resources and Operations
 
 
-### [Authentication](docs/sdks/authentication/README.md)
-
-* [PostV1Auth](docs/sdks/authentication/README.md#postv1auth) - Get a JWT Token
-
-### [PresetManagerAPIsGreaterThanEmbedded](docs/sdks/presetmanagerapisgreaterthanembedded/README.md)
-
-* [PostAPIV1TeamsTeamSlugWorkspacesWorkspaceSlugGuestToken](docs/sdks/presetmanagerapisgreaterthanembedded/README.md#postapiv1teamsteamslugworkspacesworkspaceslugguesttoken) - Create a new Guest Token
-
-### [PresetManagerAPIsGreaterThanPermissions](docs/sdks/presetmanagerapisgreaterthanpermissions/README.md)
-
-* [DeleteV1TeamsTeamSlugPermissionsPermissionName](docs/sdks/presetmanagerapisgreaterthanpermissions/README.md#deletev1teamsteamslugpermissionspermissionname) - Delete Row Level Security
-* [DeleteV1TeamsTeamSlugPermissionsPermissionNameGrantees](docs/sdks/presetmanagerapisgreaterthanpermissions/README.md#deletev1teamsteamslugpermissionspermissionnamegrantees) - Delete Grantee from existing Permission
-* [GetV1TeamsTeamSlugPermissions](docs/sdks/presetmanagerapisgreaterthanpermissions/README.md#getv1teamsteamslugpermissions) - Get Permissions
-* [GetV1TeamsTeamSlugPermissionsResources](docs/sdks/presetmanagerapisgreaterthanpermissions/README.md#getv1teamsteamslugpermissionsresources) - Get Resources
-* [PatchV1TeamsTeamSlugPermissionsPermissionName](docs/sdks/presetmanagerapisgreaterthanpermissions/README.md#patchv1teamsteamslugpermissionspermissionname) - Update Row Level Security
-* [PostV1TeamsTeamSlugPermissions](docs/sdks/presetmanagerapisgreaterthanpermissions/README.md#postv1teamsteamslugpermissions) - Create Row Level Security
-* [PostV1TeamsTeamSlugPermissionsPermissionNameGrantees](docs/sdks/presetmanagerapisgreaterthanpermissions/README.md#postv1teamsteamslugpermissionspermissionnamegrantees) - Add Grantees to existing Permission
-
-### [PresetManagerAPIsGreaterThanTeams](docs/sdks/presetmanagerapisgreaterthanteams/README.md)
-
-* [DeleteV1TeamsTeamSlugInvitesInviteID](docs/sdks/presetmanagerapisgreaterthanteams/README.md#deletev1teamsteamsluginvitesinviteid) - Delete Pending Invite
-* [DeleteV1TeamsTeamSlugMembershipsUserID](docs/sdks/presetmanagerapisgreaterthanteams/README.md#deletev1teamsteamslugmembershipsuserid) - Delete a Team Member
-* [GetV1Teams](docs/sdks/presetmanagerapisgreaterthanteams/README.md#getv1teams) - Get Preset Teams
-* [GetV1TeamsTeamSlugInvites](docs/sdks/presetmanagerapisgreaterthanteams/README.md#getv1teamsteamsluginvites) - Get Pending Team Invites
-* [GetV1TeamsTeamSlugMemberships](docs/sdks/presetmanagerapisgreaterthanteams/README.md#getv1teamsteamslugmemberships) - Get Team Members
-* [PatchV1TeamsTeamSlugMembershipsUserID](docs/sdks/presetmanagerapisgreaterthanteams/README.md#patchv1teamsteamslugmembershipsuserid) - Change User Role
-* [PostV1TeamsTeamSlugInvites](docs/sdks/presetmanagerapisgreaterthanteams/README.md#postv1teamsteamsluginvites) - Create a Team Invite
-* [PostV1TeamsTeamSlugInvitesMany](docs/sdks/presetmanagerapisgreaterthanteams/README.md#postv1teamsteamsluginvitesmany) - Create Multiple Team Invites
-* [PostV1TeamsTeamSlugInvitesResendInviteID](docs/sdks/presetmanagerapisgreaterthanteams/README.md#postv1teamsteamsluginvitesresendinviteid) - Resend Invite
-* [PutV1TeamsTeamSlug](docs/sdks/presetmanagerapisgreaterthanteams/README.md#putv1teamsteamslug) - Update Team Title
-
-### [PresetManagerAPIsGreaterThanWorkspaces](docs/sdks/presetmanagerapisgreaterthanworkspaces/README.md)
-
-* [GetV1TeamsTeamSlugWorkspaces](docs/sdks/presetmanagerapisgreaterthanworkspaces/README.md#getv1teamsteamslugworkspaces) - Get Workspaces from a Team
-* [GetV1TeamsTeamSlugWorkspacesWorkspaceIDMemberships](docs/sdks/presetmanagerapisgreaterthanworkspaces/README.md#getv1teamsteamslugworkspacesworkspaceidmemberships) - Get Workspace Users and Roles
-* [PostV1TeamsTeamSlugWorkspaces](docs/sdks/presetmanagerapisgreaterthanworkspaces/README.md#postv1teamsteamslugworkspaces) - Create Workspace for a Team
-* [PutV1TeamsTeamSlugWorkspacesWorkspaceIDMembership](docs/sdks/presetmanagerapisgreaterthanworkspaces/README.md#putv1teamsteamslugworkspacesworkspaceidmembership) - Change Workspace Role
-
-### [SupersetAPIsOpenSourceGreaterThanAlertsAndReports](docs/sdks/supersetapisopensourcegreaterthanalertsandreports/README.md)
-
-* [GetAPIV1Report](docs/sdks/supersetapisopensourcegreaterthanalertsandreports/README.md#getapiv1report) - Get all Reports from a Workspace
-* [GetAPIV1ReportInfo](docs/sdks/supersetapisopensourcegreaterthanalertsandreports/README.md#getapiv1reportinfo) - Get Alerts & Reports API metadata Info
-* [GetAPIV1ReportAlertIDORReportID](docs/sdks/supersetapisopensourcegreaterthanalertsandreports/README.md#getapiv1reportalertidorreportid) - Get an Alert/Report
-* [PostAPIV1Report](docs/sdks/supersetapisopensourcegreaterthanalertsandreports/README.md#postapiv1report) - Create a Dashboard Alert
-* [PutAPIV1ReportAlertIDORReportID](docs/sdks/supersetapisopensourcegreaterthanalertsandreports/README.md#putapiv1reportalertidorreportid) - Disable an Alert/Report
-
-### [SupersetAPIsOpenSourceGreaterThanAnnotationLayers](docs/sdks/supersetapisopensourcegreaterthanannotationlayers/README.md)
+### [.SupersetAPIsOpenSourceGreaterThanAnnotationLayers](docs/sdks/supersetapisopensourcegreaterthanannotationlayers/README.md)
 
 * [DeleteAPIV1AnnotationLayer](docs/sdks/supersetapisopensourcegreaterthanannotationlayers/README.md#deleteapiv1annotationlayer) - Delete multiple Annotations Layers
 * [DeleteAPIV1AnnotationLayerAnnotationLayerID](docs/sdks/supersetapisopensourcegreaterthanannotationlayers/README.md#deleteapiv1annotationlayerannotationlayerid) - Delete an Annotation Layer
@@ -107,12 +59,12 @@ func main() {
 * [PutAPIV1AnnotationLayerAnnotationLayerID](docs/sdks/supersetapisopensourcegreaterthanannotationlayers/README.md#putapiv1annotationlayerannotationlayerid) - Update an Annotation Layer
 * [PutAPIV1AnnotationLayerAnnotationLayerIDAnnotationAnnotationID](docs/sdks/supersetapisopensourcegreaterthanannotationlayers/README.md#putapiv1annotationlayerannotationlayeridannotationannotationid) - Update an Annotation from an Annotation Layer
 
-### [SupersetAPIsOpenSourceGreaterThanAssets](docs/sdks/supersetapisopensourcegreaterthanassets/README.md)
+### [.SupersetAPIsOpenSourceGreaterThanAssets](docs/sdks/supersetapisopensourcegreaterthanassets/README.md)
 
 * [GetAPIV1AssetsExport](docs/sdks/supersetapisopensourcegreaterthanassets/README.md#getapiv1assetsexport) - Export Assets
 * [PostAPIV1AssetsImport](docs/sdks/supersetapisopensourcegreaterthanassets/README.md#postapiv1assetsimport) - Import Assets
 
-### [SupersetAPIsOpenSourceGreaterThanCharts](docs/sdks/supersetapisopensourcegreaterthancharts/README.md)
+### [.SupersetAPIsOpenSourceGreaterThanCharts](docs/sdks/supersetapisopensourcegreaterthancharts/README.md)
 
 * [DeleteAPIV1ChartChartID](docs/sdks/supersetapisopensourcegreaterthancharts/README.md#deleteapiv1chartchartid) - Delete a Chart
 * [GetAPIV1Chart](docs/sdks/supersetapisopensourcegreaterthancharts/README.md#getapiv1chart) - Get all Charts from a Workspace
@@ -126,7 +78,7 @@ func main() {
 * [PostAPIV1ChartImport](docs/sdks/supersetapisopensourcegreaterthancharts/README.md#postapiv1chartimport) - Import a Chart
 * [PutAPIV1ChartChartID](docs/sdks/supersetapisopensourcegreaterthancharts/README.md#putapiv1chartchartid) - Update a Chart
 
-### [SupersetAPIsOpenSourceGreaterThanDashboards](docs/sdks/supersetapisopensourcegreaterthandashboards/README.md)
+### [.SupersetAPIsOpenSourceGreaterThanDashboards](docs/sdks/supersetapisopensourcegreaterthandashboards/README.md)
 
 * [DeleteAPIV1DashboardDashboardID](docs/sdks/supersetapisopensourcegreaterthandashboards/README.md#deleteapiv1dashboarddashboardid) - Delete Dashboard
 * [GetAPIV1Dashboard](docs/sdks/supersetapisopensourcegreaterthandashboards/README.md#getapiv1dashboard) - Get all Dashboards From a Workspace
@@ -140,7 +92,7 @@ func main() {
 * [PostAPIV1DashboardDashboardIDPermalink](docs/sdks/supersetapisopensourcegreaterthandashboards/README.md#postapiv1dashboarddashboardidpermalink) - Create a Permalink to a Dashboard
 * [PutAPIV1DashboardDashboardID](docs/sdks/supersetapisopensourcegreaterthandashboards/README.md#putapiv1dashboarddashboardid) - Update a Dashboard
 
-### [SupersetAPIsOpenSourceGreaterThanDatabases](docs/sdks/supersetapisopensourcegreaterthandatabases/README.md)
+### [.SupersetAPIsOpenSourceGreaterThanDatabases](docs/sdks/supersetapisopensourcegreaterthandatabases/README.md)
 
 * [CreateDatabaseUsingSSH](docs/sdks/supersetapisopensourcegreaterthandatabases/README.md#createdatabaseusingssh) - Create a Database Connection using SSH
 * [GetAPIV1Database](docs/sdks/supersetapisopensourcegreaterthandatabases/README.md#getapiv1database) - Get all Database Connections from a Workspace
@@ -151,7 +103,7 @@ func main() {
 * [PostAPIV1DatabaseImport](docs/sdks/supersetapisopensourcegreaterthandatabases/README.md#postapiv1databaseimport) - Import a Database Connection
 * [PutAPIV1DatabaseDatabaseID](docs/sdks/supersetapisopensourcegreaterthandatabases/README.md#putapiv1databasedatabaseid) - Update a Database Connection
 
-### [SupersetAPIsOpenSourceGreaterThanDatasets](docs/sdks/supersetapisopensourcegreaterthandatasets/README.md)
+### [.SupersetAPIsOpenSourceGreaterThanDatasets](docs/sdks/supersetapisopensourcegreaterthandatasets/README.md)
 
 * [DeleteAPIV1DatasetDatasetID](docs/sdks/supersetapisopensourcegreaterthandatasets/README.md#deleteapiv1datasetdatasetid) - Delete a Dataset
 * [GetAPIV1Dataset](docs/sdks/supersetapisopensourcegreaterthandatasets/README.md#getapiv1dataset) - Get all Datasets from a Workspace
@@ -163,13 +115,59 @@ func main() {
 * [PutAPIV1DatasetDatasetID](docs/sdks/supersetapisopensourcegreaterthandatasets/README.md#putapiv1datasetdatasetid) - Update a Virtual Dataset
 * [PutAPIV1DatasetDatasetIDRefresh](docs/sdks/supersetapisopensourcegreaterthandatasets/README.md#putapiv1datasetdatasetidrefresh) - Refresh a Dataset
 
-### [SupersetAPIsOpenSourceGreaterThanQueries](docs/sdks/supersetapisopensourcegreaterthanqueries/README.md)
+### [.SupersetAPIsOpenSourceGreaterThanQueries](docs/sdks/supersetapisopensourcegreaterthanqueries/README.md)
 
 * [GetAPIV1Query](docs/sdks/supersetapisopensourcegreaterthanqueries/README.md#getapiv1query) - Get All Workspace Queries
 
-### [SupersetAPIsOpenSourceGreaterThanSQLLab](docs/sdks/supersetapisopensourcegreaterthansqllab/README.md)
+### [.SupersetAPIsOpenSourceGreaterThanAlertsAndReports](docs/sdks/supersetapisopensourcegreaterthanalertsandreports/README.md)
+
+* [GetAPIV1Report](docs/sdks/supersetapisopensourcegreaterthanalertsandreports/README.md#getapiv1report) - Get all Reports from a Workspace
+* [GetAPIV1ReportInfo](docs/sdks/supersetapisopensourcegreaterthanalertsandreports/README.md#getapiv1reportinfo) - Get Alerts & Reports API metadata Info
+* [GetAPIV1ReportAlertIDORReportID](docs/sdks/supersetapisopensourcegreaterthanalertsandreports/README.md#getapiv1reportalertidorreportid) - Get an Alert/Report
+* [PostAPIV1Report](docs/sdks/supersetapisopensourcegreaterthanalertsandreports/README.md#postapiv1report) - Create a Dashboard Alert
+* [PutAPIV1ReportAlertIDORReportID](docs/sdks/supersetapisopensourcegreaterthanalertsandreports/README.md#putapiv1reportalertidorreportid) - Disable an Alert/Report
+
+### [.SupersetAPIsOpenSourceGreaterThanSQLLab](docs/sdks/supersetapisopensourcegreaterthansqllab/README.md)
 
 * [PostAPIV1SqllabExecute](docs/sdks/supersetapisopensourcegreaterthansqllab/README.md#postapiv1sqllabexecute) - Execute a SQL Query
+
+### [.PresetManagerAPIsGreaterThanEmbedded](docs/sdks/presetmanagerapisgreaterthanembedded/README.md)
+
+* [PostAPIV1TeamsTeamSlugWorkspacesWorkspaceSlugGuestToken](docs/sdks/presetmanagerapisgreaterthanembedded/README.md#postapiv1teamsteamslugworkspacesworkspaceslugguesttoken) - Create a new Guest Token
+
+### [.Authentication](docs/sdks/authentication/README.md)
+
+* [PostV1Auth](docs/sdks/authentication/README.md#postv1auth) - Get a JWT Token
+
+### [.PresetManagerAPIsGreaterThanTeams](docs/sdks/presetmanagerapisgreaterthanteams/README.md)
+
+* [DeleteV1TeamsTeamSlugInvitesInviteID](docs/sdks/presetmanagerapisgreaterthanteams/README.md#deletev1teamsteamsluginvitesinviteid) - Delete Pending Invite
+* [DeleteV1TeamsTeamSlugMembershipsUserID](docs/sdks/presetmanagerapisgreaterthanteams/README.md#deletev1teamsteamslugmembershipsuserid) - Delete a Team Member
+* [GetV1Teams](docs/sdks/presetmanagerapisgreaterthanteams/README.md#getv1teams) - Get Preset Teams
+* [GetV1TeamsTeamSlugInvites](docs/sdks/presetmanagerapisgreaterthanteams/README.md#getv1teamsteamsluginvites) - Get Pending Team Invites
+* [GetV1TeamsTeamSlugMemberships](docs/sdks/presetmanagerapisgreaterthanteams/README.md#getv1teamsteamslugmemberships) - Get Team Members
+* [PatchV1TeamsTeamSlugMembershipsUserID](docs/sdks/presetmanagerapisgreaterthanteams/README.md#patchv1teamsteamslugmembershipsuserid) - Change User Role
+* [PostV1TeamsTeamSlugInvites](docs/sdks/presetmanagerapisgreaterthanteams/README.md#postv1teamsteamsluginvites) - Create a Team Invite
+* [PostV1TeamsTeamSlugInvitesMany](docs/sdks/presetmanagerapisgreaterthanteams/README.md#postv1teamsteamsluginvitesmany) - Create Multiple Team Invites
+* [PostV1TeamsTeamSlugInvitesResendInviteID](docs/sdks/presetmanagerapisgreaterthanteams/README.md#postv1teamsteamsluginvitesresendinviteid) - Resend Invite
+* [PutV1TeamsTeamSlug](docs/sdks/presetmanagerapisgreaterthanteams/README.md#putv1teamsteamslug) - Update Team Title
+
+### [.PresetManagerAPIsGreaterThanPermissions](docs/sdks/presetmanagerapisgreaterthanpermissions/README.md)
+
+* [DeleteV1TeamsTeamSlugPermissionsPermissionName](docs/sdks/presetmanagerapisgreaterthanpermissions/README.md#deletev1teamsteamslugpermissionspermissionname) - Delete Row Level Security
+* [DeleteV1TeamsTeamSlugPermissionsPermissionNameGrantees](docs/sdks/presetmanagerapisgreaterthanpermissions/README.md#deletev1teamsteamslugpermissionspermissionnamegrantees) - Delete Grantee from existing Permission
+* [GetV1TeamsTeamSlugPermissions](docs/sdks/presetmanagerapisgreaterthanpermissions/README.md#getv1teamsteamslugpermissions) - Get Permissions
+* [GetV1TeamsTeamSlugPermissionsResources](docs/sdks/presetmanagerapisgreaterthanpermissions/README.md#getv1teamsteamslugpermissionsresources) - Get Resources
+* [PatchV1TeamsTeamSlugPermissionsPermissionName](docs/sdks/presetmanagerapisgreaterthanpermissions/README.md#patchv1teamsteamslugpermissionspermissionname) - Update Row Level Security
+* [PostV1TeamsTeamSlugPermissions](docs/sdks/presetmanagerapisgreaterthanpermissions/README.md#postv1teamsteamslugpermissions) - Create Row Level Security
+* [PostV1TeamsTeamSlugPermissionsPermissionNameGrantees](docs/sdks/presetmanagerapisgreaterthanpermissions/README.md#postv1teamsteamslugpermissionspermissionnamegrantees) - Add Grantees to existing Permission
+
+### [.PresetManagerAPIsGreaterThanWorkspaces](docs/sdks/presetmanagerapisgreaterthanworkspaces/README.md)
+
+* [GetV1TeamsTeamSlugWorkspaces](docs/sdks/presetmanagerapisgreaterthanworkspaces/README.md#getv1teamsteamslugworkspaces) - Get Workspaces from a Team
+* [GetV1TeamsTeamSlugWorkspacesWorkspaceIDMemberships](docs/sdks/presetmanagerapisgreaterthanworkspaces/README.md#getv1teamsteamslugworkspacesworkspaceidmemberships) - Get Workspace Users and Roles
+* [PostV1TeamsTeamSlugWorkspaces](docs/sdks/presetmanagerapisgreaterthanworkspaces/README.md#postv1teamsteamslugworkspaces) - Create Workspace for a Team
+* [PutV1TeamsTeamSlugWorkspacesWorkspaceIDMembership](docs/sdks/presetmanagerapisgreaterthanworkspaces/README.md#putv1teamsteamslugworkspacesworkspaceidmembership) - Change Workspace Role
 <!-- End SDK Available Operations -->
 
 
@@ -195,6 +193,177 @@ Here's an example of one such pagination call:
 <!-- Start Go Types -->
 
 <!-- End Go Types -->
+
+
+
+<!-- Start Error Handling -->
+# Error Handling
+
+Handling errors in your SDK should largely match your expectations.  All operations return a response object or an error, they will never return both.  When specified by the OpenAPI spec document, the SDK will return the appropriate subclass.
+
+
+<!-- End Error Handling -->
+
+
+
+<!-- Start Server Selection -->
+# Server Selection
+
+## Select Server by Index
+
+You can override the default server globally using the `WithServerIndex` option when initializing the SDK client instance. The selected server will then be used as the default on the operations that use it. This table lists the indexes associated with the available servers:
+
+| # | Server | Variables |
+| - | ------ | --------- |
+| 0 | `https://api.app.preset.io` | None |
+| 1 | `https://manage.app.preset.io` | None |
+| 2 | `https://{{workspaceslug}}.{{workspaceregion}}.app.preset.io` | None |
+| 3 | `http://{{workspaceslug}}.{{workspaceregion}}.app.preset.io` | None |
+
+For example:
+
+```go
+package main
+
+import (
+	"context"
+	presetsdkgo "github.com/speakeasy-sdks/preset-sdk-go"
+	"github.com/speakeasy-sdks/preset-sdk-go/pkg/models/operations"
+	"github.com/speakeasy-sdks/preset-sdk-go/pkg/models/shared"
+	"log"
+)
+
+func main() {
+	s := presetsdkgo.New(
+		presetsdkgo.WithServerIndex(3),
+		presetsdkgo.WithSecurity(""),
+	)
+
+	ctx := context.Background()
+	res, err := s.SupersetAPIsOpenSourceGreaterThanAnnotationLayers.DeleteAPIV1AnnotationLayer(ctx, operations.DeleteAPIV1AnnotationLayerRequest{})
+	if err != nil {
+		log.Fatal(err)
+	}
+
+	if res.StatusCode == http.StatusOK {
+		// handle response
+	}
+}
+
+```
+
+
+## Override Server URL Per-Client
+
+The default server can also be overridden globally using the `WithServerURL` option when initializing the SDK client instance. For example:
+
+```go
+package main
+
+import (
+	"context"
+	presetsdkgo "github.com/speakeasy-sdks/preset-sdk-go"
+	"github.com/speakeasy-sdks/preset-sdk-go/pkg/models/operations"
+	"github.com/speakeasy-sdks/preset-sdk-go/pkg/models/shared"
+	"log"
+)
+
+func main() {
+	s := presetsdkgo.New(
+		presetsdkgo.WithServerURL("https://api.app.preset.io"),
+		presetsdkgo.WithSecurity(""),
+	)
+
+	ctx := context.Background()
+	res, err := s.SupersetAPIsOpenSourceGreaterThanAnnotationLayers.DeleteAPIV1AnnotationLayer(ctx, operations.DeleteAPIV1AnnotationLayerRequest{})
+	if err != nil {
+		log.Fatal(err)
+	}
+
+	if res.StatusCode == http.StatusOK {
+		// handle response
+	}
+}
+
+```
+<!-- End Server Selection -->
+
+
+
+<!-- Start Custom HTTP Client -->
+# Custom HTTP Client
+
+The Go SDK makes API calls that wrap an internal HTTP client. The requirements for the HTTP client are very simple. It must match this interface:
+
+```go
+type HTTPClient interface {
+	Do(req *http.Request) (*http.Response, error)
+}
+```
+
+The built-in `net/http` client satisfies this interface and a default client based on the built-in is provided by default. To replace this default with a client of your own, you can implement this interface yourself or provide your own client configured as desired. Here's a simple example, which adds a client with a 30 second timeout.
+
+```go
+import (
+	"net/http"
+	"time"
+	"github.com/myorg/your-go-sdk"
+)
+
+var (
+	httpClient = &http.Client{Timeout: 30 * time.Second}
+	sdkClient  = sdk.New(sdk.WithClient(httpClient))
+)
+```
+
+This can be a convenient way to configure timeouts, cookies, proxies, custom headers, and other low-level configuration.
+<!-- End Custom HTTP Client -->
+
+
+
+<!-- Start Authentication -->
+
+# Authentication
+
+## Per-Client Security Schemes
+
+Your SDK supports the following security scheme globally:
+
+| Name         | Type         | Scheme       |
+| ------------ | ------------ | ------------ |
+| `BearerAuth` | http         | HTTP Bearer  |
+
+You can configure it using the `WithSecurity` option when initializing the SDK client instance. For example:
+
+```go
+package main
+
+import (
+	"context"
+	presetsdkgo "github.com/speakeasy-sdks/preset-sdk-go"
+	"github.com/speakeasy-sdks/preset-sdk-go/pkg/models/operations"
+	"github.com/speakeasy-sdks/preset-sdk-go/pkg/models/shared"
+	"log"
+)
+
+func main() {
+	s := presetsdkgo.New(
+		presetsdkgo.WithSecurity(""),
+	)
+
+	ctx := context.Background()
+	res, err := s.SupersetAPIsOpenSourceGreaterThanAnnotationLayers.DeleteAPIV1AnnotationLayer(ctx, operations.DeleteAPIV1AnnotationLayerRequest{})
+	if err != nil {
+		log.Fatal(err)
+	}
+
+	if res.StatusCode == http.StatusOK {
+		// handle response
+	}
+}
+
+```
+<!-- End Authentication -->
 
 <!-- Placeholder for Future Speakeasy SDK Sections -->
 

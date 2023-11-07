@@ -18,9 +18,7 @@ func main() {
 	)
 
 	ctx := context.Background()
-	res, err := s.Authentication.PostV1Auth(ctx, operations.PostV1AuthRequest{
-		RequestBody: &operations.PostV1AuthRequestBody{},
-	})
+	res, err := s.SupersetAPIsOpenSourceGreaterThanAnnotationLayers.DeleteAPIV1AnnotationLayer(ctx, operations.DeleteAPIV1AnnotationLayerRequest{})
 	if err != nil {
 		log.Fatal(err)
 	}

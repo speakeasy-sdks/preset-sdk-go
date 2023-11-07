@@ -1,5 +1,5 @@
 # SupersetAPIsOpenSourceGreaterThanAlertsAndReports
-(*SupersetAPIsOpenSourceGreaterThanAlertsAndReports*)
+(*.SupersetAPIsOpenSourceGreaterThanAlertsAndReports*)
 
 ## Overview
 

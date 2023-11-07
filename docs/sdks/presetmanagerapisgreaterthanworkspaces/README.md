@@ -1,5 +1,5 @@
 # PresetManagerAPIsGreaterThanWorkspaces
-(*PresetManagerAPIsGreaterThanWorkspaces*)
+(*.PresetManagerAPIsGreaterThanWorkspaces*)
 
 ## Overview
 

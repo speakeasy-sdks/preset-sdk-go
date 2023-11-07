@@ -1,5 +1,5 @@
 # SupersetAPIsOpenSourceGreaterThanQueries
-(*SupersetAPIsOpenSourceGreaterThanQueries*)
+(*.SupersetAPIsOpenSourceGreaterThanQueries*)
 
 ### Available Operations
 

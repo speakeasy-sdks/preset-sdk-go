@@ -1,5 +1,5 @@
 # SupersetAPIsOpenSourceGreaterThanDatabases
-(*SupersetAPIsOpenSourceGreaterThanDatabases*)
+(*.SupersetAPIsOpenSourceGreaterThanDatabases*)
 
 ## Overview
 
@@ -501,9 +501,9 @@ func main() {
     ctx := context.Background()
     res, err := s.SupersetAPIsOpenSourceGreaterThanDatabases.PostAPIV1DatabaseImport(ctx, operations.PostAPIV1DatabaseImportRequest{
         RequestBody: &operations.PostAPIV1DatabaseImportRequestBody{
-            FormData: &operations.PostAPIV1DatabaseImportRequestBodyFormData{
-                Content: []byte("9FPjmf(22;"),
-                FormData: "string",
+            FormData: &operations.PostAPIV1DatabaseImportFormData{
+                Content: []byte("0x58bBCA1446"),
+                FileName: "reassuringly_grok.mpg",
             },
             Overwrite: presetsdkgo.Bool(true),
             Passwords: presetsdkgo.String("{\"databases/{{DatabaseYAMLFile}}\": \"{{DatabasePassword}}\"}"),

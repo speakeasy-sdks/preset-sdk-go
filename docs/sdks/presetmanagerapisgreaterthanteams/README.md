@@ -1,5 +1,5 @@
 # PresetManagerAPIsGreaterThanTeams
-(*PresetManagerAPIsGreaterThanTeams*)
+(*.PresetManagerAPIsGreaterThanTeams*)
 
 ## Overview
 

@@ -1,5 +1,5 @@
 # SupersetAPIsOpenSourceGreaterThanSQLLab
-(*SupersetAPIsOpenSourceGreaterThanSQLLab*)
+(*.SupersetAPIsOpenSourceGreaterThanSQLLab*)
 
 ### Available Operations
 

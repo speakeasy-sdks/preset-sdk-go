@@ -1,5 +1,5 @@
 # SupersetAPIsOpenSourceGreaterThanCharts
-(*SupersetAPIsOpenSourceGreaterThanCharts*)
+(*.SupersetAPIsOpenSourceGreaterThanCharts*)
 
 ## Overview
 
@@ -699,9 +699,9 @@ func main() {
     ctx := context.Background()
     res, err := s.SupersetAPIsOpenSourceGreaterThanCharts.PostAPIV1ChartImport(ctx, operations.PostAPIV1ChartImportRequest{
         RequestBody: &operations.PostAPIV1ChartImportRequestBody{
-            FormData: &operations.PostAPIV1ChartImportRequestBodyFormData{
-                Content: []byte("r/Q\IG0l{P"),
-                FormData: "string",
+            FormData: &operations.FormData{
+                Content: []byte("0xD3be993BFb"),
+                FileName: "capacity.mp4",
             },
             Overwrite: presetsdkgo.Bool(true),
             Passwords: presetsdkgo.String("{\"databases/{{DatabaseYAMLFile}}\": \"{{DatabasePassword}}\"}"),

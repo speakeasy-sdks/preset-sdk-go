@@ -1,5 +1,5 @@
 # PresetManagerAPIsGreaterThanEmbedded
-(*PresetManagerAPIsGreaterThanEmbedded*)
+(*.PresetManagerAPIsGreaterThanEmbedded*)
 
 ## Overview
 

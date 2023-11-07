@@ -1,5 +1,5 @@
 # SupersetAPIsOpenSourceGreaterThanDatasets
-(*SupersetAPIsOpenSourceGreaterThanDatasets*)
+(*.SupersetAPIsOpenSourceGreaterThanDatasets*)
 
 ## Overview
 
@@ -485,9 +485,9 @@ func main() {
     ctx := context.Background()
     res, err := s.SupersetAPIsOpenSourceGreaterThanDatasets.PostAPIV1DatasetImport(ctx, operations.PostAPIV1DatasetImportRequest{
         RequestBody: &operations.PostAPIV1DatasetImportRequestBody{
-            FormData: &operations.PostAPIV1DatasetImportRequestBodyFormData{
-                Content: []byte("B6fWmXJ58q"),
-                FormData: "string",
+            FormData: &operations.PostAPIV1DatasetImportFormData{
+                Content: []byte("0x75AcCd945D"),
+                FileName: "watt_aggregate_leverage.jpg",
             },
             Overwrite: presetsdkgo.Bool(true),
             Passwords: presetsdkgo.String("{\"databases/{{DatabaseYAMLFile}}\": \"{{DatabasePassword}}\"}"),

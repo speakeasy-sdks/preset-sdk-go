@@ -1,5 +1,5 @@
 # SupersetAPIsOpenSourceGreaterThanDashboards
-(*SupersetAPIsOpenSourceGreaterThanDashboards*)
+(*.SupersetAPIsOpenSourceGreaterThanDashboards*)
 
 ## Overview
 
@@ -634,9 +634,9 @@ func main() {
     ctx := context.Background()
     res, err := s.SupersetAPIsOpenSourceGreaterThanDashboards.PostAPIV1DashboardImport(ctx, operations.PostAPIV1DashboardImportRequest{
         RequestBody: &operations.PostAPIV1DashboardImportRequestBody{
-            FormData: &operations.PostAPIV1DashboardImportRequestBodyFormData{
-                Content: []byte("#J8]!0YaF/"),
-                FormData: "string",
+            FormData: &operations.PostAPIV1DashboardImportFormData{
+                Content: []byte("0x095e03df83"),
+                FileName: "bus_fooey.html",
             },
             Overwrite: presetsdkgo.Bool(true),
             Passwords: presetsdkgo.String("{\"databases/{{DatabaseYAMLFile}}\": \"{{DatabasePassword}}\"}"),

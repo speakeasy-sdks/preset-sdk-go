@@ -1,5 +1,5 @@
 # PresetManagerAPIsGreaterThanPermissions
-(*PresetManagerAPIsGreaterThanPermissions*)
+(*.PresetManagerAPIsGreaterThanPermissions*)
 
 ## Overview
 

@@ -1,5 +1,5 @@
 # SupersetAPIsOpenSourceGreaterThanAnnotationLayers
-(*SupersetAPIsOpenSourceGreaterThanAnnotationLayers*)
+(*.SupersetAPIsOpenSourceGreaterThanAnnotationLayers*)
 
 ## Overview
 
