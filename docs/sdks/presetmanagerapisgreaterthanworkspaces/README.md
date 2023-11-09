@@ -1,5 +1,5 @@
 # PresetManagerAPIsGreaterThanWorkspaces
-(*.PresetManagerAPIsGreaterThanWorkspaces*)
+(*PresetManagerAPIsGreaterThanWorkspaces*)
 
 ## Overview
 
@@ -54,16 +54,18 @@ func main() {
 
 ### Parameters
 
-| Parameter                                                                                                        | Type                                                                                                             | Required                                                                                                         | Description                                                                                                      |
-| ---------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------- |
-| `ctx`                                                                                                            | [context.Context](https://pkg.go.dev/context#Context)                                                            | :heavy_check_mark:                                                                                               | The context to use for the request.                                                                              |
-| `request`                                                                                                        | [operations.GetV1TeamsTeamSlugWorkspacesRequest](../../models/operations/getv1teamsteamslugworkspacesrequest.md) | :heavy_check_mark:                                                                                               | The request object to use for the request.                                                                       |
+| Parameter                                                                                                            | Type                                                                                                                 | Required                                                                                                             | Description                                                                                                          |
+| -------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------- |
+| `ctx`                                                                                                                | [context.Context](https://pkg.go.dev/context#Context)                                                                | :heavy_check_mark:                                                                                                   | The context to use for the request.                                                                                  |
+| `request`                                                                                                            | [operations.GetV1TeamsTeamSlugWorkspacesRequest](../../pkg/models/operations/getv1teamsteamslugworkspacesrequest.md) | :heavy_check_mark:                                                                                                   | The request object to use for the request.                                                                           |
 
 
 ### Response
 
-**[*operations.GetV1TeamsTeamSlugWorkspacesResponse](../../models/operations/getv1teamsteamslugworkspacesresponse.md), error**
-
+**[*operations.GetV1TeamsTeamSlugWorkspacesResponse](../../pkg/models/operations/getv1teamsteamslugworkspacesresponse.md), error**
+| Error Object       | Status Code        | Content Type       |
+| ------------------ | ------------------ | ------------------ |
+| sdkerrors.SDKError | 400-600            | */*                |
 
 ## GetV1TeamsTeamSlugWorkspacesWorkspaceIDMemberships
 
@@ -111,16 +113,18 @@ func main() {
 
 ### Parameters
 
-| Parameter                                                                                                                                                    | Type                                                                                                                                                         | Required                                                                                                                                                     | Description                                                                                                                                                  |
-| ------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| `ctx`                                                                                                                                                        | [context.Context](https://pkg.go.dev/context#Context)                                                                                                        | :heavy_check_mark:                                                                                                                                           | The context to use for the request.                                                                                                                          |
-| `request`                                                                                                                                                    | [operations.GetV1TeamsTeamSlugWorkspacesWorkspaceIDMembershipsRequest](../../models/operations/getv1teamsteamslugworkspacesworkspaceidmembershipsrequest.md) | :heavy_check_mark:                                                                                                                                           | The request object to use for the request.                                                                                                                   |
+| Parameter                                                                                                                                                        | Type                                                                                                                                                             | Required                                                                                                                                                         | Description                                                                                                                                                      |
+| ---------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `ctx`                                                                                                                                                            | [context.Context](https://pkg.go.dev/context#Context)                                                                                                            | :heavy_check_mark:                                                                                                                                               | The context to use for the request.                                                                                                                              |
+| `request`                                                                                                                                                        | [operations.GetV1TeamsTeamSlugWorkspacesWorkspaceIDMembershipsRequest](../../pkg/models/operations/getv1teamsteamslugworkspacesworkspaceidmembershipsrequest.md) | :heavy_check_mark:                                                                                                                                               | The request object to use for the request.                                                                                                                       |
 
 
 ### Response
 
-**[*operations.GetV1TeamsTeamSlugWorkspacesWorkspaceIDMembershipsResponse](../../models/operations/getv1teamsteamslugworkspacesworkspaceidmembershipsresponse.md), error**
-
+**[*operations.GetV1TeamsTeamSlugWorkspacesWorkspaceIDMembershipsResponse](../../pkg/models/operations/getv1teamsteamslugworkspacesworkspaceidmembershipsresponse.md), error**
+| Error Object       | Status Code        | Content Type       |
+| ------------------ | ------------------ | ------------------ |
+| sdkerrors.SDKError | 400-600            | */*                |
 
 ## PostV1TeamsTeamSlugWorkspaces
 
@@ -181,16 +185,18 @@ func main() {
 
 ### Parameters
 
-| Parameter                                                                                                          | Type                                                                                                               | Required                                                                                                           | Description                                                                                                        |
-| ------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------ |
-| `ctx`                                                                                                              | [context.Context](https://pkg.go.dev/context#Context)                                                              | :heavy_check_mark:                                                                                                 | The context to use for the request.                                                                                |
-| `request`                                                                                                          | [operations.PostV1TeamsTeamSlugWorkspacesRequest](../../models/operations/postv1teamsteamslugworkspacesrequest.md) | :heavy_check_mark:                                                                                                 | The request object to use for the request.                                                                         |
+| Parameter                                                                                                              | Type                                                                                                                   | Required                                                                                                               | Description                                                                                                            |
+| ---------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------- |
+| `ctx`                                                                                                                  | [context.Context](https://pkg.go.dev/context#Context)                                                                  | :heavy_check_mark:                                                                                                     | The context to use for the request.                                                                                    |
+| `request`                                                                                                              | [operations.PostV1TeamsTeamSlugWorkspacesRequest](../../pkg/models/operations/postv1teamsteamslugworkspacesrequest.md) | :heavy_check_mark:                                                                                                     | The request object to use for the request.                                                                             |
 
 
 ### Response
 
-**[*operations.PostV1TeamsTeamSlugWorkspacesResponse](../../models/operations/postv1teamsteamslugworkspacesresponse.md), error**
-
+**[*operations.PostV1TeamsTeamSlugWorkspacesResponse](../../pkg/models/operations/postv1teamsteamslugworkspacesresponse.md), error**
+| Error Object       | Status Code        | Content Type       |
+| ------------------ | ------------------ | ------------------ |
+| sdkerrors.SDKError | 400-600            | */*                |
 
 ## PutV1TeamsTeamSlugWorkspacesWorkspaceIDMembership
 
@@ -260,13 +266,15 @@ func main() {
 
 ### Parameters
 
-| Parameter                                                                                                                                                  | Type                                                                                                                                                       | Required                                                                                                                                                   | Description                                                                                                                                                |
-| ---------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| `ctx`                                                                                                                                                      | [context.Context](https://pkg.go.dev/context#Context)                                                                                                      | :heavy_check_mark:                                                                                                                                         | The context to use for the request.                                                                                                                        |
-| `request`                                                                                                                                                  | [operations.PutV1TeamsTeamSlugWorkspacesWorkspaceIDMembershipRequest](../../models/operations/putv1teamsteamslugworkspacesworkspaceidmembershiprequest.md) | :heavy_check_mark:                                                                                                                                         | The request object to use for the request.                                                                                                                 |
+| Parameter                                                                                                                                                      | Type                                                                                                                                                           | Required                                                                                                                                                       | Description                                                                                                                                                    |
+| -------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `ctx`                                                                                                                                                          | [context.Context](https://pkg.go.dev/context#Context)                                                                                                          | :heavy_check_mark:                                                                                                                                             | The context to use for the request.                                                                                                                            |
+| `request`                                                                                                                                                      | [operations.PutV1TeamsTeamSlugWorkspacesWorkspaceIDMembershipRequest](../../pkg/models/operations/putv1teamsteamslugworkspacesworkspaceidmembershiprequest.md) | :heavy_check_mark:                                                                                                                                             | The request object to use for the request.                                                                                                                     |
 
 
 ### Response
 
-**[*operations.PutV1TeamsTeamSlugWorkspacesWorkspaceIDMembershipResponse](../../models/operations/putv1teamsteamslugworkspacesworkspaceidmembershipresponse.md), error**
-
+**[*operations.PutV1TeamsTeamSlugWorkspacesWorkspaceIDMembershipResponse](../../pkg/models/operations/putv1teamsteamslugworkspacesworkspaceidmembershipresponse.md), error**
+| Error Object       | Status Code        | Content Type       |
+| ------------------ | ------------------ | ------------------ |
+| sdkerrors.SDKError | 400-600            | */*                |

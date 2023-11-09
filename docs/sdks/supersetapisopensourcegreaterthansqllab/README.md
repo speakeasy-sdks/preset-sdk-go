@@ -1,5 +1,5 @@
 # SupersetAPIsOpenSourceGreaterThanSQLLab
-(*.SupersetAPIsOpenSourceGreaterThanSQLLab*)
+(*SupersetAPIsOpenSourceGreaterThanSQLLab*)
 
 ### Available Operations
 
@@ -72,13 +72,15 @@ func main() {
 
 ### Parameters
 
-| Parameter                                                                                            | Type                                                                                                 | Required                                                                                             | Description                                                                                          |
-| ---------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------- |
-| `ctx`                                                                                                | [context.Context](https://pkg.go.dev/context#Context)                                                | :heavy_check_mark:                                                                                   | The context to use for the request.                                                                  |
-| `request`                                                                                            | [operations.PostAPIV1SqllabExecuteRequest](../../models/operations/postapiv1sqllabexecuterequest.md) | :heavy_check_mark:                                                                                   | The request object to use for the request.                                                           |
+| Parameter                                                                                                | Type                                                                                                     | Required                                                                                                 | Description                                                                                              |
+| -------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------- |
+| `ctx`                                                                                                    | [context.Context](https://pkg.go.dev/context#Context)                                                    | :heavy_check_mark:                                                                                       | The context to use for the request.                                                                      |
+| `request`                                                                                                | [operations.PostAPIV1SqllabExecuteRequest](../../pkg/models/operations/postapiv1sqllabexecuterequest.md) | :heavy_check_mark:                                                                                       | The request object to use for the request.                                                               |
 
 
 ### Response
 
-**[*operations.PostAPIV1SqllabExecuteResponse](../../models/operations/postapiv1sqllabexecuteresponse.md), error**
-
+**[*operations.PostAPIV1SqllabExecuteResponse](../../pkg/models/operations/postapiv1sqllabexecuteresponse.md), error**
+| Error Object       | Status Code        | Content Type       |
+| ------------------ | ------------------ | ------------------ |
+| sdkerrors.SDKError | 400-600            | */*                |

@@ -44,7 +44,7 @@ func main() {
 ## Available Resources and Operations
 
 
-### [.SupersetAPIsOpenSourceGreaterThanAnnotationLayers](docs/sdks/supersetapisopensourcegreaterthanannotationlayers/README.md)
+### [SupersetAPIsOpenSourceGreaterThanAnnotationLayers](docs/sdks/supersetapisopensourcegreaterthanannotationlayers/README.md)
 
 * [DeleteAPIV1AnnotationLayer](docs/sdks/supersetapisopensourcegreaterthanannotationlayers/README.md#deleteapiv1annotationlayer) - Delete multiple Annotations Layers
 * [DeleteAPIV1AnnotationLayerAnnotationLayerID](docs/sdks/supersetapisopensourcegreaterthanannotationlayers/README.md#deleteapiv1annotationlayerannotationlayerid) - Delete an Annotation Layer
@@ -59,12 +59,12 @@ func main() {
 * [PutAPIV1AnnotationLayerAnnotationLayerID](docs/sdks/supersetapisopensourcegreaterthanannotationlayers/README.md#putapiv1annotationlayerannotationlayerid) - Update an Annotation Layer
 * [PutAPIV1AnnotationLayerAnnotationLayerIDAnnotationAnnotationID](docs/sdks/supersetapisopensourcegreaterthanannotationlayers/README.md#putapiv1annotationlayerannotationlayeridannotationannotationid) - Update an Annotation from an Annotation Layer
 
-### [.SupersetAPIsOpenSourceGreaterThanAssets](docs/sdks/supersetapisopensourcegreaterthanassets/README.md)
+### [SupersetAPIsOpenSourceGreaterThanAssets](docs/sdks/supersetapisopensourcegreaterthanassets/README.md)
 
 * [GetAPIV1AssetsExport](docs/sdks/supersetapisopensourcegreaterthanassets/README.md#getapiv1assetsexport) - Export Assets
 * [PostAPIV1AssetsImport](docs/sdks/supersetapisopensourcegreaterthanassets/README.md#postapiv1assetsimport) - Import Assets
 
-### [.SupersetAPIsOpenSourceGreaterThanCharts](docs/sdks/supersetapisopensourcegreaterthancharts/README.md)
+### [SupersetAPIsOpenSourceGreaterThanCharts](docs/sdks/supersetapisopensourcegreaterthancharts/README.md)
 
 * [DeleteAPIV1ChartChartID](docs/sdks/supersetapisopensourcegreaterthancharts/README.md#deleteapiv1chartchartid) - Delete a Chart
 * [GetAPIV1Chart](docs/sdks/supersetapisopensourcegreaterthancharts/README.md#getapiv1chart) - Get all Charts from a Workspace
@@ -78,7 +78,7 @@ func main() {
 * [PostAPIV1ChartImport](docs/sdks/supersetapisopensourcegreaterthancharts/README.md#postapiv1chartimport) - Import a Chart
 * [PutAPIV1ChartChartID](docs/sdks/supersetapisopensourcegreaterthancharts/README.md#putapiv1chartchartid) - Update a Chart
 
-### [.SupersetAPIsOpenSourceGreaterThanDashboards](docs/sdks/supersetapisopensourcegreaterthandashboards/README.md)
+### [SupersetAPIsOpenSourceGreaterThanDashboards](docs/sdks/supersetapisopensourcegreaterthandashboards/README.md)
 
 * [DeleteAPIV1DashboardDashboardID](docs/sdks/supersetapisopensourcegreaterthandashboards/README.md#deleteapiv1dashboarddashboardid) - Delete Dashboard
 * [GetAPIV1Dashboard](docs/sdks/supersetapisopensourcegreaterthandashboards/README.md#getapiv1dashboard) - Get all Dashboards From a Workspace
@@ -92,7 +92,7 @@ func main() {
 * [PostAPIV1DashboardDashboardIDPermalink](docs/sdks/supersetapisopensourcegreaterthandashboards/README.md#postapiv1dashboarddashboardidpermalink) - Create a Permalink to a Dashboard
 * [PutAPIV1DashboardDashboardID](docs/sdks/supersetapisopensourcegreaterthandashboards/README.md#putapiv1dashboarddashboardid) - Update a Dashboard
 
-### [.SupersetAPIsOpenSourceGreaterThanDatabases](docs/sdks/supersetapisopensourcegreaterthandatabases/README.md)
+### [SupersetAPIsOpenSourceGreaterThanDatabases](docs/sdks/supersetapisopensourcegreaterthandatabases/README.md)
 
 * [CreateDatabaseUsingSSH](docs/sdks/supersetapisopensourcegreaterthandatabases/README.md#createdatabaseusingssh) - Create a Database Connection using SSH
 * [GetAPIV1Database](docs/sdks/supersetapisopensourcegreaterthandatabases/README.md#getapiv1database) - Get all Database Connections from a Workspace
@@ -103,7 +103,7 @@ func main() {
 * [PostAPIV1DatabaseImport](docs/sdks/supersetapisopensourcegreaterthandatabases/README.md#postapiv1databaseimport) - Import a Database Connection
 * [PutAPIV1DatabaseDatabaseID](docs/sdks/supersetapisopensourcegreaterthandatabases/README.md#putapiv1databasedatabaseid) - Update a Database Connection
 
-### [.SupersetAPIsOpenSourceGreaterThanDatasets](docs/sdks/supersetapisopensourcegreaterthandatasets/README.md)
+### [SupersetAPIsOpenSourceGreaterThanDatasets](docs/sdks/supersetapisopensourcegreaterthandatasets/README.md)
 
 * [DeleteAPIV1DatasetDatasetID](docs/sdks/supersetapisopensourcegreaterthandatasets/README.md#deleteapiv1datasetdatasetid) - Delete a Dataset
 * [GetAPIV1Dataset](docs/sdks/supersetapisopensourcegreaterthandatasets/README.md#getapiv1dataset) - Get all Datasets from a Workspace
@@ -115,11 +115,11 @@ func main() {
 * [PutAPIV1DatasetDatasetID](docs/sdks/supersetapisopensourcegreaterthandatasets/README.md#putapiv1datasetdatasetid) - Update a Virtual Dataset
 * [PutAPIV1DatasetDatasetIDRefresh](docs/sdks/supersetapisopensourcegreaterthandatasets/README.md#putapiv1datasetdatasetidrefresh) - Refresh a Dataset
 
-### [.SupersetAPIsOpenSourceGreaterThanQueries](docs/sdks/supersetapisopensourcegreaterthanqueries/README.md)
+### [SupersetAPIsOpenSourceGreaterThanQueries](docs/sdks/supersetapisopensourcegreaterthanqueries/README.md)
 
 * [GetAPIV1Query](docs/sdks/supersetapisopensourcegreaterthanqueries/README.md#getapiv1query) - Get All Workspace Queries
 
-### [.SupersetAPIsOpenSourceGreaterThanAlertsAndReports](docs/sdks/supersetapisopensourcegreaterthanalertsandreports/README.md)
+### [SupersetAPIsOpenSourceGreaterThanAlertsAndReports](docs/sdks/supersetapisopensourcegreaterthanalertsandreports/README.md)
 
 * [GetAPIV1Report](docs/sdks/supersetapisopensourcegreaterthanalertsandreports/README.md#getapiv1report) - Get all Reports from a Workspace
 * [GetAPIV1ReportInfo](docs/sdks/supersetapisopensourcegreaterthanalertsandreports/README.md#getapiv1reportinfo) - Get Alerts & Reports API metadata Info
@@ -127,19 +127,19 @@ func main() {
 * [PostAPIV1Report](docs/sdks/supersetapisopensourcegreaterthanalertsandreports/README.md#postapiv1report) - Create a Dashboard Alert
 * [PutAPIV1ReportAlertIDORReportID](docs/sdks/supersetapisopensourcegreaterthanalertsandreports/README.md#putapiv1reportalertidorreportid) - Disable an Alert/Report
 
-### [.SupersetAPIsOpenSourceGreaterThanSQLLab](docs/sdks/supersetapisopensourcegreaterthansqllab/README.md)
+### [SupersetAPIsOpenSourceGreaterThanSQLLab](docs/sdks/supersetapisopensourcegreaterthansqllab/README.md)
 
 * [PostAPIV1SqllabExecute](docs/sdks/supersetapisopensourcegreaterthansqllab/README.md#postapiv1sqllabexecute) - Execute a SQL Query
 
-### [.PresetManagerAPIsGreaterThanEmbedded](docs/sdks/presetmanagerapisgreaterthanembedded/README.md)
+### [PresetManagerAPIsGreaterThanEmbedded](docs/sdks/presetmanagerapisgreaterthanembedded/README.md)
 
 * [PostAPIV1TeamsTeamSlugWorkspacesWorkspaceSlugGuestToken](docs/sdks/presetmanagerapisgreaterthanembedded/README.md#postapiv1teamsteamslugworkspacesworkspaceslugguesttoken) - Create a new Guest Token
 
-### [.Authentication](docs/sdks/authentication/README.md)
+### [Authentication](docs/sdks/authentication/README.md)
 
 * [PostV1Auth](docs/sdks/authentication/README.md#postv1auth) - Get a JWT Token
 
-### [.PresetManagerAPIsGreaterThanTeams](docs/sdks/presetmanagerapisgreaterthanteams/README.md)
+### [PresetManagerAPIsGreaterThanTeams](docs/sdks/presetmanagerapisgreaterthanteams/README.md)
 
 * [DeleteV1TeamsTeamSlugInvitesInviteID](docs/sdks/presetmanagerapisgreaterthanteams/README.md#deletev1teamsteamsluginvitesinviteid) - Delete Pending Invite
 * [DeleteV1TeamsTeamSlugMembershipsUserID](docs/sdks/presetmanagerapisgreaterthanteams/README.md#deletev1teamsteamslugmembershipsuserid) - Delete a Team Member
@@ -152,7 +152,7 @@ func main() {
 * [PostV1TeamsTeamSlugInvitesResendInviteID](docs/sdks/presetmanagerapisgreaterthanteams/README.md#postv1teamsteamsluginvitesresendinviteid) - Resend Invite
 * [PutV1TeamsTeamSlug](docs/sdks/presetmanagerapisgreaterthanteams/README.md#putv1teamsteamslug) - Update Team Title
 
-### [.PresetManagerAPIsGreaterThanPermissions](docs/sdks/presetmanagerapisgreaterthanpermissions/README.md)
+### [PresetManagerAPIsGreaterThanPermissions](docs/sdks/presetmanagerapisgreaterthanpermissions/README.md)
 
 * [DeleteV1TeamsTeamSlugPermissionsPermissionName](docs/sdks/presetmanagerapisgreaterthanpermissions/README.md#deletev1teamsteamslugpermissionspermissionname) - Delete Row Level Security
 * [DeleteV1TeamsTeamSlugPermissionsPermissionNameGrantees](docs/sdks/presetmanagerapisgreaterthanpermissions/README.md#deletev1teamsteamslugpermissionspermissionnamegrantees) - Delete Grantee from existing Permission
@@ -162,7 +162,7 @@ func main() {
 * [PostV1TeamsTeamSlugPermissions](docs/sdks/presetmanagerapisgreaterthanpermissions/README.md#postv1teamsteamslugpermissions) - Create Row Level Security
 * [PostV1TeamsTeamSlugPermissionsPermissionNameGrantees](docs/sdks/presetmanagerapisgreaterthanpermissions/README.md#postv1teamsteamslugpermissionspermissionnamegrantees) - Add Grantees to existing Permission
 
-### [.PresetManagerAPIsGreaterThanWorkspaces](docs/sdks/presetmanagerapisgreaterthanworkspaces/README.md)
+### [PresetManagerAPIsGreaterThanWorkspaces](docs/sdks/presetmanagerapisgreaterthanworkspaces/README.md)
 
 * [GetV1TeamsTeamSlugWorkspaces](docs/sdks/presetmanagerapisgreaterthanworkspaces/README.md#getv1teamsteamslugworkspaces) - Get Workspaces from a Team
 * [GetV1TeamsTeamSlugWorkspacesWorkspaceIDMemberships](docs/sdks/presetmanagerapisgreaterthanworkspaces/README.md#getv1teamsteamslugworkspacesworkspaceidmemberships) - Get Workspace Users and Roles
@@ -199,9 +199,44 @@ Here's an example of one such pagination call:
 <!-- Start Error Handling -->
 # Error Handling
 
-Handling errors in your SDK should largely match your expectations.  All operations return a response object or an error, they will never return both.  When specified by the OpenAPI spec document, the SDK will return the appropriate subclass.
+Handling errors in this SDK should largely match your expectations.  All operations return a response object or an error, they will never return both.  When specified by the OpenAPI spec document, the SDK will return the appropriate subclass.
+
+| Error Object       | Status Code        | Content Type       |
+| ------------------ | ------------------ | ------------------ |
+| sdkerrors.SDKError | 400-600            | */*                |
 
 
+## Example
+
+```go
+package main
+
+import (
+	"context"
+	presetsdkgo "github.com/speakeasy-sdks/preset-sdk-go"
+	"github.com/speakeasy-sdks/preset-sdk-go/pkg/models/operations"
+	"github.com/speakeasy-sdks/preset-sdk-go/pkg/models/shared"
+	"log"
+)
+
+func main() {
+	s := presetsdkgo.New(
+		presetsdkgo.WithSecurity(""),
+	)
+
+	ctx := context.Background()
+	res, err := s.SupersetAPIsOpenSourceGreaterThanAnnotationLayers.DeleteAPIV1AnnotationLayer(ctx, operations.DeleteAPIV1AnnotationLayerRequest{})
+	if err != nil {
+
+		var e *sdkerrors.SDKError
+		if errors.As(err, &e) {
+			// handle error
+			log.Fatal(e.Error())
+		}
+	}
+}
+
+```
 <!-- End Error Handling -->
 
 
@@ -322,12 +357,11 @@ This can be a convenient way to configure timeouts, cookies, proxies, custom hea
 
 
 <!-- Start Authentication -->
-
 # Authentication
 
 ## Per-Client Security Schemes
 
-Your SDK supports the following security scheme globally:
+This SDK supports the following security scheme globally:
 
 | Name         | Type         | Scheme       |
 | ------------ | ------------ | ------------ |

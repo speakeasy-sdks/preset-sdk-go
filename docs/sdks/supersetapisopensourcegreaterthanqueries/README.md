@@ -1,5 +1,5 @@
 # SupersetAPIsOpenSourceGreaterThanQueries
-(*.SupersetAPIsOpenSourceGreaterThanQueries*)
+(*SupersetAPIsOpenSourceGreaterThanQueries*)
 
 ### Available Operations
 
@@ -47,5 +47,7 @@ func main() {
 
 ### Response
 
-**[*operations.GetAPIV1QueryResponse](../../models/operations/getapiv1queryresponse.md), error**
-
+**[*operations.GetAPIV1QueryResponse](../../pkg/models/operations/getapiv1queryresponse.md), error**
+| Error Object       | Status Code        | Content Type       |
+| ------------------ | ------------------ | ------------------ |
+| sdkerrors.SDKError | 400-600            | */*                |
